@@ -1,0 +1,108 @@
+{
+  "n_queries": 12,
+  "n_chunks": 351,
+  "aggregate": {
+    "mrr": 0.47301587301587306,
+    "recall@5": 0.27658730158730155,
+    "recall@10": 0.4488095238095238
+  },
+  "per_query": [
+    {
+      "query_id": "rev_q01",
+      "query": "What do users report about account freezes and compliance holds, and how do they affect trust?",
+      "n_relevant": 7,
+      "mrr": 1.0,
+      "recall@5": 0.2857142857142857,
+      "recall@10": 0.2857142857142857
+    },
+    {
+      "query_id": "rev_q02",
+      "query": "How do customers describe the experience of reaching customer support when something goes wrong?",
+      "n_relevant": 5,
+      "mrr": 1.0,
+      "recall@5": 0.2,
+      "recall@10": 0.2
+    },
+    {
+      "query_id": "rev_q03",
+      "query": "Do users understand whether the exchange rate they are getting is good, and what context do they need?",
+      "n_relevant": 3,
+      "mrr": 0.14285714285714285,
+      "recall@5": 0.0,
+      "recall@10": 0.3333333333333333
+    },
+    {
+      "query_id": "rev_q04",
+      "query": "What uncertainty do users experience about when a transfer will arrive?",
+      "n_relevant": 5,
+      "mrr": 1.0,
+      "recall@5": 0.6,
+      "recall@10": 0.8
+    },
+    {
+      "query_id": "rev_q05",
+      "query": "Why is multi-currency holding valuable for business customers?",
+      "n_relevant": 2,
+      "mrr": 0.5,
+      "recall@5": 0.5,
+      "recall@10": 1.0
+    },
+    {
+      "query_id": "rev_q06",
+      "query": "What friction do customers face during onboarding and identity verification?",
+      "n_relevant": 5,
+      "mrr": 1.0,
+      "recall@5": 0.4,
+      "recall@10": 0.6
+    },
+    {
+      "query_id": "rev_q07",
+      "query": "How do users experience the savings feature, including the Vault to Pocket rename?",
+      "n_relevant": 4,
+      "mrr": 0.25,
+      "recall@5": 0.25,
+      "recall@10": 0.5
+    },
+    {
+      "query_id": "rev_q08",
+      "query": "Which users find the app cluttered or overloaded with features and upsell prompts?",
+      "n_relevant": 3,
+      "mrr": 0.2,
+      "recall@5": 0.3333333333333333,
+      "recall@10": 0.6666666666666666
+    },
+    {
+      "query_id": "rev_q09",
+      "query": "What role does bill splitting and the social network of friends play in adoption and retention?",
+      "n_relevant": 2,
+      "mrr": 0.25,
+      "recall@5": 0.5,
+      "recall@10": 0.5
+    },
+    {
+      "query_id": "rev_q10",
+      "query": "How do customers hedge their trust in a fintech versus a traditional bank?",
+      "n_relevant": 4,
+      "mrr": 0.3333333333333333,
+      "recall@5": 0.25,
+      "recall@10": 0.5
+    },
+    {
+      "query_id": "rev_q11",
+      "query": "How do accounting integrations influence business customers' decision to sign up or leave?",
+      "n_relevant": 3,
+      "mrr": 0.0,
+      "recall@5": 0.0,
+      "recall@10": 0.0
+    },
+    {
+      "query_id": "rev_q12",
+      "query": "What proactive money-management help do users wish the product offered?",
+      "n_relevant": 3,
+      "mrr": 0.0,
+      "recall@5": 0.0,
+      "recall@10": 0.0
+    }
+  ],
+  "warnings": []
+}

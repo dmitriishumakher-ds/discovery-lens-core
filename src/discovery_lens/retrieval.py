@@ -17,6 +17,13 @@ Design notes:
 * ``DenseRetriever`` wraps a sentence-transformers model (lazy import — the
   package must stay importable without the ML stack). Embeddings are
   L2-normalised so cosine similarity is a dot product.
+
+* ``HybridRetriever`` fuses the two by rank. The baseline run showed three of
+  twelve gold queries scoring zero on every metric — all three phrased
+  abstractly, sharing no vocabulary with the chunks that answer them. That is
+  the lexical gap measured rather than assumed, and fusion is the cheapest
+  response to it that keeps BM25's precision on queries where exact wording
+  does carry the signal.
 """
 
 from __future__ import annotations
@@ -104,3 +111,62 @@ class DenseRetriever:
         scores = self._matrix @ q
         order = np.argsort(scores)[::-1][:k]
         return [(self._chunk_ids[i], float(scores[i])) for i in order]
+
+
+# Constant from Cormack et al., "Reciprocal Rank Fusion Outperforms Condorcet
+# and Individual Rank Learning Methods" (SIGIR 2009). Left unchanged on
+# purpose: tuning it against a 12-query gold set would fit noise, not signal.
+RRF_K = 60
+
+# Each retriever contributes this many candidates to the fusion, not just k.
+# A chunk ranked 30th by one system and 2nd by the other should still be able
+# to surface — that case is precisely what fusion exists to catch.
+CANDIDATE_POOL = 50
+
+
+class HybridRetriever:
+    """Rank fusion of a lexical and a dense retriever (Reciprocal Rank Fusion).
+
+    Why fuse ranks rather than scores: BM25 scores are unbounded and depend on
+    corpus statistics, while cosine similarities live in [-1, 1]. A weighted
+    sum of the two needs a normalisation that has to be re-tuned per corpus —
+    an extra hyperparameter that buys nothing here. RRF looks only at the
+    position a chunk occupies in each ranking, so the two systems become
+    comparable without any calibration:
+
+        score(chunk) = sum over retrievers of 1 / (RRF_K + rank)
+
+    Both components are injected, so the harness can fuse any two retrievers
+    satisfying the protocol — and tests can fuse stubs without loading a model.
+    """
+
+    def __init__(
+        self,
+        lexical: Retriever | None = None,
+        dense: Retriever | None = None,
+        *,
+        rrf_k: int = RRF_K,
+        candidate_pool: int = CANDIDATE_POOL,
+    ) -> None:
+        self.lexical: Retriever = lexical if lexical is not None else BM25Retriever()
+        self.dense: Retriever = dense if dense is not None else DenseRetriever()
+        self.rrf_k = rrf_k
+        self.candidate_pool = candidate_pool
+
+    def index(self, chunks: list[Chunk]) -> None:
+        self.lexical.index(chunks)
+        self.dense.index(chunks)
+
+    def retrieve(self, query: str, k: int = 10) -> list[tuple[str, float]]:
+        pool = max(self.candidate_pool, k)
+        fused: dict[str, float] = {}
+
+        for retriever in (self.lexical, self.dense):
+            for rank, (chunk_id, _score) in enumerate(retriever.retrieve(query, pool), start=1):
+                fused[chunk_id] = fused.get(chunk_id, 0.0) + 1.0 / (self.rrf_k + rank)
+
+        # Sort by fused score, then by chunk_id: ties are common with RRF
+        # (two chunks at mirrored ranks score identically) and an unstable
+        # order would make eval results irreproducible run to run.
+        ranked = sorted(fused.items(), key=lambda pair: (-pair[1], pair[0]))
+        return ranked[:k]

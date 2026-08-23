@@ -3,7 +3,8 @@
 
 Usage:
     python eval/run_retrieval_eval.py --corpus revolut --retriever bm25
-    python eval/run_retrieval_eval.py --corpus revolut --retriever dense   # needs [ml]
+    python eval/run_retrieval_eval.py --corpus revolut --retriever dense    # needs [ml]
+    python eval/run_retrieval_eval.py --corpus revolut --retriever hybrid   # needs [ml]
 
 Loads the corpus through the same extractor+chunker the pipeline uses, so
 the eval measures the system as it actually runs, not a lab replica.
@@ -20,9 +21,17 @@ from pathlib import Path
 from discovery_lens.chunker import chunk_text
 from discovery_lens.evaluation import evaluate_retriever, load_gold
 from discovery_lens.extractor import extract_text
-from discovery_lens.retrieval import BM25Retriever, DenseRetriever
+from discovery_lens.retrieval import BM25Retriever, DenseRetriever, HybridRetriever
 
 ROOT = Path(__file__).resolve().parent.parent
+
+# Retriever name → factory. Adding an implementation to the comparison means
+# adding one line here; the harness itself never needs to change.
+RETRIEVERS = {
+    "bm25": BM25Retriever,
+    "dense": DenseRetriever,
+    "hybrid": HybridRetriever,
+}
 
 SOURCE_TYPE_HINTS = [
     ("interview", "interview"),
@@ -66,7 +75,7 @@ def load_corpus_chunks(corpus: str) -> list[dict]:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--corpus", default="revolut")
-    parser.add_argument("--retriever", choices=["bm25", "dense"], default="bm25")
+    parser.add_argument("--retriever", choices=sorted(RETRIEVERS), default="bm25")
     parser.add_argument("--k", type=int, nargs="+", default=[5, 10])
     args = parser.parse_args()
 
@@ -79,7 +88,7 @@ def main() -> None:
     print(f"Loaded {len(chunks)} chunks")
 
     gold = load_gold(gold_path)
-    retriever = BM25Retriever() if args.retriever == "bm25" else DenseRetriever()
+    retriever = RETRIEVERS[args.retriever]()
 
     report = evaluate_retriever(retriever, chunks, gold, ks=tuple(args.k))
 
