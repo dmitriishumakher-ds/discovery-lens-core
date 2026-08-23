@@ -1,0 +1,79 @@
+Discovery interview — Revolut Business
+Participant: Small business owner, male, 41, e-commerce / dropshipping
+Interviewer: Product researcher
+Setting: Remote video call, ~50 minutes
+Date: November 2025
+
+---
+
+Interviewer: Thanks for making time, Marcus. Could we start with you telling me a bit about your business and how you currently handle the financial side of it?
+
+Participant: Yeah sure. So I run a small e-commerce thing, mostly home goods — like specialty kitchenware and some bath stuff. Started it on Shopify in 2020 during, you know, the lockdown. It's just me and one part-time assistant who helps with customer service. We ship globally, mostly to UK, Germany, France, a bit to the US. Revenue last year was just under 400k, so we're not, like, a massive operation, but it's my full-time thing.
+
+Interviewer: Got it. And on the financial side?
+
+Participant: That's — okay, this is where it gets messy. So originally I had everything in Barclays Business. Which, yeah. The fees on international stuff were brutal. I'd get a payment from a customer in euros and by the time it landed in my pounds account I'd have lost like 3-4% just on the conversion. For a low-margin business that's not just annoying, that's, like, eating into my actual livelihood. So I switched to Revolut Business about... two years ago? Yeah, two years.
+
+Interviewer: What was the trigger to switch?
+
+Participant: My accountant actually mentioned it. He had another client who'd switched and was saving a few hundred pounds a month on FX. I looked into it and the multi-currency accounts thing was what sold me. Being able to hold euros as euros, dollars as dollars, only converting when I want to — that's huge for someone like me. Barclays just didn't offer that in any usable form.
+
+Interviewer: When you started using Revolut Business, what was the onboarding like?
+
+Participant: Painful. I'm just gonna say it. Painful. I don't know if it's still like this — I think they've improved it — but at the time it took, I think, three weeks? They wanted incorporation documents, proof of address for the business, proof of address for me personally, statements from the previous bank. And every time I'd upload something they'd come back with "we need this in a different format" or "this needs to be dated within the last three months." It felt like I was being interrogated.
+
+Interviewer: Did you ever consider giving up during onboarding?
+
+Participant: Honestly, yeah. There was a moment when I was about to just go to Wise instead because their onboarding looked simpler. But by then I'd already invested like a week in the Revolut application so I just powered through. Sunk cost thing.
+
+Interviewer: And once you got past onboarding?
+
+Participant: Then it was great. I mean, mostly. The dashboard is clean, the expense management is actually really good — way better than what Barclays had — and the multi-currency thing works exactly like I wanted. I can hold five different currencies, I see what's coming in in each, and I convert when the rate looks decent.
+
+Interviewer: How do you decide when the rate looks decent?
+
+Participant: Honestly? Vibes. (laughs) No, I mean, I check XE.com sometimes. But mostly I just look at the rate Revolut shows me and compare to what I think the market rate is and if it's within like half a percent I just do it. I don't have time to be a forex trader on top of running a business.
+
+Interviewer: Tell me about a time when something went wrong with Revolut Business.
+
+Participant: Okay. So this is the thing that almost made me leave. In, like, March of this year, I had a payment from a wholesale customer in Germany — about 8,000 euros, which for me is a big deal — and Revolut flagged it. They said it was a "compliance review" and the funds were on hold. Fine, whatever, I get it, big payment, automated systems flag it. But then they wanted me to provide an invoice, the customer's company info, proof of the business relationship, and like a written explanation of what the payment was for.
+
+Interviewer: That sounds reasonable, though?
+
+Participant: It is reasonable. The problem was — it took eleven days. Eleven days. The customer was furious because from their side, they paid me, and now they're getting follow-up emails and they think I'm trying to scam them or something. I had to call them, apologize, explain it's the bank, send them a screenshot of the Revolut hold. It made me look like an amateur. And the support — every time I'd reply with the documents they wanted, it would take another two days to get a response. I genuinely thought I was going to lose that customer.
+
+Interviewer: Did you?
+
+Participant: No, eventually they were patient about it. But I lost trust, kind of. After that, I split my business banking. I kept Revolut for everyday stuff but I opened a Wise Business account too, and now bigger payments I route through Wise. So Revolut is no longer the single source of truth for my business, which I think is what they want to be.
+
+Interviewer: That's a really interesting decision. What would have made you stay all-in?
+
+Participant: Speed of resolution. If that compliance thing had taken 24 hours instead of 11 days, I'd be fine with it. I get that they have to do checks. I'm not asking them to skip the checks. I'm asking them to do them faster. Or at least, like, communicate during. Just — silence for two days, then a one-line response, then silence for another two days. It's the silence that kills you.
+
+Interviewer: Beyond that, what do you actually use day-to-day?
+
+Participant: Cards for me and my assistant — that's another thing they do well, by the way, sub-accounts and team cards are easy. I can set spending limits per card. Expense categories auto-tag pretty well, I'd say 80% accuracy, the rest I tag manually at the end of the month. The accounting integration with Xero is good. Bulk payments for paying suppliers — I can upload a CSV and pay 30 suppliers at once, that saves me probably an hour a month.
+
+Interviewer: What about features you wish existed?
+
+Participant: Better cash flow forecasting. Like — Revolut sees all my money coming in and going out. They have all the data. Why can't they tell me "based on your typical pattern, you'll be short on euros in three weeks"? That kind of thing. I have to do that in a spreadsheet still, which is dumb.
+
+Interviewer: Have you used the Revolut Business loan or credit features?
+
+Participant: I tried to get a loan once. They declined. No real explanation. Just "based on our assessment, we can't offer you credit at this time." Which, fine, I went elsewhere, but again — communication. Tell me why. Tell me what would change the answer. Don't just say no.
+
+Interviewer: How do you compare Revolut Business to Wise Business now that you use both?
+
+Participant: Wise is more boring. I mean that in a good way. It does what it says, it doesn't try to be a whole platform. Revolut wants to be your business operating system — they have invoicing, they have integrations, they have all this stuff. Some of it is useful and some of it is bloat. Wise is just "send and receive money in different currencies cheaply." For someone like me who wants reliability for big payments, the boring tool is better.
+
+Interviewer: But you still use Revolut for the everyday stuff.
+
+Participant: Yeah because the everyday stuff — the cards, the expense tracking, the integrations — Wise just doesn't have that. So they kind of complement each other now. Which is annoying because I'm paying two subscriptions, but it's still cheaper than what Barclays was charging me.
+
+Interviewer: One last question. If a friend who runs a similar small e-commerce business asked you whether to use Revolut Business, what would you say?
+
+Participant: I'd say yes, but with caveats. I'd say: use it for the operational stuff, the cards, the expense tracking, the multi-currency holding. But don't put yourself in a position where Revolut is your only banking relationship, especially if you have any big payments coming in. Have a backup. Because when something goes wrong with Revolut, it goes wrong slowly, and you can't afford slow when you're running a business.
+
+Interviewer: That's a really useful framing. Thanks, Marcus.
+
+Participant: No worries. Hope it helps you build something better than what we've got.

@@ -1,0 +1,31 @@
+INTERVIEWER: Tell me about your experience with Figma.
+
+PARTICIPANT: I'm a third‑year design student, and I started using Figma about a year ago for my coursework. Before that, I tried Adobe XD because it was free with my school email, but everyone told me Figma was the industry standard, so I switched. The free tier is amazing — I can do almost everything I need without paying, which as a student is huge. I have unlimited personal files, can use plugins, can prototype. It's incredibly generous.
+
+INTERVIEWER: How was the initial learning curve?
+
+PARTICIPANT: Steep. Really steep. The official tutorials are okay, but they skip over a lot of fundamentals. I learned most of what I know from YouTube — random creators who explain auto‑layout and components in a way that actually makes sense. The documentation feels written for people who already know what "constraints" and "variants" mean. I spent my first two weeks just trying to understand why my text boxes kept overlapping when I resized the frame. It was demoralizing.
+
+INTERVIEWER: What about specific features?
+
+PARTICIPANT: Auto‑layout is the big one. It's incredibly powerful once you get it, but the journey to "getting it" is painful. I remember one project where I had a card component nested three levels deep, and something broke in the spacing, and I literally couldn't figure out why. I posted on r/Figma and someone kindly explained it, but I lost hours. I think Figma could do a much better job with in‑app guidance — like contextual tips that explain why your layout is behaving a certain way.
+
+INTERVIEWER: Do you collaborate with other students?
+
+PARTICIPANT: A little. We have group projects, so we share files. The real‑time collaboration is cool — you can see people's cursors moving around — but honestly, we just use it to divide and conquer. One person works on one set of screens, another on a different set. We don't really do the "two people working on the same frame" thing because it's confusing. Also, the mobile app is useless. I wanted to show a design to a friend on my phone, and the mirroring kept disconnecting. I ended up just sending screenshots. For a tool that's all about collaboration, the mobile experience is surprisingly broken.
+
+INTERVIEWER: Any features you wish existed?
+
+PARTICIPANT: I wish Figma had more built‑in assets and templates. Canva has this massive library of illustrations, icons, and layouts that you can just drag in. With Figma, I have to go find community files or plugins for everything. It adds a lot of friction, especially when I'm trying to produce something quickly for a class deadline. I know Figma wants to be a professional tool, not Canva, but for students and people doing quick mockups, having more ready‑made resources would be a game‑changer.
+
+INTERVIEWER: What about the pricing changes and AI features?
+
+PARTICIPANT: I'm on the free plan, so pricing doesn't really affect me yet. But I hear my professors talk about the Dev Mode paywall and how it's making handoff harder for their industry projects. It worries me a bit because I'll be graduating soon and entering companies that might be frustrated with Figma. As for AI — I tried First Draft once, and it generated a design that looked like a template from 2015. Not useful. I think AI could help students like me by suggesting layout improvements or spotting accessibility issues, but right now it feels gimmicky.
+
+INTERVIEWER: If Figma asked you for one piece of advice for student users, what would it be?
+
+PARTICIPANT: Invest in education. Not just the education plan — that's already great — but in actual learning content. In‑app tutorials, interactive walkthroughs, better documentation for beginners. Figma is the standard, which means hundreds of thousands of students are learning it right now. Make that experience smoother, and you'll have loyal users for life. Make it frustrating, and we'll be eyeing the next tool that comes along.
+
+INTERVIEWER: Thank you. That's a valuable perspective.
+
+PARTICIPANT: Thanks for listening. Can I get a free Pro account for doing this? (laughs)

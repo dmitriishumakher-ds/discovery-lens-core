@@ -1,0 +1,129 @@
+{
+  "corpus": "revolut",
+  "version": "0.1-draft",
+  "note": "DRAFT for human validation. Each evidence quote must be verbatim from the source file; the eval resolves quotes to chunks at runtime, so labels survive chunking changes. Validated_by: (pending Dmitrii review).",
+  "queries": [
+    {
+      "query_id": "rev_q01",
+      "query": "What do users report about account freezes and compliance holds, and how do they affect trust?",
+      "rationale": "Cross-source theme (interviews, sales, churn notes, reddit, tickets) with strong lexical gap: frozen / blocked / flagged / on hold / compliance review.",
+      "evidence": [
+        {"filename": "interview_revolut_02.txt", "quote": "it took eleven days. Eleven days."},
+        {"filename": "interview_revolut_01.txt", "quote": "temporarily blocked for your protection"},
+        {"filename": "interview_revolut_03.txt", "quote": "my card got blocked when I was in Croatia"},
+        {"filename": "interview_revolut_04.txt", "quote": "the transaction got flagged. It said something about needing to verify."},
+        {"filename": "sales_notes_revolut.txt", "quote": "what happens if my account gets frozen?"},
+        {"filename": "sales_notes_revolut.txt", "quote": "I had no visibility for two weeks. I cannot run a business on that."},
+        {"filename": "reddit_revolut.csv", "quote": "Account frozen for 12 days. No real explanation."}
+      ]
+    },
+    {
+      "query_id": "rev_q02",
+      "query": "How do customers describe the experience of reaching customer support when something goes wrong?",
+      "rationale": "Support quality is the top compounding churn factor (61% of closures mention it); phrased without the word 'support' in evidence half the time.",
+      "evidence": [
+        {"filename": "interview_revolut_01.txt", "quote": "you feel like you're shouting into a void"},
+        {"filename": "interview_revolut_03.txt", "quote": "got a bot for ages and then a person who didn't really answer my question"},
+        {"filename": "interview_revolut_04.txt", "quote": "it took me ages to figure out how to even contact a person"},
+        {"filename": "sales_notes_revolut.txt", "quote": "I couldn't reach a human"}
+      ]
+    },
+    {
+      "query_id": "rev_q03",
+      "query": "Do users understand whether the exchange rate they are getting is good, and what context do they need?",
+      "rationale": "Rate-context gap: users leave the app to validate rates; explicit competitor mention (Wise chart).",
+      "evidence": [
+        {"filename": "usability_revolut_02.txt", "quote": "The single number is fine but it's only useful if I know the context."},
+        {"filename": "usability_revolut_02.txt", "quote": "I want to see if the rate is trending up or down"},
+        {"filename": "interview_revolut_01.txt", "quote": "I just trust it. I assume it's basically the market rate."}
+      ]
+    },
+    {
+      "query_id": "rev_q04",
+      "query": "What uncertainty do users experience about when a transfer will arrive?",
+      "rationale": "Highest-severity friction in usability session 01; end-of-flow stress despite successful send.",
+      "evidence": [
+        {"filename": "usability_revolut_01.txt", "quote": "I just wish it told me when it'll actually land"},
+        {"filename": "usability_revolut_01.txt", "quote": "Wait that's it? It's already gone?"},
+        {"filename": "usability_revolut_01.txt", "quote": "No clear timing estimate for transfer arrival"}
+      ]
+    },
+    {
+      "query_id": "rev_q05",
+      "query": "Why is multi-currency holding valuable for business customers?",
+      "rationale": "Primary acquisition driver for SMB segment; appears in sales notes as the #2 pre-signup question.",
+      "evidence": [
+        {"filename": "interview_revolut_02.txt", "quote": "Being able to hold euros as euros, dollars as dollars, only converting when I want to"},
+        {"filename": "sales_notes_revolut.txt", "quote": "Can I hold EUR/USD without auto-converting to GBP?"}
+      ]
+    },
+    {
+      "query_id": "rev_q06",
+      "query": "What friction do customers face during onboarding and identity verification?",
+      "rationale": "KYC friction spans business onboarding (3 weeks) and consumer discomfort with selfie/video verification; also in tickets.",
+      "evidence": [
+        {"filename": "interview_revolut_02.txt", "quote": "we need this in a different format"},
+        {"filename": "interview_revolut_04.txt", "quote": "taking a photo of my passport with my phone, having to do that little video where you turn your head"},
+        {"filename": "tickets_revolut.csv", "quote": "trying to verify my account for THREE DAYS"}
+      ]
+    },
+    {
+      "query_id": "rev_q07",
+      "query": "How do users experience the savings feature, including the Vault to Pocket rename?",
+      "rationale": "Terminology mismatch caused measurable confusion; savings mental models differ by segment.",
+      "evidence": [
+        {"filename": "usability_revolut_03.txt", "quote": "Pockets, vaults, whatever. The thing itself works."},
+        {"filename": "usability_revolut_03.txt", "quote": "confirms Pockets replaced Vaults in 2024 rename"},
+        {"filename": "interview_revolut_01.txt", "quote": "if it's in a vault I won't accidentally spend it"}
+      ]
+    },
+    {
+      "query_id": "rev_q08",
+      "query": "Which users find the app cluttered or overloaded with features and upsell prompts?",
+      "rationale": "Recurring across age segments: unused tabs (stocks, crypto), promotional banners, feature overload.",
+      "evidence": [
+        {"filename": "interview_revolut_03.txt", "quote": "why is there a stocks tab now"},
+        {"filename": "interview_revolut_04.txt", "quote": "I feel like I'm using ten percent of an app that's trying to do a hundred things"},
+        {"filename": "interview_revolut_04.txt", "quote": "Try Premium, get cashback, invite a friend."}
+      ]
+    },
+    {
+      "query_id": "rev_q09",
+      "query": "What role does bill splitting and the social network of friends play in adoption and retention?",
+      "rationale": "Acquisition via peer pressure and network lock-in; switching cost is social, not functional.",
+      "evidence": [
+        {"filename": "interview_revolut_03.txt", "quote": "we need to all be on Revolut so we can split bills easily"},
+        {"filename": "interview_revolut_03.txt", "quote": "all my friends are on it so it would be annoying to switch"}
+      ]
+    },
+    {
+      "query_id": "rev_q10",
+      "query": "How do customers hedge their trust in a fintech versus a traditional bank?",
+      "rationale": "Backup-account behaviour is a quantifiable trust signal: emergency buffers, branch access as psychological safety.",
+      "evidence": [
+        {"filename": "interview_revolut_01.txt", "quote": "I also keep a kind of emergency buffer in HSBC"},
+        {"filename": "interview_revolut_04.txt", "quote": "there's a branch ten minutes from my house"},
+        {"filename": "interview_revolut_02.txt", "quote": "don't put yourself in a position where Revolut is your only banking relationship"}
+      ]
+    },
+    {
+      "query_id": "rev_q11",
+      "query": "How do accounting integrations influence business customers' decision to sign up or leave?",
+      "rationale": "Integration presence closes deals (Xero) and absence loses them (FreeAgent to Tide) — clean product-decision signal.",
+      "evidence": [
+        {"filename": "sales_notes_revolut.txt", "quote": "do you integrate with Xero"},
+        {"filename": "sales_notes_revolut.txt", "quote": "We are losing some deals to Tide for FreeAgent users specifically."},
+        {"filename": "interview_revolut_02.txt", "quote": "The accounting integration with Xero is good."}
+      ]
+    },
+    {
+      "query_id": "rev_q12",
+      "query": "What proactive money-management help do users wish the product offered?",
+      "rationale": "Unmet-need signal for forecasting/budgeting across segments (business cash flow, student budgeting).",
+      "evidence": [
+        {"filename": "interview_revolut_02.txt", "quote": "you'll be short on euros in three weeks"},
+        {"filename": "interview_revolut_03.txt", "quote": "you should only spend 50 pounds on going out this week"}
+      ]
+    }
+  ]
+}

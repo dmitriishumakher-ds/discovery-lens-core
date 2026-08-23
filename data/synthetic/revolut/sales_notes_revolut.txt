@@ -1,0 +1,80 @@
+SALES NOTES — Revolut Business
+Author: Tom (Senior BDR, EMEA SMB segment)
+Date: November 2025
+For: Internal use — product + sales team alignment
+Audience: Quarterly product review
+
+---
+
+NOTE 1 — Pre-signup conversations: what SMBs actually ask about
+
+I've been logging the questions that come up in discovery calls with prospective Revolut Business customers over the past 8 weeks (n=43 calls, mostly UK/DE/NL SMBs in 5-50 employee range). Sharing patterns because some of this is, frankly, surprising to me and I think product should hear it.
+
+The #1 question, by a wide margin, is not about features. It's "what happens if my account gets frozen?" Roughly 28 of 43 prospects (~65%) asked some variant of this — usually phrased politely as "I've heard stories about Revolut freezing accounts, how often does that actually happen?" The Revolut subreddit and various Twitter threads have created a real reputational drag. I've started addressing this proactively in the first 5 minutes of the call instead of waiting for them to bring it up. My current line is: "Compliance reviews can happen — they're a regulatory requirement for any bank — but here's what you can do to minimise disruption." Then I walk through document-readiness tips. This honest framing has actually improved my close rate vs. the old "it's rare and quick to resolve" line which never landed.
+
+The #2 question is multi-currency mechanics. Specifically: "Can I hold EUR/USD without auto-converting to GBP?" This is genuinely a great fit for us and the answer is yes. About half of prospects didn't know this was possible — some had been using Wise specifically for this and didn't realise we offered it. Marketing should lead with this more.
+
+The #3 question, surprisingly, is integrations. Xero comes up almost every time. Sage less but still relevant. QuickBooks for the few US-based or US-adjacent prospects. When someone asks "do you integrate with Xero" and I say yes, it's almost a closed deal. When the answer would be no for a tool they care about (e.g., FreeAgent), it's almost always a deal-killer. We are losing some deals to Tide for FreeAgent users specifically.
+
+#4 — pricing transparency. Prospects often arrive having read our pricing page and being unsure what tier they need. The "Free / Grow / Scale / Enterprise" labels don't map clearly to "what kind of business am I?" Several prospects asked me to compare us directly to their current bank's monthly cost including FX, and once I do this comparison live with their actual numbers, the deal usually closes. Suggestion: a "compare your actual costs" calculator on the website.
+
+#5 — what people don't ask about (and probably should). Almost no one asks about customer service quality before signing up. Then it becomes the #1 complaint within 6 months. We could pre-empt this with clearer SLA messaging upfront — even if the message is "your tier gets X response time" it's better than the current ambiguity which leads to wildly mismatched expectations.
+
+Bottom line for product team: the most valuable thing you could do for SMB sales right now is reduce the perception of randomness around compliance freezes. Whether that's through better proactive communication during reviews, faster resolution times, or clearer escalation paths — anything that reduces this single fear would meaningfully improve our top-of-funnel.
+
+---
+
+Closing thought: the prospects who DO sign up despite the freeze concerns tend to be smaller, more willing to deal with friction in exchange for lower fees. The prospects we lose to traditional banks are the ones who explicitly say "we can't have any uncertainty around access to funds." That's a meaningful segment we're leaving on the table.
+
+===
+
+SALES NOTES — Revolut Business
+Author: Priya (Customer Success Lead, EMEA SMB segment)
+Date: November 2025
+For: Internal use — product + retention team alignment
+Audience: Monthly retention review
+
+---
+
+NOTE 2 — Churn analysis: patterns in business account closures (Q3 2025)
+
+Reviewed 31 closed Revolut Business accounts from July-September. These are accounts that closed voluntarily (i.e., not regulatory closures from our side). Looking for patterns to flag to product. Caveat: small sample, qualitative analysis from exit interviews and CRM notes — not statistically rigorous. But the patterns are consistent enough to be worth raising.
+
+Three churn archetypes emerged:
+
+1. THE COMPLIANCE-INCIDENT CHURN (n=12, ~39%)
+
+These are customers who experienced an account freeze, hold, or compliance review that resolved unfavourably or took too long. The freeze itself often resolves — but the trust damage is permanent. Quote from one exit interview: "It's not that they got it wrong eventually. It's that I had no visibility for two weeks. I cannot run a business on that." Almost all of these customers cite the duration of uncertainty (not the outcome) as the trigger.
+
+The kicker: most of them don't fully leave. They downgrade to Standard tier or keep us as a "secondary" account for FX, while moving primary banking to either Wise or a traditional bank. Lifetime revenue drops 60-80% per account in this scenario. We're not losing customers entirely — we're losing primary status.
+
+2. THE OUTGREW-US CHURN (n=9, ~29%)
+
+Companies that scaled past our sweet spot. Hit revenue thresholds where they need credit lines, more sophisticated treasury features, dedicated relationship management, or integrations we don't have (Netsuite is the big one). They don't dislike us — they just need things we don't offer. Often they keep a Revolut account for travel-related expenses or specific currency holdings.
+
+This isn't really a product failure on our part. But there's a question of whether we want to chase this segment with an enterprise tier or accept it as natural ceiling.
+
+3. THE NEVER-FIT CHURN (n=7, ~23%)
+
+Customers who signed up, spent ~30-90 days trying to use us, and concluded we weren't right for their business. Common pattern: their workflow involves a tool we don't integrate with (FreeAgent is the recurring one), or they had heavy cash deposit needs (we don't really do that), or they discovered our card limits were too low for their normal expenses. Not their fault and not ours — it's a fit issue that should have been caught at the sales/onboarding stage.
+
+The remaining 3 closures are misc — including 1 fraud-victim who wanted a fresh start at a different bank, 2 founder-departures where the LLC dissolved.
+
+PATTERN OBSERVATIONS:
+
+- Customer support is mentioned in 19 of 31 closures (~61%) — but rarely as the SOLE reason. It's almost always a compounding factor that turns a recoverable issue into an unrecoverable one. "Bank had a problem" is normal. "Bank had a problem AND I couldn't reach a human" is the actual churn trigger.
+
+- The "secondary account" pattern is fascinating and underused in our retention thinking. We treat downgrades as half-loss but they could be re-conversion opportunities. Why not a "win-back" track for downgraded accounts after 6 months? Currently we just let them sit.
+
+- Almost no one mentions price as a primary churn reason. SMBs that picked us picked us partly for cost — they don't suddenly leave because of cost. They leave because of trust or fit.
+
+- A surprising number of closures (n=8) followed a specific feature change or app update. Worth investigating with product whether release timing correlates with churn spikes.
+
+RECOMMENDATIONS for product/retention sync:
+
+(a) Faster compliance review communication — this is the single biggest retention lever
+(b) Investigate FreeAgent integration — small lift, recurring loss
+(c) Build a "downgrade" funnel that doesn't write off the customer
+(d) Tighter pre-sales qualifying questions to catch the "never-fit" segment earlier and either reroute or set expectations
+
+Will share full list of accounts + notes in the retention deck if anyone wants to dig in.

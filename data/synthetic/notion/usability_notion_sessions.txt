@@ -1,0 +1,226 @@
+SOURCE TYPE: usability
+PRODUCT: Notion
+SOURCE: Moderated usability test sessions (generated)
+DATE: November 2024 – February 2025
+FACILITATOR: UX Research team
+FORMAT: Remote moderated sessions via Lookback.io, 45–60 min each. 
+Tasks given to participants: (T1) Find a specific piece of information in an existing workspace. (T2) Create a new page using a template. (T3) Share a page with an external collaborator with edit access. (T4) Add a new record to an existing database from the mobile app.
+NOTE: Session notes are observer shorthand — terse, sometimes incomplete. Not full transcripts. Participant names anonymised as P1–P4.
+
+---
+
+SESSION 01 — P1
+Profile: Marketing manager, 34. Daily Notion user, 18 months. Self-rated proficiency: 7/10. Workspace: ~300 pages, 5 databases.
+Device: MacBook Pro (desktop), iPhone 13 (mobile tasks)
+Date: 14 Nov 2024
+
+T1 — FIND INFO
+Task: "Find the last quarterly review document for the marketing team."
+Outcome: SUCCESS (2m 47s)
+Notes:
+- Went straight to search bar. Typed "quarterly review". Multiple results returned. Hesitated — results not clearly sorted by recency.
+- Said "I'm not sure which one is most recent, they all look the same in search results."
+- Opened two wrong docs before finding correct one.
+- Said "I wish search showed me the date next to each result."
+- Eventually found correct doc by recognising the thumbnail.
+- Observer note: search result display doesn't show date created/modified. Clear usability gap for returning queries.
+
+T2 — CREATE PAGE FROM TEMPLATE
+Task: "Create a new meeting notes page using the team's meeting notes template."
+Outcome: SUCCESS (1m 22s)
+Notes:
+- Clicked "New page" from sidebar. Page opened blank.
+- Typed "/" correctly. Scrolled through menu briefly.
+- Said "I'm looking for templates... there it is." Found template picker quickly.
+- Selected correct team template without confusion.
+- Observer note: P1 is experienced — this task went smoothly. Worth comparing with novice user.
+
+T3 — SHARE WITH EXTERNAL EDITOR
+Task: "Share the page you just created with an external collaborator who needs to be able to edit it."
+Outcome: PARTIAL SUCCESS — shared successfully but with incorrect permissions scope (3m 18s)
+Notes:
+- Clicked Share. Typed external email. Selected "Can edit" from dropdown.
+- Did NOT notice the toggle distinguishing workspace member vs page guest.
+- Shared as workspace member (billable). Did not realise this.
+- When shown post-task that she'd added a billable member: "Oh! I had no idea that was different. I always share this way. Does this mean I've been billing people as members accidentally?"
+- Post-task confusion: inspected the share dialog more carefully. Said "the difference between these options is not obvious at all. Why isn't 'guest — this page only' the default for external emails?"
+- Observer note: critical usability failure on share flow. Experienced user made the error without noticing. Same mechanism reported in support tickets.
+
+T4 — ADD DATABASE RECORD ON MOBILE
+Task: "Add a new task to the marketing tasks database from your phone."
+Outcome: SUCCESS with friction (4m 09s)
+Notes:
+- Opened Notion on iPhone. Navigated to marketing workspace in sidebar — sidebar takes 2 swipes to access.
+- Found tasks database. Tapped "New" button. New record opened in peek view.
+- Started typing title — fine.
+- Tried to add content to the body of the record. Keyboard appeared and covered the content area. Scrolled awkwardly to find the cursor position.
+- Said "this is why I never write anything in Notion on my phone."
+- Completed the task but visibly frustrated.
+- Time on task was 4m 09s vs estimated 1m 00s on desktop. 
+- Observer note: mobile task creation significantly slower and less comfortable than desktop. P1's comment ("this is why I never write anything") is telling — she has learned to not use this flow.
+
+---
+
+SESSION 02 — P2
+Profile: Recent graduate, project coordinator, 26. Notion user 6 months. Self-rated proficiency: 4/10. Workspace: company workspace inherited, ~800 pages.
+Device: Windows laptop, Android (Samsung A54) for mobile tasks.
+Date: 21 Nov 2024
+
+T1 — FIND INFO
+Task: "Find the company's remote work policy document."
+Outcome: FAILURE (8m 00s, task abandoned)
+Notes:
+- Started with search. Typed "remote work policy." Two results appeared, neither was correct (one was a Slack-connected page, one was a meeting notes page mentioning remote work).
+- Tried "remote policy." No results.
+- Tried "work from home." One result, wrong doc.
+- Switched to manual navigation. Started browsing sidebar. Got lost in nested pages within HR section — pages nested 4 levels deep.
+- Said "I can see there are HR pages but I can't find the actual policy."
+- Escalated to facilitator: "Can I just ask someone in Slack where it is?" — real behaviour verbatised.
+- Facilitator ended task at 8 minutes.
+- Post-task: document found manually by facilitator — it was nested under HR > Policies > Employee > Remote, with the page title "WFH Guidelines v2" (not "remote work policy"). Search didn't find it because title didn't match search terms and full-text indexing didn't surface it.
+- Observer note: critical failure. New user couldn't find existing content in 8 minutes. Title mismatch + poor full-text search + deep nesting = invisible content. Direct signal for search and navigation improvement.
+
+T2 — CREATE PAGE FROM TEMPLATE
+Task: "Create a new project brief using the company's project brief template."
+Outcome: FAILURE then partial success (7m 12s)
+Notes:
+- Created new page. Typed "/" — looked through the menu.
+- Said "I don't see templates. There's something that says 'Template' but also things that look like templates..."
+- Confused by distinction between Notion's default templates and workspace custom templates.
+- Selected a Notion default "Project" template. It populated with generic content.
+- Said "this doesn't look right, this isn't our company's template."
+- Tried again. This time found "Templates" at the bottom of slash menu. Found the company brief template.
+- Observer note: two templates systems (Notion's gallery templates vs team custom templates) in same slash menu without clear distinction is a significant discoverability failure. P2 is not an edge case — this will affect any user < 12 months of experience.
+
+T3 — SHARE WITH EXTERNAL EDITOR
+Task: "Share a page with an external contractor who needs to edit it."
+Outcome: FAILURE — shared incorrectly, didn't detect error (2m 55s)
+Notes:
+- Same pattern as P1: shared as workspace member, not page guest.
+- Said "I clicked Can Edit, that seems right." Did not investigate further.
+- When told post-task: "Oh I thought Can Edit just meant they can edit that page. I didn't know it meant they joined the workspace."
+- Observer note: Two out of two experienced/semi-experienced users made the same sharing error without detecting it. This is not user error — it's a systematic design failure in the share flow.
+
+T4 — MOBILE DATABASE RECORD
+Task: "Add a new task to the project tasks database from your phone."
+Outcome: SUCCESS with significant friction (6m 38s)
+Notes:
+- Android device. Navigation to correct database took 3m 00s — sidebar navigation on Android requires multiple taps, and the user navigated to wrong section twice.
+- Found database. Tapped New.
+- Keyboard appeared and covered content area. P2 spent time trying to scroll.
+- Text input was noticeably laggy — roughly 1–2 second delay between typing and text appearing.
+- Said "is it broken or is it always this slow?"
+- Eventually completed task. Content partially cut off in display.
+- Observer note: Android lag is more severe than iOS (consistent with support ticket #60214). Navigation structure on mobile particularly confusing for users without established spatial memory of the workspace.
+
+---
+
+SESSION 03 — P3
+Profile: Engineering lead, 38. Power user, 3 years. Self-rated: 9/10. Workspace: large engineering workspace, 2,000+ pages, several large databases.
+Device: MacBook Pro, iPhone 14 Pro.
+Date: 9 Jan 2025
+
+T1 — FIND INFO
+Task: "Find the architecture decision record for the authentication system."
+Outcome: SUCCESS (58s)
+Notes:
+- Typed "ADR auth" in search. First result was correct.
+- Said "I named this one carefully so it would be findable. Not all of them are."
+- Unprompted: "If the title doesn't have the right keywords, search usually won't find it. So findability is totally dependent on whoever named the page."
+- Observer note: experienced user has adapted behaviour to work around search limitations — careful naming conventions. Search reliability is dependent on user discipline, not tool capability.
+
+T2 — CREATE PAGE FROM TEMPLATE
+Task: "Create a new architecture decision record using the team's ADR template."
+Outcome: SUCCESS (45s)
+Notes:
+- P3 typed "/" and went directly to template with no hesitation. 
+- Said "I've set this up as a favourited template so it's always at the top of my menu."
+- Observer note: power user workaround (favouriting templates) makes this fast. Novice users can't do this.
+
+T3 — SHARE WITH EXTERNAL EDITOR  
+Task: "Share a technical spec with an external security consultant who needs to edit it."
+Outcome: PARTIAL — shared correctly but expressed uncertainty (1m 42s)
+Notes:
+- P3 selected "Guest" scope correctly. Shared as page guest, not workspace member.
+- But said: "I'm always nervous doing this. I know the spec page is nested three levels deep inside our engineering section. I'm not 100% sure what else they'll be able to see."
+- Checked parent page permissions manually after sharing.
+- Said "there should be a preview that shows exactly what someone will have access to before you confirm the share. Like a confirmation screen."
+- Observer note: even experienced user is anxious about permissions at the point of sharing. Permission confidence low across all experience levels.
+
+T4 — MOBILE DATABASE RECORD
+Task: "Add a new note to your personal meeting notes database from your phone."
+Outcome: SUCCESS (1m 28s)
+Notes:
+- iPhone, notably faster than Android sessions. Navigation familiar to this user.
+- Said "mobile works okay for me for simple notes. I don't try to do anything complex."
+- Input lag minimal on iOS. Task completed without significant friction.
+- Observer note: iOS vs Android experience discrepancy continues to be significant. P3's comment "I don't try to do anything complex" reveals a learned constraint — user has narrowed their mobile use case to what the app handles well.
+
+---
+
+SESSION 04 — P4
+Profile: Operations coordinator, 29. Notion user 14 months. Self-rated: 5/10. Usage: reading and light editing, rarely creates new pages.
+Device: Windows laptop, iPhone 12.
+Date: 3 Feb 2025
+
+T1 — FIND INFO  
+Task: "Find the onboarding checklist for new starters."
+Outcome: SUCCESS (3m 55s)
+Notes:
+- Typed "onboarding checklist" in search. Two results appeared.
+- Both results had similar-sounding titles. P4 opened both to compare.
+- Said "I'm not sure which is the current one. This one looks like it was updated more recently but the other one has more content."
+- Chose the more recently updated one (correct).
+- Observer note: two versions of a document both appearing in search with no clear signal about which is authoritative. Content staleness and versioning confusion at point of retrieval. This is the same problem Kira described in interview 06.
+
+T2 — CREATE PAGE FROM TEMPLATE
+Task: "Create a new meeting notes page using the team template."
+Outcome: FAILURE (9m 22s, facilitator assisted)
+Notes:
+- P4 created new page. Typed "/" and looked through the menu.
+- Scrolled through for several minutes. Said "I see Notion templates but I don't see our ones."
+- Tried searching within the slash menu for "meeting notes" — searched the wrong thing, got block types.
+- Tried "Insert" from the top toolbar — that's not where templates live.
+- Tried right-clicking the page in the sidebar looking for template options.
+- Said "I give up, I'll just write it from scratch" — a genuine decision this user makes regularly.
+- Facilitator showed correct path. P4's response: "I've been doing it the hard way for 14 months."
+- Observer note: P4 has used Notion for 14 months without discovering the template system. This represents a profound onboarding and discoverability failure. Multiply by the number of users in this profile.
+
+T3 — SHARE WITH EXTERNAL EDITOR
+Task: "Share a document with a freelancer who needs to edit it."
+Outcome: FAILURE — incomplete share due to confusion (5m 08s)
+Notes:
+- P4 opened the Share dialog. Looked at the options for about a minute without acting.
+- Said "I don't really understand the difference between all these options. I usually just send people a link."
+- Sent a shared link (read-only by default). Did not give edit access.
+- When told the freelancer needs to edit: "Oh. I don't know how to do that then."
+- Observer note: P4 defaults to "copy link" because the full share dialog is too confusing. Legitimate use case — giving external edit access — was not completable by this user without assistance.
+
+T4 — MOBILE DATABASE RECORD
+Task: "Add a note to the team meeting notes database from your phone."
+Outcome: PARTIAL SUCCESS — completed but lost content (5m 44s)
+Notes:
+- Navigated to database — took about 2 minutes to find correct location.
+- Created new record. Typed title and body content.
+- Switched apps briefly to check a Slack message (realistic behaviour).
+- When returning to Notion: the body content she'd typed was gone. Title persisted.
+- P4: "Oh no. I typed all of that. Did it save?"
+- Content was lost — likely due to the background-app/sync issue flagged in ticket #60214.
+- P4: "This has happened to me before and I stopped using Notion on my phone because of it. I forgot today."
+- Observer note: data loss on mobile is a trust-destroying event. P4 had already changed her behaviour because of a prior experience — this session re-confirmed the failure mode.
+
+---
+
+CROSS-SESSION SUMMARY NOTES (Observer)
+
+Patterns across all 4 sessions:
+
+1. SHARE FLOW: 3 out of 4 participants made the guest/member error (T3). The share flow is a systematic design failure regardless of user experience level.
+
+2. TEMPLATE DISCOVERY: 2 out of 4 failed T2 completely. The co-existence of Notion's gallery templates and team custom templates in the same UI with insufficient differentiation is a recurring failure point.
+
+3. SEARCH: Works for exact-title retrieval by experienced users who name pages carefully. Fails for semantic queries, title-mismatched content, and full-text search within database records. New users hit this wall immediately (P2 failure). Experienced users adapt by naming files to match future search terms (P3).
+
+4. MOBILE: Android significantly worse than iOS. Data loss on mobile (P4) is the highest-severity observed failure. "I stopped using Notion on my phone because of it" = churn-adjacent behaviour change.
+
+5. ONBOARDING/DISCOVERABILITY: P4's 14 months without discovering templates represents a product-level failure to progressively surface key features to established but non-power users. Not an edge case.

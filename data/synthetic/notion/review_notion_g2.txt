@@ -1,0 +1,173 @@
+SOURCE TYPE: review
+PRODUCT: Notion
+SOURCE: G2 / AWS Marketplace verified reviews
+DATE RANGE: May 2023 – May 2026
+NOTE: Reviews synthesised and paraphrased from publicly available G2 and AWS Marketplace verified user reviews. Names anonymised or withheld where not public.
+
+---
+
+REVIEW 001
+Role: Individual Contributor, Information Technology & Services
+Company size: 51–200 employees
+Rating: 4/5
+Date: May 2026
+
+What I like: I like how easy it is to collaborate and find what I need using the wiki filters. Notion releases updates and improvements regularly, which keeps the experience feeling fresh. A central location for knowledge sharing is our primary use. It makes it easy for both long-time employees and new hires to find what they need — instead of sending a link to a document on someone's drive, we direct them to a specific Notion page. They can also see whether the page is verified by the page owner, which helps with reliability.
+
+What I dislike: Our plan doesn't include the paid AI features, but employees still see pop-ups promoting AI features that aren't part of our plan. This creates unnecessary confusion and makes it unclear what's actually available to us. It's a bit pushy honestly — feels like the product is constantly nudging you to upgrade rather than just letting you use what you've paid for.
+
+Problems solved: Knowledge management and internal documentation for a mid-size distributed team.
+
+---
+
+REVIEW 002
+Role: Designer, Creative Agency
+Company size: 11–50 employees
+Rating: 4/5
+Date: May 2026
+
+What I like: What I absolutely love about Notion is how ridiculously flexible it is. It's not just a note app — it's the one central place where I can organise and develop from initial client brainstorms to final portfolio showcases. It seriously cuts down on bouncing between different apps and makes managing my creative workflow seamless. I use Notion for roadmap planning, breaking down work streams, and resource allocation. The databases concept is powerful once you get it — nesting things into a single page and creating a single source of truth is genuinely great.
+
+What I dislike: While the core product is outstanding, offline capabilities continue to be a significant drawback. Whenever I experience weak Wi-Fi or am travelling, accessing or updating important information becomes extremely slow or sometimes not possible. The new offline mode shipped in late 2025 but honestly it still feels half-baked. You have to manually opt in page by page, databases are capped at 50 rows offline, and syncing non-text properties after reconnecting is unpredictable. Also: the price is too high for individual users on my team who only use a small fraction of the features.
+
+Problems solved: Creative project management, client documentation, team knowledge base.
+
+---
+
+REVIEW 003
+Role: Operations Manager, SaaS Company
+Company size: 201–500 employees
+Rating: 3/5
+Date: November 2025
+
+What I like: Notion can be used for so many tasks — from a Word-like document, to a Trello-like project management tool, to a simple database. Everything is highly configurable. The AI writing assistant is useful for summarising long pages and generating first drafts.
+
+What I dislike: Notion can become quite slow sometimes. We have a project tracking database with around 6,000 rows and the filtering and sorting is painful — we're talking 4–6 second waits just to change a view. That wasn't a problem two years ago when we had a smaller dataset. Also, more granular user-level permissions on page components would be really useful. Right now it's all-or-nothing at the page level. We can't give someone read access to one section of a page without giving them the whole thing.
+
+Problems solved: Cross-functional project tracking, internal SOPs, meeting notes.
+
+---
+
+REVIEW 004
+Role: Product Manager, Fintech
+Company size: 51–200 employees
+Rating: 4/5
+Date: November 2025
+
+What I like: It's highly customisable and allows everything from collaboration and creating roadmaps to building internal wikis. The integration with Slack and other tools is helpful for keeping our workspace and communication platform connected. When it works well, Notion genuinely replaces four or five other tools and the consolidation is real.
+
+What I dislike: It's not particularly beginner-friendly — it takes time to learn and become comfortable with. We onboarded a new ops hire last quarter and it took her almost three weeks to feel confident building pages from scratch. The blank canvas is powerful but overwhelming for new users who don't have a mental model for blocks and databases. We ended up building a whole internal Notion guide just to explain Notion, which felt ironic. Also getting used to individual use cases and views could have been made considerably easier with better onboarding.
+
+Problems solved: Product roadmapping, sprint planning documentation, cross-team wikis.
+
+---
+
+REVIEW 005
+Role: Freelance Consultant
+Company size: 1 employee
+Rating: 3/5
+Date: May 2025
+
+What I like: The templates make work more effective together with the AI function. For someone working solo, having everything in one place is genuinely useful. The block-based system is clever once you understand it.
+
+What I dislike: It is costly to add members and not easy to see how to add guest members — the billing page is confusing and I've accidentally paid for seats I didn't intend to. The mobile app is also noticeably worse than desktop. I spend a lot of time at client sites and need to jot quick notes on my phone but editing rich pages on mobile is clunky. Databases in particular are nearly unusable on a phone screen — you can't see all your columns, filtering is buried, and the tap targets are tiny. I've started keeping a separate notes app just for mobile capture and then transferring things to Notion later, which defeats the point.
+
+Problems solved: Client project tracking, invoicing notes, personal knowledge management.
+
+---
+
+REVIEW 006
+Role: Engineering Lead, B2B SaaS
+Company size: 51–200 employees
+Rating: 2/5
+Date: March 2025
+
+What I like: The flexibility and the idea of everything being in one place are genuinely appealing. The database views — kanban, gallery, timeline — are well-designed.
+
+What I dislike: Performance is my main problem. Our engineering team wiki has grown to the point where some pages take 5–8 seconds to load. I've watched new engineers stare at a loading spinner during their first week and I feel embarrassed. We have a database tracking all our tech debt items, bugs, and projects — around 8,000 rows — and it is genuinely slow. I've raised this with Notion support and the response was essentially "try filtering to smaller views." That's not a solution, that's a workaround. We're paying for Business tier and I expect better. Also the permission model for guests is confusing — we've had at least two incidents where someone shared a page with external contractors and ended up exposing more than they intended because the permission inheritance isn't obvious.
+
+Problems solved: Engineering documentation (when it loads). We're actively evaluating Linear and Confluence as replacements.
+
+---
+
+REVIEW 007
+Role: HR Manager, Professional Services
+Company size: 201–500 employees
+Rating: 4/5
+Date: January 2025
+
+What I like: I love the flexibility of Notion for HR documentation. We use it for our employee handbook, onboarding checklists, policy docs, and training materials. The ability to embed forms and link pages together means new hires have a clear path through their first 90 days without us having to hold their hand constantly. The wiki structure is clean and the search — when it works — is good enough.
+
+What I dislike: The search is inconsistent. Sometimes I type the exact title of a page and it doesn't appear in results. I've had to explain to new hires that Notion search isn't like Google — it doesn't search subpages by default and it doesn't do full-text search across everything. We've had to implement a manual tagging convention just to make things findable. For an HR team managing hundreds of documents, that's overhead I shouldn't need. Also, we're on the Plus plan and I keep hitting walls with advanced permission features that are gated to Business tier. The per-seat pricing at Business level is hard to justify just for permission controls.
+
+Problems solved: Employee onboarding, HR documentation, policy management.
+
+---
+
+REVIEW 008
+Role: Startup Founder, EdTech
+Company size: 2–10 employees
+Rating: 5/5
+Date: October 2024
+
+What I like: For a small startup, Notion genuinely replaces Confluence, Trello, and Google Docs. The value at our size is real. We use it for everything — product roadmap, meeting notes, investor updates, hiring pipeline. The AI features have become part of our daily workflow for summarising user research notes and drafting documents. Setup time was significant upfront but it's paid off.
+
+What I dislike: We travel a lot for customer discovery sessions and the offline story has genuinely hurt us. I've lost notes twice when connectivity was inconsistent and Notion silently failed to sync. Once was at a key investor meeting and I had to reconstruct the session notes from memory. The new offline mode helps but the 50-row database cap means our CRM essentially doesn't work offline, which is where we actually need it most. Also: Notion AI is useful but the upsell is aggressive — it pops up in the middle of workflows and the toggle to disable AI suggestions isn't obvious.
+
+Problems solved: All-in-one workspace for a 6-person team. We replace four tools with Notion.
+
+---
+
+REVIEW 009
+Role: Content Strategist, Media Company
+Company size: 51–200 employees
+Rating: 3/5
+Date: July 2024
+
+What I like: The editorial calendar database is genuinely well-suited for content work. Being able to filter by status, assignee, and publish date in the same view is useful. Comments and mentions work well for async editorial review.
+
+What I dislike: Honestly, we've had growing pains. Two things bother me consistently. First — when I search for a piece I know exists, Notion frequently doesn't surface it unless I remember the exact page title. Content that lives in a nested database especially seems hard to find. Second — exporting content out of Notion is painful. We sometimes need to move content to our CMS and the exported markdown is messy with Notion-specific formatting that needs manual cleanup. I've spent hours fixing broken exports. It shouldn't be this hard to get your own content out of a tool.
+
+Problems solved: Editorial planning, content briefs, team content calendar.
+
+---
+
+REVIEW 010
+Role: UX Researcher, Tech Company
+Company size: 201–500 employees
+Rating: 4/5
+Date: April 2024
+
+What I like: Notion has become our research repository. We store interview notes, synthesis documents, usability findings, and research reports. The ability to link insights to specific research studies and back to product areas is really valuable. Templates help our research team maintain consistency across studies.
+
+What I dislike: Managing permissions for research participants and stakeholders is genuinely frustrating. When we share a research debrief page with a stakeholder, we can't easily control whether they can also see the raw interview notes linked from that page. The guest permission model isn't granular enough for professional research work where participant confidentiality matters. Also — the editor for long documents occasionally has strange behaviour. Pasting content from Google Docs sometimes strips formatting unpredictably. For a tool we use to write multi-page research reports, that causes real friction.
+
+Problems solved: Research repository, synthesis documentation, stakeholder reporting.
+
+---
+
+REVIEW 011
+Role: Remote Software Engineer, fully distributed team
+Company size: 51–200 employees
+Rating: 3/5
+Date: December 2023
+
+What I like: The flexibility is unmatched for a documentation tool. When our team set it up properly, it works brilliantly. Inline code blocks, embeds, linked databases across pages — the technical capabilities are genuinely good.
+
+What I dislike: The mobile app on Android is painful. I'm on a flagship Samsung and Notion still scrolls poorly on long pages, the keyboard sometimes overlaps the editor, and switching between pages takes noticeably longer than on desktop. I know they've improved it over the past year but compared to something like Bear or even Google Keep, the mobile experience still feels like a second-class citizen. The bigger problem though is that our workspace has grown organically over two years and now nobody knows where anything is. The sidebar navigation gets unwieldy fast. We have pages nested five levels deep. Search helps sometimes but not always. I genuinely think Notion needs a better information architecture model for growing teams, not just individual users.
+
+Problems solved: Engineering documentation, architecture decision records, team runbooks.
+
+---
+
+REVIEW 012
+Role: Marketing Director, B2B SaaS
+Company size: 51–200 employees  
+Rating: 4/5
+Date: September 2023
+
+What I like: We moved our entire marketing operations into Notion 18 months ago — campaign planning, content calendar, brand guidelines, campaign briefs, retrospectives. The consolidation has been genuinely valuable and our team alignment has improved. The database relational features let us link campaigns to their briefs, assets, and results in one view.
+
+What I dislike: At our scale, the permission management is a real issue. We frequently collaborate with freelancers and agencies. Giving a freelancer access to their project brief without accidentally exposing our whole marketing strategy requires very careful manual setup. We've had incidents. The sharing model needs to be more intuitive — a "share this page but not its parent or siblings" option that's clearly surfaced, not buried in settings. Also: the block editor has gotten slower over the past year on our larger pages. I don't know if that's a front-end regression or just our pages getting bigger, but it's noticeable.
+
+Problems solved: Marketing operations, campaign management, brand documentation.

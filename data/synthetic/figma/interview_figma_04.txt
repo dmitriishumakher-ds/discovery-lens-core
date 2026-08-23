@@ -1,0 +1,27 @@
+INTERVIEWER: Walk me through how your agency uses Figma.
+
+PARTICIPANT: We're a small agency — eight designers, two project managers. We do product design for startups and occasional enterprise clients. Figma is the only tool we use. We tried Sketch and Abstract for a while, but the sync issues were a disaster. Figma's real‑time collaboration is essential because we often have two or three designers working on the same client project simultaneously. So far, so good.
+
+INTERVIEWER: What's the biggest challenge you face with Figma?
+
+PARTICIPANT: Billing. It's a mess. We're on the Professional plan, and every month I dread looking at the invoice. We share files with clients for review, and sometimes a client will accidentally click "request edit access" — Figma prompts them to do it, by the way — and if our project manager approves without realizing the cost implications, suddenly we have an extra paid seat. There's no confirmation dialog, no warning about the charge, nothing. Last month we got hit with an extra $840 for seats that were created when a client's team explored our files. They didn't even edit anything — just viewed. We disputed it, and after three weeks of back‑and‑forth, they refunded us, but only because we could prove the seats were never used. That's not a sustainable way to run a business relationship.
+
+INTERVIEWER: So the seat management is opaque?
+
+PARTICIPANT: Completely. And it's designed that way. I've worked in SaaS — I know that reducing friction in upgrade flows is intentional. But when that friction reduction leads to accidental charges, it stops being "good UX" and becomes a dark pattern. I've had to create internal documentation just to teach our PMs how to safely approve access requests. We have a wiki page for "How to View a Figma File Without Costing Money." That's absurd.
+
+INTERVIEWER: Aside from billing, what about the tool itself?
+
+PARTICIPANT: The design tool is still best in class. Auto‑layout, components, real‑time editing — they're fantastic. But performance is becoming a real issue. Our design system library takes forever to publish, and it's not even that large — maybe 150 components. I can't imagine what it's like for bigger teams. And the variables feature, which we adopted for our design tokens, has been buggy. Colors randomly revert to an old value, and we've had to roll back changes more than once.
+
+INTERVIEWER: Are you considering alternatives?
+
+PARTICIPANT: We're evaluating Penpot. It's open source, so we could self‑host and avoid the billing headaches entirely. The tool isn't as polished yet — the prototyping is weaker, and the auto‑layout equivalent is still maturing. But the core functionality is getting close. The switching cost would be enormous — we'd have to migrate all our client files and retrain everyone. But if Figma keeps this trajectory — aggressive pricing, unstable features, performance that degrades with every update — the switch becomes a matter of when, not if.
+
+INTERVIEWER: That's a strong statement from a longtime user.
+
+PARTICIPANT: I don't want to leave. I've invested six years in Figma. I've built component libraries, trained my team, structured our entire workflow around it. But the relationship is starting to feel one‑sided. Figma is optimizing for revenue per user, not user happiness, and it shows.
+
+INTERVIEWER: Thank you for being so candid.
+
+PARTICIPANT: Hopefully it helps them course‑correct. The tool is too good to lose to corporate short‑sightedness.

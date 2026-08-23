@@ -1,0 +1,239 @@
+SOURCE TYPE: social
+PRODUCT: Notion
+SOURCE: r/Notion, r/productivity, Hacker News, ProductHunt community, Twitter/X
+DATE RANGE: 2023 – 2025
+NOTE: Threads and comments synthesised and paraphrased from publicly available Reddit and community discussions. Usernames fictionalised to protect privacy while preserving authentic voice and content.
+
+---
+
+THREAD 001
+Platform: r/Notion
+Title: "Is Notion actually getting slower or is it just me?"
+Date: March 2024
+Upvotes: 847
+Comments: 203
+
+u/workspace_hermit (OP):
+I've been using Notion for about 3 years. In the last six months it's gotten noticeably slower. Not on huge databases — just regular pages, normal-sized. Opening a page with a few linked databases used to feel instant. Now I'm waiting 2–3 seconds every single time. Is this happening to anyone else or do I need to clean up my workspace?
+
+u/notion_poweruser_87:
+100% happening here too. I have a mid-size team workspace (~40 members) and it's gotten sluggish. I think they've been rolling out changes to how they sync state and something broke. I raised it with support and got a generic "try clearing cache" reply which fixed nothing.
+
+u/calm_productivity:
+It's the linked databases. Every linked database view on a page triggers its own network call. If you have 5 of them on one page, you're waiting for 5 separate roundtrips. It's a known architectural issue. The solution is to use inline databases instead of linked ones but that breaks the whole "build your dashboard" use case.
+
+u/workspace_hermit (OP):
+That's... actually a pretty significant flaw if true. I have a home dashboard with 6 linked database views. So every time I open it I'm making 6 network calls? That explains a lot.
+
+u/productividad_max:
+I switched to using Notion mostly as a wiki and stopped trying to make it a real-time dashboard. The wiki use case is fast. The "live dashboard pulling from multiple databases" use case is where performance falls apart. 
+
+u/frustrated_pm_2024:
+I manage a team of 15 and we use Notion as our project management tool. The performance issues are legitimately affecting our work. I've timed it — average 4 seconds to open a filtered database view. That's 4 seconds every time I want to see what's in sprint. Multiply that by how often you open that view in a day. We're actively piloting Linear now.
+
+u/notion_defender_1:
+I mean, it still works fine for most use cases. Stop using it as a real-time project management tool and use it as a knowledge base and you'll be fine.
+
+u/frustrated_pm_2024:
+That's great advice if you want to buy two tools. The whole point of Notion is that it does everything.
+
+---
+
+THREAD 002
+Platform: r/productivity
+Title: "After 2 years of Notion, I'm finally switching — here's what pushed me over"
+Date: August 2024
+Upvotes: 1.2k
+Comments: 412
+
+u/twoyearsnotion (OP):
+I know this kind of post gets written every week but I want to share what the actual breaking points were because I think it might help people make decisions.
+
+1. The offline situation. I travel frequently for work. Not having reliable offline access in 2024 for a paid productivity tool is unacceptable. Yes I know they announced offline mode. It still doesn't work for databases and that's where 90% of my work-relevant content lives.
+
+2. The mobile app. I do a lot of quick capture on my phone — meeting notes, ideas, action items. Notion on iOS is so slow that I've started using Apple Notes for capture and then... never transferring it to Notion. My second brain has two brains now and they don't talk to each other.
+
+3. Search. I can't find things. I've been adding content for two years and Notion's search is essentially broken for my workspace. It doesn't search across all pages consistently, it doesn't weight recent content higher, and it doesn't handle typos. It feels like it was built for 50 pages not 5,000.
+
+4. The permission system when collaborating with external people. I share individual pages with clients and contractors all the time. The way Notion handles this is opaque and I've accidentally exposed pages I didn't intend to at least twice. Scary.
+
+I'm moving to a combination of Obsidian (personal notes) + Linear (work tracking) + Notion just for shared team wikis where I have no choice.
+
+u/obsidian_convert_23:
+The search thing is what got me too. I moved all my personal notes to Obsidian. Full local search, works offline, no subscription. Notion is now only for shared team stuff.
+
+u/devils_advocate_DL:
+I don't disagree with most of these but the search thing gets overblown. Yes it's not Google. But I've found that with a good tagging system and consistent naming conventions you can find anything. The real issue is people use Notion as a dumping ground without discipline and then blame search.
+
+u/twoyearsnotion (OP):
+I take your point but I shouldn't need a "discipline system" to search my own files. That's what search is for. Obsidian finds things instantly without any convention. The problem is Notion's search, not my habits.
+
+u/remote_designer_mel:
+The mobile thing resonates so hard. I've accepted that Notion mobile is basically read-only for me. Editing a rich page on mobile is a frustrating experience. Creating a new database record on mobile is like 7 taps. It just doesn't fit how people actually use phones.
+
+u/team_lead_anon:
+The permission thing is a real risk. We had an incident where a contractor was added to a page and through parent page inheritance ended up being able to see our roadmap. Not a huge deal in our case but could have been bad. Notion's docs on permissions are long and the actual UI doesn't make inheritance visible at all.
+
+---
+
+THREAD 003
+Platform: r/Notion
+Title: "Notion AI keeps interrupting my workflow — how do I actually turn it off?"
+Date: January 2025
+Upvotes: 562
+Comments: 178
+
+u/anti_ai_notion (OP):
+I know AI is the hot thing but I genuinely don't want AI suggestions while I'm writing. The little sparkle button that appears, the "improve writing" tooltip, the AI block that appears when I type "/" — I just want to write without being prompted to use AI every 30 seconds. Is there a way to disable all of this? I've looked in settings and can't find a clear toggle.
+
+u/notion_settings_nerd:
+Settings > My Notifications & Settings > turn off "Show AI suggestions" — but heads up, this doesn't affect the "/" menu which still shows AI blocks unless your workspace admin has disabled them. If you're on a personal workspace, you can't remove AI from the slash menu.
+
+u/anti_ai_notion (OP):
+That's really annoying. So there's no way to fully remove it from the UI?
+
+u/skeptical_professional:
+This is the thing that bothers me. I'm paying for a productivity tool, not an AI product. Notion has progressively made AI more prominent across the interface. As a user who doesn't want AI in their workflow, it increasingly feels like I'm fighting against the product rather than being served by it.
+
+u/power_user_petra:
+I don't mind AI features existing but the upsell is aggressive. Our team is on Plus plan. Every time someone tries to use an AI feature they hit a wall asking them to upgrade. The number of times someone in my team has pinged me asking "why isn't this working" because they accidentally clicked an AI button is... a lot. It creates support burden.
+
+u/enterprise_admin_22:
+From an admin perspective it's actually quite bad. We can't control which features users see in the interface, only which ones they can actually use. So users on our plan regularly discover AI features they can't access and come to IT asking about it. A simple "hide features not included in your plan" toggle would solve 80% of our admin tickets about Notion.
+
+u/contrarian_view_99:
+Counter-take: the AI summarisation and Q&A features are legitimately useful for large wikis. If you have a workspace with hundreds of pages, being able to ask "what's our policy on X" and get an answer is valuable. The issue is discoverability UX, not AI per se.
+
+u/anti_ai_notion (OP):
+I'm not against it existing, I just want to not see it when I'm not using it. The current implementation prioritises converting non-users over serving existing users.
+
+---
+
+THREAD 004
+Platform: r/Notion
+Title: "I'm a Notion admin for 200 people — our biggest pain points after 18 months"
+Date: October 2024
+Upvotes: 2.1k
+Comments: 389
+
+u/enterprise_notion_admin (OP):
+I admin Notion for a 200-person SaaS company. We're on Business plan. Here are the things that are genuinely painful after 18 months and have not been solved:
+
+**Permissions and access control:**
+This is my biggest headache. Notion's permission model is page-tree based. Sub-pages inherit parent permissions unless explicitly overridden. This sounds logical but in practice it means that sharing a page with an external person can cascade in unexpected ways. We've had three incidents in 18 months where someone accidentally shared more than intended. I now run a quarterly audit of guest access. For a 200-person company with active external collaboration, this is real risk.
+
+**Navigation and information architecture:**
+With 200 people creating pages, the sidebar is chaos. We've tried top-down governance (only certain people can create top-level pages), bottom-up (everyone creates, we clean up quarterly), and hybrid. None of them works well because Notion doesn't have a meaningful hierarchy model beyond nested pages. Confluence is frustrating in many ways but at least it has spaces. Notion just has... pages all the way down.
+
+**Onboarding new team members:**
+It takes meaningful time for a new employee to become productive in Notion. The block-based model is intuitive for some people and baffling for others. We have a Notion page that explains how to use Notion. It's 15 pages long. That's a bad sign.
+
+**Audit trail:**
+On Business plan, page history exists. Workspace-level audit logs are Enterprise only. We're not going to pay Enterprise prices just for audit logs, but this means we have limited visibility into who changed what when something goes wrong.
+
+u/startup_founder_alex:
+The onboarding thing hit me hard. We're 30 people and we still struggle. I can't imagine 200.
+
+u/permission_paranoid:
+The permissions thing is a real compliance risk for any company handling sensitive data. We had to add a "no external sharing without IT review" policy specifically for Notion. That's overhead Notion created.
+
+u/notion_power_user_B:
+Disagree on navigation. It's a cultural problem. If people create pages without thinking about structure, any tool becomes chaos. Notion gives you the tools to build good structure if you enforce conventions.
+
+u/enterprise_notion_admin (OP):
+I hear that but "enforce conventions" for 200 people with different working styles is itself a management challenge. Good tools shouldn't rely on perfect user behaviour to stay usable.
+
+u/recently_churned_to_confluence:
+We switched back to Confluence after 2 years. Better for large teams. More boring. But the access control and search are genuinely better for enterprise use.
+
+u/smb_advocate:
+Notion is built for startup speed, not enterprise compliance. Using it for 200 people is kind of a mismatch. Their sweet spot is probably 5–50 people.
+
+---
+
+THREAD 005
+Platform: Hacker News
+Title: "Ask HN: Is Notion's offline mode actually good now?"
+Date: November 2025
+Upvotes: 312 points, 147 comments
+
+user: nomad_developer:
+Notion finally shipped offline mode in August. Has anyone used it seriously? I travel a lot and this was my main reason for not using Notion. Is it reliable?
+
+user: contrarian_dev:
+I tested it. For plain pages it works well. You can read and write without connection and sync when you reconnect. The text conflict resolution (CRDT-based) is solid — I had a test where I edited the same paragraph on two devices while offline and the merge was sensible.
+
+The problems: (1) Databases. Only 50 rows sync. If your database has 500 rows, 450 aren't available offline. For me this is a dealbreaker because my project tracking database has 800+ items. (2) You have to opt in per page. Paid plans auto-sync your top 20 favourited and 20 recent pages, but anything else needs manual opt-in. (3) It doesn't work in browser, desktop app only.
+
+user: practical_notion_user:
+I use it daily on macOS now. For my use case (primarily prose documents and meeting notes) it's genuinely good. I've stopped worrying about connectivity on trains and flights. But if you're database-heavy, wait for the 50-row limit to be raised.
+
+user: nomad_developer:
+The 50-row limit on databases is a pretty serious constraint. My entire workflow is database-centric. I was hoping offline mode would mean I could bring my full workspace with me. Sounds like it's halfway there.
+
+user: ex_notion_now_obsidian:
+I switched to Obsidian for personal notes specifically because of the offline/ownership situation. All files are local markdown. Search is instant. No internet required ever. The tradeoff is collaboration — Obsidian is solo-first, Notion is collaboration-first. Depends what you need.
+
+user: honest_take_here:
+I think the problem with Notion's offline mode is it shipped years too late. By the time they shipped it in August 2025, many users who needed offline had already churned. Now they're shipping it and the people who stayed don't need it that badly, and the people who left have moved on. It's a case of solving a problem after it already decided people's tool choices.
+
+---
+
+THREAD 006
+Platform: r/Notion
+Title: "Why is Notion search so bad and has anyone found a real workaround?"
+Date: May 2024
+Upvotes: 923
+Comments: 267
+
+u/search_frustrated (OP):
+I have thousands of pages in my workspace built over 3 years. Notion search is essentially useless for finding content unless I remember the exact page title. Full-text search doesn't work across nested pages. It doesn't find content inside database fields. It doesn't rank results by relevance in any way I can detect. How is this a note-taking app in 2024 with search this bad?
+
+u/search_workaround_1:
+The only workaround I've found is to use Notion's API combined with an external search index. I built a small script that syncs my workspace to Typesense and now I search through that. It's ridiculous that a third-party search over my own content works better than the native search, but here we are.
+
+u/practical_not_perfect:
+Slightly harsh. Search works fine if you use a consistent tagging and naming system and don't go too deep on nesting. The issue is scaling — it was designed for a certain workspace size and hasn't caught up to how some people use it.
+
+u/search_frustrated (OP):
+I don't think "works if you're disciplined" is a reasonable bar for search in 2024. Google doesn't require me to organise my emails a certain way for search to work.
+
+u/search_workaround_2:
+One thing that genuinely helps: use the @ mention to link related pages when you create them. If pages are linked they show up in backlinks and that's a kind of navigational search substitute. It's not real search but it helps.
+
+u/churn_risk_user:
+This is my main complaint about Notion and the one that might make me leave. As my workspace grows, findability gets worse, not better. That's backwards. A knowledge base should be more useful as it grows, not less.
+
+u/ai_search_convert:
+The Notion AI Q&A feature is genuinely better than search for finding things in large workspaces. Ask it a question in natural language and it surfaces the relevant pages. It's not perfect but it's significantly better than the keyword search box. Annoying that it requires a paid add-on though.
+
+---
+
+THREAD 007
+Platform: Twitter/X
+Title: [Thread by @productivity_practitioner, November 2024]
+
+Tweet 1:
+Hot take: Notion has a UX debt problem and they're papering over it with AI features.
+
+Tweet 2:
+The core navigation model — sidebar + nested pages — hasn't fundamentally changed since launch. It made sense for 50 pages. It breaks down for 5,000. Adding AI search on top doesn't fix the underlying information architecture problem.
+
+Tweet 3:
+Same with mobile. The mobile app is still a compressed version of the desktop experience. It's not designed for thumb-first, quick-capture use. Every major competitor has a genuinely good mobile experience. Notion's feels like an afterthought.
+
+Tweet 4:
+And the permission model. It was designed for small teams sharing a few docs. It has not scaled to complex orgs with external collaborators and compliance requirements. Enterprise features are bolted on top, not designed in.
+
+Tweet 5:
+None of this is fatal. Notion is still the best "flexible all-in-one" tool for small to mid teams. But they're accumulating UX debt, and the AI investment is exciting while the core product quietly degrades.
+
+[Replies]
+
+@reply_user_1: The mobile thing is so true. I've tried at least 6 times to go mobile-first on Notion and keep going back to Bear for quick notes.
+
+@reply_user_2: The permission model comment is exactly our problem. We're 80 people and managing guest access is a full-time job.
+
+@reply_user_3: I think you're being too harsh. No tool does everything perfectly at every scale. Notion is still exceptional value for what it is.
+
+@productivity_practitioner: Agree it's exceptional value. My concern is the gap between what the marketing says (all-in-one for teams of any size) and the actual experience for larger, more complex teams.

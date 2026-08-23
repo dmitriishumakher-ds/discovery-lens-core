@@ -1,0 +1,83 @@
+Discovery interview — Revolut
+Participant: University student, female, 21, third year psychology
+Interviewer: Product researcher
+Setting: Remote video call, ~40 minutes
+Date: November 2025
+
+---
+
+Interviewer: Hi Emma, thanks for joining. Could you start by telling me a bit about yourself and how you came to use Revolut?
+
+Participant: Okay, hi! Um, so I'm 21, I'm in my third year studying psychology at Manchester. I've had Revolut for, I want to say two years? Maybe a bit less. Honestly I didn't really pick it, my friend Lucy did it first and then she was like "we need to all be on Revolut so we can split bills easily" and basically the whole flat got it within like a week. Peer pressure, basically. (laughs)
+
+Interviewer: That's actually really interesting. So splitting bills with friends was the entry point?
+
+Participant: Yeah, completely. Like before that I had Lloyds because that's what my parents set up when I started uni, and I never really thought about it. But the thing is, Lloyds doesn't have the — what's it called — the request money thing? Or it does but it's really clunky. And we'd go out for dinner and someone would pay and then we'd have to do this whole bank transfer thing with sort codes and account numbers and it was a faff. Revolut is just like, tap, request 14 pounds, done.
+
+Interviewer: How often do you actually use the bill-splitting feature?
+
+Participant: Honestly all the time. Like, multiple times a week probably. Pizza night, drinks, taxi, groceries when one of us does the Tesco run. It's just normal now. I literally don't think about it. Which I guess is a sign that it's working?
+
+Interviewer: It is, yeah. What about beyond bill-splitting?
+
+Participant: So I started getting more into other stuff over time. I do my actual spending on the Revolut card now, mostly. I still have some money in Lloyds because my student loan goes there and I haven't bothered to change it, but day-to-day card I use is Revolut. The spending breakdowns are kind of fun to look at actually. Like seeing how much I spend on coffee in a month is depressing but in a useful way.
+
+Interviewer: Have you ever used Revolut for anything international?
+
+Participant: Yeah, I went on a girls trip to Croatia last summer and it was honestly amazing for that. We were all on Revolut and we just paid with the card everywhere and it just, like, worked. I didn't even think about exchange rates which I guess I should have? My mum was like "make sure you check the rate before you go" and I was like, mum, the app does it. Whatever rate it gives me is fine.
+
+Interviewer: Were you aware of what rate you were getting?
+
+Participant: Not really. I trusted it. Should I not have? I mean, looking back, I assume it was fine. I didn't get any nasty surprises. I think there was a thing about weekends being more expensive but I didn't really pay attention.
+
+Interviewer: That's totally normal. Have you ever had a problem with Revolut?
+
+Participant: Um, kind of? Once my card got blocked when I was in Croatia actually. I was trying to pay at this restaurant and it just wouldn't go through. I freaked out a bit because I was the one who said I'd pay and then split it with everyone, and the waiter is like staring at me, and I'm trying to do the in-app chat thing but the wifi was bad in the restaurant. Eventually my friend just paid and I sent her the money on Revolut, but it was, like, embarrassing.
+
+Interviewer: How did you eventually unblock it?
+
+Participant: I think I had to verify a transaction in the app, like say "yes that was me" and then it unfroze. It was actually pretty quick once I got proper wifi back at the Airbnb. Maybe ten minutes? But in the moment it felt like the world was ending.
+
+Interviewer: Did anything change about how you use Revolut after that?
+
+Participant: Not really? I think I now keep some cash on me when I travel. But I still mainly use the card. The thing was actually fine, it was just stressful in the moment.
+
+Interviewer: Let's talk about other features. Have you used the savings or vault thing?
+
+Participant: I tried once. I made a vault for "trip to Greece" but then I never really put money in it. I'm a student, I don't really have savings, you know? Like the money I have is the money I have. Maybe in the future when I have a real job and stuff. The feature looks nice though, my friend Lucy uses it for, um, deposit money for her flat next year.
+
+Interviewer: What about crypto? Revolut has crypto features.
+
+Participant: I bought ten pounds of Bitcoin once as a joke. (laughs) It's now worth like fourteen pounds I think? I don't really get crypto. I don't have enough money to be losing it on crypto. So that's just sitting there.
+
+Interviewer: How do you feel about Revolut as your main account, security-wise?
+
+Participant: I don't really think about it? I mean, my mum is always like "make sure you have a real bank account" and I'm like, mum, Revolut is real. But she doesn't trust it. I do trust it though. I've never had a problem. Well, except the card thing in Croatia, but that turned out fine.
+
+Interviewer: Do you keep most of your money in Revolut?
+
+Participant: I keep, um, like — okay so my student loan comes in once a term, it goes to Lloyds, and then I usually transfer most of it to Revolut at the start of the term and then I just spend from there. Lloyds I use to pay rent because the landlord wants it from a UK bank account, but otherwise no, it's all Revolut.
+
+Interviewer: Have you ever considered alternatives?
+
+Participant: Like Monzo? My boyfriend uses Monzo. It looks nice but I don't really see why I'd switch. Revolut works. And all my friends are on it so it would be annoying to switch. Like network effects, I guess.
+
+Interviewer: That's a great point. What about Wise or N26?
+
+Participant: I've heard of Wise. I think my dad uses it for sending money somewhere. I don't really know what it does that Revolut doesn't. N26, no, I don't know that one.
+
+Interviewer: When you think about the things that bug you about Revolut, what comes to mind?
+
+Participant: Honestly, not much? The interface gets cluttered sometimes. They keep adding new tabs and things and I'm like, I just want to see my balance and recent spending, why is there a stocks tab now. I never click on it. And the home screen has all these prompts trying to get me to upgrade to premium or try a new feature and I just kind of swipe past them. It's a bit annoying but I don't know if it's, like, a real problem.
+
+Interviewer: Any other annoyances?
+
+Participant: Um, the customer service was bad when I had a question once. I forgot what the question was now but I tried to ask in the chat and got a bot for ages and then a person who didn't really answer my question and just sent me a help article link. So I gave up and asked Lucy. (laughs) She knows everything about Revolut for some reason.
+
+Interviewer: Last question — if Revolut launched something new tomorrow, what would you actually want to see?
+
+Participant: Hmm. I don't know. Maybe something to do with budgeting? Like proper budgeting where it tells me "you should only spend 50 pounds on going out this week" based on, you know, what's in my account and what bills are coming up. I have to do that math myself now and I'm bad at math. Or maybe like if it could split bills automatically when I'm with my friends — like geofence-based or something. I don't know if that's possible. But yeah, more help with the actual budgeting side.
+
+Interviewer: That's a great suggestion. Thanks so much, Emma.
+
+Participant: No worries! This was fun honestly.

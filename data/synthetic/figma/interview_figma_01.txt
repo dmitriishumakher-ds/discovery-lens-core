@@ -1,0 +1,27 @@
+INTERVIEWER: Thanks for sitting down with me. Let's start simple — walk me through a typical project, from start to finish.
+
+PARTICIPANT: Yeah, sure. So I'm a freelance UI/UX designer, mostly working with early‑stage startups. Usually I get a brief from a founder — very vague, like "we need a dashboard that doesn't look awful" — and I'll just jump straight into Figma. I have a personal component library I've built over three years that covers 80% of what I need. Buttons, form fields, modals, tables, that sort of thing. I duplicate a starter file and go from there. Honestly I can't imagine doing this in anything else. I used Sketch before and the whole syncing plugins and libraries across machines was a nightmare. Figma being browser‑based means I can work from my MacBook at home, my Windows desktop when I need two screens, whatever. It just works.
+
+INTERVIEWER: What about collaboration? Do clients get into the files?
+
+PARTICIPANT: Sometimes. I send them view‑only links, and I actually really like that they can leave comments directly on the designs. It cuts out a lot of the "can we move this button two pixels left" email chains. But here's the thing — I've had two clients accidentally click "request edit access" and suddenly I see a charge on my card. I'm on the Professional plan just for myself, so it's only like $15 a month or whatever, but when a client upgrades themselves it's a whole thing. I had to message support once to get it reversed. Now I'm paranoid and I explain to clients: "DO NOT CLICK THAT BUTTON." Which is a weird conversation to have about a design tool. Not a great experience.
+
+INTERVIEWER: That's good to know. What about Figma's features — any that stand out as particularly helpful or frustrating?
+
+PARTICIPANT: Auto‑layout is the reason I'm still using Figma. Seriously. When I finally understood how hug and fill work — which took me honestly like two months of trial and error, I rage‑quit multiple times — but once it clicked, my speed tripled. I can build an entire responsive page in an hour now, and handing off to developers is so much smoother because the spacing and constraints translate directly to CSS flexbox. They don't even need to ask me "what's the padding here?" because it's all inspectable. Well, it was inspectable. Now they've put Dev Mode behind a paywall, which is annoying. For my small projects, developers just use the regular inspect panel and it's... fine, I guess. They still get the CSS snippets. But the fact that Figma is trying to monetize something that was free feels a bit icky.
+
+INTERVIEWER: What about the redesign — UI3? How was that transition for you?
+
+PARTICIPANT: Ugh. I hate to be one of those people who complains about every UI change, but UI3 genuinely slowed me down. Constraints used to be right there in the right panel, now they're in a dropdown. It's one extra click, but I make that click like fifty times a day. Same with clip content — it used to be a checkbox, now it's a dropdown. For a binary option! I don't understand the logic. I adapted after a couple of weeks, but I still feel a tiny friction every time. And I know I'm not alone because there are whole Reddit threads about it. The weird thing is, I actually like some parts of the new interface — the bottom toolbar is cleaner, and the prototyping panel is better organized. So it's not all bad. But those little regressions add up.
+
+INTERVIEWER: Any other pain points?
+
+PARTICIPANT: Performance can be rough. When I have a big file — like 50+ screens for a complex app — it takes maybe 10–15 seconds to open, and publishing changes to my component library can take a couple of minutes. I've learned to break things into smaller files, which helps, but it's a workaround for a problem that shouldn't exist. My laptop is an M1 Pro with 16GB RAM, it's not a potato. Oh, and the mobile app is completely useless. You can view files but can't edit anything. I travel a lot and sometimes I just want to tweak a color from my phone, but I can't. I end up carrying my laptop everywhere.
+
+INTERVIEWER: One last thing — if you could wave a magic wand and change one thing about Figma, what would it be?
+
+PARTICIPANT: Honestly? I'd want a "quiet mode." Sometimes I'm deep in a design flow and other people's cursors popping around on the screen is really distracting. I know I can hide them, but I want it to be one toggle that also mutes notifications and comments. Just let me focus. That's probably a niche request, but it's my magic wand.
+
+INTERVIEWER: Thanks so much. This was really helpful.
+
+PARTICIPANT: No problem. Hope it helps make Figma better — someone needs to.

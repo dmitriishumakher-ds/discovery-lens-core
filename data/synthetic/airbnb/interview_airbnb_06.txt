@@ -1,0 +1,55 @@
+DISCOVERY LENS — USER INTERVIEW TRANSCRIPT
+Product: Airbnb
+Participant: "Kenji" (anonymised) | 61, retired civil engineer, Vancouver — CHURNED HOST
+Interviewer: X.
+Date: May 2026
+Duration: 51 minutes
+Note: Kenji hosted on Airbnb 2017–2024. Switched primary listing to Vrbo in early 2024. Lists a vacation cabin near Whistler. Recruited via host community forum.
+
+---
+
+INT: Walk me through how you started with Airbnb.
+
+KENJI: 2017. My wife and I had this cabin near Whistler we'd bought when we retired thinking we'd use it more. We weren't using it as much as we'd planned — kids and grandkids further away than we'd hoped. So I thought, let's rent it out the weeks we're not there. A neighbour was hosting on Airbnb and recommended it. I signed up, listed the cabin, and we did well — bookings came in quickly, the platform was easy to use back then, and the guests we got were mostly skiers and families and they were respectful. We hosted for seven years. Hundreds of guests probably. It was a good experience for the first five years.
+
+INT: What changed?
+
+KENJI: A few things, all gradual. The platform changed, the guests changed, and the support deteriorated. I'll start with the support because that's what eventually pushed me out. In the first few years if you had a problem you could phone Airbnb and get a human who understood the situation. Over time that became harder and harder. Now you're routed through chatbots, then to agents who are clearly working from scripts, and the agents change between every message so you have to re-explain. I had a complicated dispute about a guest who damaged the cabin in 2023. It took six weeks and twenty-three message exchanges to get a partial resolution. Six weeks. Twenty-three exchanges. I have the message log because I exported it. The agent changed each time. I had to recap the situation each time.
+
+INT: What was the damage?
+
+KENJI: Guest had a party. They were a couple — said it would be just the two of them on the booking, brought thirty people, we have a Ring doorbell so we have video evidence. The cabin had cigarette burns on the deck, a broken patio door, things missing. About $4,000 worth of damage and replacement. I documented everything — photos, receipts for repairs, contractor estimate for the door. Submitted a claim. Airbnb's host protection — at the time it was AirCover — has a process. The process took six weeks. The outcome was they paid about $1,800. I appealed. The appeal added two more weeks. Final outcome about $2,300. Out-of-pocket about $1,700.
+
+INT: How did you feel about that resolution?
+
+KENJI: Cheated, frankly. The "host protection" they advertise — "up to a million dollars in damage protection" — sets the expectation that you'll be covered. The actual process is adversarial. They request receipts for things they then say weren't substantial enough. They depreciate damaged items. They reject claims for things that aren't "covered under terms." It's insurance company behaviour applied to host protection. And the thing is, AirCover is the main reason I trusted listing my own home in the first place. The promise of protection was central to my decision. When I needed the protection it didn't deliver. That's a pivotal moment.
+
+INT: Were there other issues building before that?
+
+KENJI: Several. The fee structure shifted around 2020-2021 in ways I didn't like. They moved to a "guest pays all fees" model which sounds host-friendly but in practice means guests see a much higher total and either book somewhere cheaper or expect more for what they think they're paying. The pressure on hosts to raise standards without raising rates became significant. I had to upgrade my linens, my Wi-Fi, my kitchen appliances over the years — none of which I would have prioritised for my own use — because Airbnb's algorithm was rewarding "complete" listings. The amount of investment to maintain Superhost status climbed.
+
+INT: How about guest behaviour?
+
+KENJI: Different over time. Early on I had guests who treated the cabin like a borrowed home — respectful, often left a thank-you note, asked permission before doing anything unusual. Over the years guests became more transactional — they were paying for a service and they expected it. Which is fine, that's their right as paying guests. But the relationship changed. I had more complaints, more friction, more "where is X" type messages from people who hadn't read the welcome guide. Some of this is the population growing — Airbnb went from a niche thing to mainstream — but the guest profile shifted away from the people who originally found the value proposition compelling. Now it's a lot of people who would have stayed in a hotel five years ago.
+
+INT: When did you start thinking about leaving?
+
+KENJI: After the damage incident I took a hard look at my options. I knew about Vrbo — it skews toward whole-property vacation rentals, which is what I have, and it has a host community that's been more stable. I tested Vrbo for six months while still listing on both. Bookings on Vrbo were lower, but the guests were different — more families, longer stays, more vacation-oriented. Fewer problems. By the end of the six months I was getting maybe 60% of my Airbnb booking volume on Vrbo. I made a decision in early 2024 to delist from Airbnb. Lower volume, but lower stress, better margin per booking, fewer support headaches. For a retiree it was a no-brainer.
+
+INT: Has anything about the move surprised you?
+
+KENJI: Vrbo isn't perfect. The platform is older, less polished, the host tools are clunkier. There's no equivalent to Smart Pricing that I trust. The mobile app is worse than Airbnb's. So I gave up some product quality. What I gained was a more vacation-aligned guest base, simpler fees, a support team that responds within a day, and a sense that the platform wasn't constantly extracting more from me. Different trade-off. For my use case — vacation rental, primary asset for which I have a strong personal connection — it's the right trade-off.
+
+INT: Was there a specific moment that made the decision?
+
+KENJI: After the damage payment in 2023 I left a review of the platform on a host forum saying I was considering leaving. About forty other hosts replied with similar stories. That community feedback validated what I was feeling. I wasn't a one-off — there was a pattern of long-time Superhosts churning over the same set of issues. Airbnb didn't seem to be listening. I don't know what their data tells them about veteran-host churn but my instinct is that they undercount it because Superhost churn is bad for their PR narrative.
+
+INT: If you could send one message to Airbnb's product team?
+
+KENJI: You're losing the hosts who built your brand. The people who took the original risk of letting strangers stay in their homes, who provided the initial supply, who carried the platform through its early years — you're churning us with a thousand small frictions and one big one which is the failure of the protection promise when we need it. We aren't your future supply anyway — your future supply is professional operators with multiple properties. But the brand was built on us, and we're leaving. Just so you know.
+
+INT: Would you ever come back?
+
+KENJI: If the damage claim process were genuinely simple and host-favourable, and if I trusted the support team to actually help when something goes wrong — possibly. The product itself is fine. The promises behind it haven't held up. Fix the promises. I'd reconsider.
+
+[END OF TRANSCRIPT]

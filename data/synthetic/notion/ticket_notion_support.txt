@@ -1,0 +1,488 @@
+SOURCE TYPE: ticket
+PRODUCT: Notion
+SOURCE: Customer support tickets (synthesised/generated)
+DATE RANGE: October 2024 – April 2025
+NOTE: Fictional support tickets generated to represent realistic CS interaction patterns for Notion. Names, emails, and workspace details are fabricated.
+
+---
+
+TICKET #48821
+STATUS: Resolved
+SUBMITTED: 12 Oct 2024
+PLAN: Business
+ACCOUNT: Meridian Partners LLP (87 seats)
+CONTACT: Adriana Wolff, Operations Lead
+
+---
+
+INITIAL MESSAGE — Adriana Wolff, 12 Oct 2024, 09:14
+
+Hi Notion support,
+
+We've had a serious issue and I need urgent help. One of our associates accidentally shared a top-level section of our workspace with an external client contact. The client was supposed to only receive access to a single project page but apparently got access to our full client pipeline — including other active matters that are confidential.
+
+Can you tell me:
+1. How to immediately revoke the client's access
+2. How to audit what they were actually able to see
+3. Why this happened — we thought we'd shared a specific page only
+
+This is a compliance issue for us. Please prioritise.
+
+SUPPORT RESPONSE — Notion Support, 12 Oct 2024, 11:47
+Agent: Tyler B.
+
+Hi Adriana,
+
+Thank you for reaching out and I completely understand the urgency here. Let me address each of your questions.
+
+To immediately revoke access: Go to the page that was shared > click Share in the top right > find the person's email under "Shared with" > click the dropdown next to their name > select Remove access. This will immediately revoke their ability to view any pages shared via that invitation.
+
+Regarding what they could see: Unfortunately Notion does not currently provide an access log that shows which pages a guest user visited during their session. We can confirm the permissions they had but not confirm their browsing activity within those permissions.
+
+Why this happened: When a page is shared with a guest, the guest receives access to that page and all of its sub-pages. However, if the shared page is itself a sub-page, the guest may also be able to navigate upward through the page hierarchy in some configurations. This is related to how workspace navigation works for guests. We recommend sharing content from isolated top-level pages rather than from within nested workspace sections when working with external guests.
+
+I've flagged this for our security team to review. Is there anything else I can help with immediately?
+
+Best,
+Tyler | Notion Support
+
+---
+
+FOLLOW-UP — Adriana Wolff, 12 Oct 2024, 13:22
+
+Tyler,
+
+Thanks for the quick response. Access revoked.
+
+The fact that you can't tell me what they actually viewed is very concerning for a legal services firm. We have regulatory obligations around matter confidentiality. "We can confirm the permissions they had but not the browsing activity" is not an acceptable answer from a compliance standpoint.
+
+Can you escalate this? We need to understand whether this rises to the level of a notifiable breach and we have no tools to make that determination because Notion doesn't log access.
+
+For context: if this happened in Confluence or SharePoint, we would have full audit logs. Can you tell me if audit logs are available on any plan?
+
+SUPPORT RESPONSE — Notion Support, 12 Oct 2024, 15:03
+Agent: Tyler B.
+
+Hi Adriana,
+
+Totally understand — I've escalated this to our enterprise team and a senior agent will follow up with you directly.
+
+To answer your question: workspace audit logs (showing user activity, page visits, edits) are available on the Enterprise plan. On the Business plan, you have access to page-level edit history for individual pages but not workspace-level activity logs.
+
+I recognise this may not be the answer you were hoping for. The enterprise team will be in touch shortly to discuss your options.
+
+Tyler | Notion Support
+
+---
+
+FOLLOW-UP — Adriana Wolff, 14 Oct 2024, 08:55
+
+Tyler / Whoever picks this up,
+
+It has been two days and the "enterprise team" has not contacted me. This is a live compliance situation. Please escalate again.
+
+Also, I want to log formally: we should not have to purchase an Enterprise plan to access basic audit logging. This is table-stakes functionality for any tool used by a professional services firm. The fact that it's paywalled is a significant product gap.
+
+SUPPORT RESPONSE — Notion Support, 14 Oct 2024, 11:20
+Agent: Maya S. (Senior Support)
+
+Hi Adriana,
+
+Sincere apologies for the delay — I'm picking this up now.
+
+I've reviewed your account and the situation. I want to be transparent with you: Notion does not have a mechanism that would allow us to determine retrospectively what pages a guest user viewed during a session. We can see the access permissions they held, but not their navigation history.
+
+I understand this is inadequate for a compliance-sensitive organisation and I'm sorry I can't give you the definitive answer you need.
+
+Regarding Enterprise: I'll have an account executive reach out this week to discuss whether Enterprise is right for your organisation. I also want to pass your feedback directly to our product team — the audit log gap on Business plan is something we hear from professional services and regulated industries specifically.
+
+Maya | Notion Support, Senior Team
+
+---
+TICKET RESOLUTION NOTE: Escalated to account executive. Client expressed interest in Enterprise plan evaluation. Feedback logged: audit logs needed on Business tier for regulated industries.
+CSAT: Not submitted.
+
+---
+---
+
+TICKET #51204
+STATUS: Resolved
+SUBMITTED: 3 Nov 2024
+PLAN: Plus
+ACCOUNT: Brightfield Digital (11 seats)
+CONTACT: Sam Okafor, Founder
+
+---
+
+INITIAL MESSAGE — Sam Okafor, 3 Nov 2024, 16:42
+
+Hi,
+
+Our workspace has gotten really slow over the past couple of months. Loading pages takes 3–5 seconds when it used to be instant. We have maybe 800 pages and a few databases with a few hundred records each.
+
+I've tried: clearing cache, reinstalling the desktop app, different browsers. Still slow.
+
+Is this a known issue? Is there something I can do on our end?
+
+SUPPORT RESPONSE — Notion Support, 4 Nov 2024, 09:15
+Agent: Prashant K.
+
+Hi Sam,
+
+Thanks for reaching out and sorry to hear about the performance issues. 800 pages and databases with several hundred records is within normal parameters, though performance can vary based on several factors.
+
+A few things to try:
+- Break up pages that have many linked database views into separate pages with fewer views each
+- For large databases, use filtered views that show fewer records at a time rather than loading all records
+- If you have embedded content (videos, external tools), these can slow page load significantly
+
+Can you tell me: is the slowness affecting all pages equally, or specifically pages with database views or embeds?
+
+Best,
+Prashant | Notion Support
+
+---
+
+FOLLOW-UP — Sam Okafor, 4 Nov 2024, 10:08
+
+It's mainly the pages with linked databases. Our main project dashboard has 5 linked database views and that one is the slowest. Other pages without databases are okay.
+
+SUPPORT RESPONSE — Notion Support, 4 Nov 2024, 11:30
+Agent: Prashant K.
+
+Hi Sam,
+
+That makes sense — each linked database view loads independently and triggers its own data fetch. A dashboard with 5 linked views is making 5 separate requests each time it loads, which adds up.
+
+The workaround I'd suggest: consolidate to inline databases on that dashboard page instead of linked views, or split into multiple pages (e.g., one page per team or project area) so you're loading fewer views at once.
+
+I know this isn't ideal when you've built a specific layout. I'll pass this performance feedback to our engineering team — dashboard-style pages with multiple linked views is a common use case and I understand the loading behaviour is frustrating.
+
+Is there anything else I can help with?
+
+FOLLOW-UP — Sam Okafor, 4 Nov 2024, 11:58
+
+Thanks for the explanation. But just to be clear — the workaround is to change how I've built my workspace to accommodate a tool limitation? Not to fix the tool?
+
+SUPPORT RESPONSE — Notion Support, 4 Nov 2024, 13:12
+
+Hi Sam,
+
+That's a fair characterisation, and I appreciate you naming it directly. At the moment, yes — the architectural reason for the slowness is how linked views load, and the practical short-term relief is to restructure toward fewer views per page. We don't have a performance fix I can point you to.
+
+I've logged this with the product feedback team. Performance on dashboard-style pages with multiple linked views is a known area of interest and I believe it's on the engineering roadmap, though I can't give you a timeline.
+
+Prashant | Notion Support
+
+---
+TICKET RESOLUTION NOTE: No technical fix offered. Workaround provided. Performance feedback logged.
+CSAT: 2/5. Comment: "Friendly and honest but the answer is basically 'change how you work to fix our product.'"
+
+---
+---
+
+TICKET #53780
+STATUS: Resolved
+SUBMITTED: 19 Dec 2024
+PLAN: Free
+ACCOUNT: Individual user
+CONTACT: Jessie T.
+
+---
+
+INITIAL MESSAGE — Jessie T., 19 Dec 2024, 21:33
+
+I've been using Notion for about a year. I have probably 400 pages of notes, research, and journaling. Tonight I searched for something I know I wrote — I remember writing it, I remember roughly when, I remember it was in a section called "Research" — and I cannot find it through search. I've tried exact phrases I know are in the document. Nothing.
+
+Is there a way to do a full-text search that actually works? Or a way to browse by date created?
+
+SUPPORT RESPONSE — Notion Support, 20 Dec 2024, 08:44
+Agent: Lia F.
+
+Hi Jessie,
+
+Sorry to hear you're having trouble finding your notes — that's really frustrating when you know the content exists.
+
+A few things to check:
+- Make sure you're searching in the right scope. The search bar at the top searches your full workspace, but results can sometimes be filtered. Check that there's no active filter on your search results.
+- Subpages sometimes take a little longer to be indexed. If the page was created or significantly edited very recently, it may not appear in search yet.
+- If the content is inside a database record (not a standalone page), it may not appear in search results depending on how the record is structured.
+
+For browsing by date: you can go to your sidebar, click "All Pages" and then sort by "Last edited" or "Created." This doesn't give you full-text search but may help you navigate by time.
+
+Let me know if any of these help!
+
+Lia | Notion Support
+
+---
+
+FOLLOW-UP — Jessie T., 20 Dec 2024, 09:17
+
+Hi Lia,
+
+These suggestions don't solve the problem. The page I'm looking for is a standalone page (not in a database), it was created months ago so indexing isn't the issue, and I've tried searching with no filters.
+
+I'm searching for exact phrases like "the relationship between memory consolidation and sleep" which I definitely wrote and which should be findable by any competent search system. Nothing comes up. Other pages come up for "sleep" but not this one.
+
+I just want to find my own content. This feels like a basic product failure.
+
+SUPPORT RESPONSE — Notion Support, 20 Dec 2024, 11:05
+Agent: Lia F.
+
+Hi Jessie,
+
+I hear you and I'm sorry the initial suggestions weren't helpful.
+
+To be transparent: Notion's search doesn't do full-text search across all content in all cases. Search prioritises page titles and certain content blocks. Long-form content buried deep within a page may not be fully indexed for search. This is a known limitation of how our search currently works.
+
+The most reliable workaround is to keep important pages tagged or titled with your key terms so they surface in search. I understand this is backward — you shouldn't have to organise your content around search limitations.
+
+I want to pass this to our product team as explicit feedback: a user with 400 pages of notes cannot reliably find their own content through search. That's meaningful product feedback and I'll make sure it's logged.
+
+Lia | Notion Support
+
+---
+TICKET RESOLUTION NOTE: Fundamental search limitation acknowledged. Feedback logged. No fix available.
+CSAT: 1/5. Comment: "The support agent was kind but the answer is that the product doesn't do what I thought it did."
+
+---
+---
+
+TICKET #55103
+STATUS: Open / Pending
+SUBMITTED: 8 Jan 2025
+PLAN: Business
+ACCOUNT: Vanta Systems (34 seats)
+CONTACT: Rory Fitzpatrick, Engineering Manager
+
+---
+
+INITIAL MESSAGE — Rory Fitzpatrick, 8 Jan 2025, 11:02
+
+Hi support,
+
+We're experiencing a specific issue with our engineering database (approx 3,200 records). When we filter the database by multiple criteria simultaneously — e.g., Status = "In Progress" AND Assignee = [person] AND Sprint = "Q1 2025" — the load time is between 8 and 14 seconds. This makes the filtered view nearly unusable for daily standups.
+
+We've already tried: filtering to fewer records, creating a dedicated filtered view rather than using ad-hoc filters, removing linked relations to other databases. None of these meaningfully improved performance.
+
+Our engineering team is discussing moving our project tracking to Linear because of this specific issue. Before we make that decision I want to understand: is this a known bug, is there a fix, or is this the expected performance for a database of this size?
+
+SUPPORT RESPONSE — Notion Support, 9 Jan 2025, 09:30
+Agent: Derek W.
+
+Hi Rory,
+
+Thanks for the detailed report — this kind of specific technical feedback is really helpful.
+
+For context: database performance with multiple simultaneous filters on large databases (3,000+ records) is an area where Notion can struggle, particularly when those filters involve relational fields. This is partly architectural — Notion evaluates filters client-side for some operations, which means large datasets require more local processing.
+
+This is not the expected performance in the sense that we'd consider it ideal. However, it is currently within the range of what can happen with complex multi-filter queries on large databases. We don't have a fix I can offer right now.
+
+I'll escalate this to our engineering team as a performance report. Large database performance is an active area of work for us. I can't give you a timeline, but this is genuine feedback that will reach the right people.
+
+If you want to evaluate Linear — I understand. Performance for project management workflows with large datasets is a real differentiator and I won't pretend otherwise. If you stay with Notion, the best current mitigation is pre-built filtered views (rather than ad-hoc filtering) and keeping the database split across multiple smaller databases if workflow allows.
+
+Derek | Notion Support
+
+---
+
+FOLLOW-UP — Rory Fitzpatrick, 9 Jan 2025, 10:14
+
+Thanks for the honest response. I appreciate it. 
+
+One more question: is there a way to enable server-side filtering? Or is client-side evaluation a hard architectural constraint?
+
+SUPPORT RESPONSE — Notion Support, 10 Jan 2025, 14:05
+Agent: Derek W.
+
+Hi Rory,
+
+This is at the boundary of what I can speak to technically. My understanding is that the hybrid client/server approach to filtering is architectural and not something that can be toggled at the account level. Whether it's a hard constraint or an area of active architectural change — I genuinely don't know and I don't want to speculate.
+
+I've flagged your question specifically for a technical escalation response. Someone from our engineering-adjacent support tier should follow up with a more informed answer.
+
+Derek | Notion Support
+
+---
+TICKET RESOLUTION NOTE: Pending technical escalation. Client actively evaluating Linear.
+CSAT: Pending.
+
+---
+---
+
+TICKET #57899
+STATUS: Resolved
+SUBMITTED: 14 Feb 2025
+PLAN: Plus
+ACCOUNT: Freelancer (1 seat)
+CONTACT: Mara Chen
+
+---
+
+INITIAL MESSAGE — Mara Chen, 14 Feb 2025, 08:20
+
+Hi, I'm confused about the billing. I invited someone to my workspace as a "guest" to collaborate on a project. I was under the impression guests were free. Now I have a charge on my card for an additional seat. Can you explain?
+
+SUPPORT RESPONSE — Notion Support, 14 Feb 2025, 10:11
+Agent: Sam H.
+
+Hi Mara,
+
+Happy to clarify! On the Plus plan, guests are free when they have limited access — they can view and comment on specific pages you share with them. However, if a guest is given full member access to the workspace (as opposed to page-level guest access), they count as a billable seat.
+
+Looking at your account, it appears the person you invited was added as a full workspace member rather than as a page-level guest. This may have happened if you used the "Add member" flow rather than the "Share page" flow when inviting them.
+
+I can help reverse the charge if this was unintentional. Can you confirm whether you want this person to have full workspace access (member) or just access to specific pages (guest)?
+
+Sam | Notion Support
+
+---
+
+FOLLOW-UP — Mara Chen, 14 Feb 2025, 10:44
+
+I didn't know there was a difference. I clicked the share button and typed their email. It asked me to choose a role and I chose "Editor" because I wanted them to be able to edit. I didn't realise Editor meant they'd be billed as a member.
+
+Please refund the charge. And for future, is there any way to share editing access to a specific page without it counting as a full member?
+
+SUPPORT RESPONSE — Notion Support, 14 Feb 2025, 11:30
+Agent: Sam H.
+
+Hi Mara,
+
+Totally understand — the distinction between page-level guest access and workspace membership isn't clearly signalled in the share flow, and I can see how this was confusing.
+
+To answer your question: yes, guests can have "Can edit" access to specific shared pages without being workspace members. The key is to share the page from the Share button and grant access as a guest, not to add them as a workspace member. The role options look similar but have different billing implications.
+
+I've processed a credit to your account for the additional charge — this should appear within 3–5 business days.
+
+I'll also pass feedback to our product team: the share flow should more clearly distinguish between "guest access to this page" and "workspace member (billed)." This kind of confusion is something we hear occasionally and it's a UX improvement opportunity.
+
+Sam | Notion Support
+
+---
+TICKET RESOLUTION NOTE: Refund issued. UX feedback logged re: share flow confusion between guest and member roles.
+CSAT: 4/5. Comment: "Support was helpful and refunded quickly. But the UI should just not let this happen."
+
+---
+---
+
+TICKET #60214
+STATUS: Resolved
+SUBMITTED: 7 Mar 2025
+PLAN: Business
+ACCOUNT: Foxridge Agency (22 seats)
+CONTACT: Nkechi Olu, Project Manager
+
+---
+
+INITIAL MESSAGE — Nkechi Olu, 7 Mar 2025, 14:55
+
+Hi Notion team,
+
+I'd like to report an issue with the mobile app — specifically on Android (Samsung Galaxy S24).
+
+When I try to edit the body of a database record on mobile, the text editor is very laggy. Typing a sentence and seeing it appear takes about a second per word. This makes writing any substantive content in a database record on mobile practically impossible. Same behaviour in both the app and mobile browser.
+
+I'm not sure if this is a device issue or a Notion issue. Our office colleague on iPhone doesn't report the same lag.
+
+SUPPORT RESPONSE — Notion Support, 8 Mar 2025, 09:22
+Agent: Flo R.
+
+Hi Nkechi,
+
+Thanks for the detailed report including your device. The lag you're describing in the database record text editor on Android is a known issue that we're aware of and working on. It's more pronounced on Android than iOS due to differences in how we've implemented the editor on each platform.
+
+In the meantime: if you switch the database record view to "full page" mode (rather than the side peek view), the editor performance tends to be better. This isn't a complete fix but may reduce the lag.
+
+I'll add your device and use case to the active bug report so our mobile team has it.
+
+Flo | Notion Support
+
+---
+
+FOLLOW-UP — Nkechi Olu, 8 Mar 2025, 11:30
+
+Thanks Flo. The full page mode does help a little. Still noticeable but usable.
+
+One more thing — I've noticed that when I use mobile to edit a page, I sometimes come back to it on desktop and find that some changes are missing. They definitely saved (the app showed the "Saved" indicator). Is there a sync issue as well?
+
+SUPPORT RESPONSE — Notion Support, 10 Mar 2025, 08:45
+Agent: Flo R.
+
+Hi Nkechi,
+
+The sync issue you're describing is related to an intermittent problem with offline/online transitions on Android. If the device loses connectivity briefly and the save confirmation shows before sync completes, edits can occasionally be lost.
+
+This is a known bug and is also being tracked by our mobile team. There isn't a user-side fix, but to mitigate: if you're working in an area with unreliable connectivity, make a habit of waiting a few seconds after seeing "Saved" before closing the app or the record.
+
+I'm sorry this is the current state — losing edits is a genuinely frustrating experience and we know it undermines trust in the product. This is being worked on.
+
+Flo | Notion Support
+
+---
+TICKET RESOLUTION NOTE: Two known Android bugs acknowledged — editor lag and sync loss. Active bug tracking confirmed.
+CSAT: 3/5. Comment: "Good support. Product has real mobile problems."
+
+---
+---
+
+TICKET #62887
+STATUS: Resolved
+SUBMITTED: 2 Apr 2025
+PLAN: Free
+ACCOUNT: Individual
+CONTACT: Owen Bradley
+
+---
+
+INITIAL MESSAGE — Owen Bradley, 2 Apr 2025, 19:08
+
+Hi,
+
+I'm new to Notion (about 3 weeks in). I watched some YouTube tutorials and was excited to try setting up a personal dashboard with linked databases for tasks, habits, and notes.
+
+I've been trying to create a linked view of my tasks database on my home dashboard page for 2 hours. I keep getting either an empty view or an error. I've watched 3 videos and none of them match what I'm actually seeing in the current interface.
+
+Can someone just tell me the current steps to create a linked database view on a page?
+
+SUPPORT RESPONSE — Notion Support, 3 Apr 2025, 08:30
+Agent: Lia F.
+
+Hi Owen,
+
+I totally understand the frustration — the interface for linked views has changed a few times and older tutorials can be confusing.
+
+Here are the current steps:
+1. On the page where you want the linked view, type "/" to open the block menu
+2. Search for "Linked view of database" — it appears as an option
+3. Select the source database from the list that appears
+4. Your linked view will appear. You can then add filters, change the view type (table, kanban, etc.) from the view menu at the top left of the database.
+
+If you're seeing an empty view: check the filter settings on the linked view — there may be a default filter hiding your records. Click "Filter" in the view toolbar and check for active filters.
+
+Let me know if that helps!
+
+Lia | Notion Support
+
+---
+
+FOLLOW-UP — Owen Bradley, 3 Apr 2025, 09:15
+
+That worked! Thank you. The step I was missing was that it's called "Linked view of database" — I was looking for "linked database" which is what the tutorials called it.
+
+Just want to say — the discoverability of this feature is really bad. It took me 2 hours and a support ticket to do something I wanted to do on day one. Maybe the in-app documentation could be better?
+
+SUPPORT RESPONSE — Notion Support, 3 Apr 2025, 10:00
+Agent: Lia F.
+
+Hi Owen,
+
+So glad it worked! And thank you for the feedback — you're right that the naming and discoverability of the linked view feature could be better, especially for newer users. I'll pass that along to the team.
+
+Enjoy your dashboard!
+
+Lia | Notion Support
+
+---
+TICKET RESOLUTION NOTE: Resolved. Onboarding/discoverability feedback logged.
+CSAT: 5/5. Comment: "Support was great. The product let me down, not the support."

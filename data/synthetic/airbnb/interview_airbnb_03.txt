@@ -1,0 +1,59 @@
+DISCOVERY LENS — USER INTERVIEW TRANSCRIPT
+Product: Airbnb
+Participant: "Linda" (anonymised) | 54, school administrator, Chicago suburbs
+Interviewer: X.
+Date: May 2026
+Duration: 39 minutes
+Note: Linda books Airbnb a few times per year for family trips with husband and two teenagers (16 and 19). Light editing.
+
+---
+
+INT: How did you start using Airbnb?
+
+LINDA: My older daughter convinced me. We did a family trip to Portland a few years back, and she'd been using Airbnb at college with her friends and said it would be cheaper than two hotel rooms for four people. She was right, it was. So we did our first one — a townhouse in Portland — and it was lovely. We had our own kitchen, the kids had their own bedrooms, we ate breakfast together at a table. That sold me on the concept. Hotels for a family of four is exhausting. Either we're all in one room which means no privacy for the kids, or we're paying for two rooms which gets expensive fast.
+
+INT: Has every experience been like that one?
+
+LINDA: [pause] No. Not at all. The first one was great, the next two were fine, and then we had one in San Diego that was a disaster, and that one really shook my confidence. I'll tell you about it because it's still vivid. We drove down from L.A., arrived in the afternoon, found the place — and it was clearly not the property in the photos. Same building, but the apartment itself was just... shabby. The photos had been taken when it was newly furnished, probably years ago. The couch had stains. The "ocean view" was over a parking lot if you stood on tiptoes by the kitchen window. The kids' room had bunk beds that were rickety and one of the slats was broken.
+
+INT: How did you handle it?
+
+LINDA: I tried to contact the host immediately. She didn't answer for three hours. By that point we'd already unpacked because we'd driven for six hours and the kids were tired. When she did respond she said the photos were "approximations" and the apartment was in "consistent condition with the listing description" which was — I mean, no it wasn't. I called Airbnb. The agent was polite, took the report, said they'd investigate, asked if I wanted to relocate. I said yes. They said they couldn't guarantee comparable accommodation. So I had to decide — stay in a place I'm unhappy with for four nights, or take a gamble on an unknown alternative. I asked what the alternative would look like. The agent said she couldn't tell me until I confirmed I wanted to move. I said I wasn't going to make a decision blind. She put me on hold. After twenty minutes she came back with two options that were both worse than the original. We stayed.
+
+INT: Did you leave a review?
+
+LINDA: Honest review, three stars, said what I just told you. The host responded publicly that I had "unrealistic expectations" and was "trying to extract a refund." That was not why I gave three stars. I didn't ask for a refund. And the public response made me look bad. I learned later that Airbnb has a policy where reviews can be removed if they violate guidelines, but the host's response stayed up. I felt like the system was set up to protect hosts more than guests.
+
+INT: How did that affect future bookings?
+
+LINDA: I almost stopped using Airbnb. My husband actually wanted to. We argued about it because he was so frustrated with the experience. I kept us using it but I changed how I book. I now only book Superhosts, only places with 100+ reviews and 4.9+ rating, and I read the most recent twenty reviews carefully. I look for any 3-star or below and read those especially. I cross-reference photos with the description. I message every host before booking. It's a lot of work for what should be a simple thing.
+
+INT: Are there things that worry you specifically as a parent travelling with teenagers?
+
+LINDA: Safety, mostly. Are the locks secure? Are there working smoke detectors? Where are the emergency exits? You don't think about this in a hotel because hotels have to meet a code. With Airbnb you're trusting an individual host. I had one place where the smoke detector was on the ceiling but it had been spray-painted shut by a previous repaint. I noticed because I'm a nervous parent and I checked. Most people probably wouldn't. That place got a private review note from me — Airbnb has a feature where you can flag things to them only, not publicly — but I don't know if anything happened with that.
+
+INT: How about cancellation policies and changes — have those been an issue?
+
+LINDA: One trip we had to cancel last minute because my mother-in-law had a fall. The host had a strict cancellation policy. We got back maybe half the money. I understood it intellectually — it was our choice to cancel — but Airbnb didn't have any kind of extenuating circumstances allowance. I'd have understood if it was a Caribbean vacation and we just got cold feet, but a family medical emergency? With documentation? That should be different. I felt the platform was inflexible. Hotels are more accommodating with that kind of thing in my experience.
+
+INT: What do you like about the experience when it does work?
+
+LINDA: Space. That's the main thing. We got back this March from a trip to Sedona, stayed in a really lovely place, the family room was big enough for board games in the evening, the kitchen was fully stocked with cooking gear, and the host left us a nice basket of local things on arrival. That trip was perfect. And those kinds of trips are why we keep coming back. When it works it's so much better than a hotel for a family. The home-like feel, the ability to do laundry mid-trip, the kitchen — these things matter when you're with kids for a week.
+
+INT: What's the host's role in that, do you think?
+
+LINDA: Huge. The Sedona host had been doing this for ten years. You could tell from how organised the place was — written instructions, a guidebook with restaurant recommendations, all the appliances clearly labelled, charging cables of every type in a drawer. That's hospitality. The San Diego host was clearly running her listing on autopilot, probably had multiple properties, probably never visited. There's a quality spread among hosts that the platform doesn't really signal well. Superhost status helps but it's not a perfect filter. Some Superhosts are just good at metrics — fast response, no cancellations — but the actual property isn't necessarily great.
+
+INT: If you could change one thing about Airbnb?
+
+LINDA: I'd want a way to flag listings whose photos are out of date. Some kind of "photo recency" indicator. Or require photos to be re-taken every two years or something. So much of the disappointment people have is from places that don't match the photos, and that's fixable.
+
+INT: Anything else?
+
+LINDA: A real extenuating circumstances policy. The current one is too narrow — it only covers natural disasters and similar. Family medical emergencies should count. I know they can't take everyone's word for it but they could require documentation. And — let me think — I'd like a "this is my first time here, I'm nervous" kind of guest type? I don't know how to describe it. The platform treats every guest like a confident user. New users, or first-time bookers in a new region, could use more reassurance and guidance. I felt very alone navigating that San Diego situation. I didn't know what to do, I didn't know what my rights were, I didn't know who to escalate to.
+
+INT: Would you recommend Airbnb to a friend?
+
+LINDA: With heavy caveats. I'd say: book Superhosts only, read recent reviews, message the host first, and have a hotel backup in mind. Which means I'd basically be saying "use this with caution." That isn't really an endorsement.
+
+[END OF TRANSCRIPT]

@@ -1,0 +1,27 @@
+INTERVIEWER: Tell me about how you interact with Figma in your daily work.
+
+PARTICIPANT: I'm a front‑end developer, and I basically live in the space between design and code. Designers hand off screens in Figma, and I turn them into React components. I don't create designs — I just consume them. So I'm in Figma all day, inspecting elements, checking spacing, grabbing colors and typography.
+
+INTERVIEWER: How has that experience been?
+
+PARTICIPANT: Used to be great. I could select any element and immediately see the CSS I needed — padding, margin, font size, hex codes. It saved me so much time. But then Figma introduced Dev Mode and started charging $15 per seat per month for it. Our company didn't want to pay for developer seats on top of designer seats, so now I'm stuck with the regular inspect panel. I can still get some info, but it's less precise and harder to parse. The CSS snippets don't always reflect the actual design — I've had cases where the spacing looked right in Figma but the inspect panel gave me numbers that didn't match. So I end up manually measuring things with the redlines, which is slower.
+
+INTERVIEWER: That sounds frustrating.
+
+PARTICIPANT: It is, because it feels like Figma is holding the design specs hostage. I get that they need to make money, but developers aren't an upsell opportunity — they're part of the product team. If designers can't efficiently hand off to developers, the whole collaboration story falls apart.
+
+INTERVIEWER: Do you use any other features, like auto‑layout?
+
+PARTICIPANT: I don't build with auto‑layout, but I appreciate when designers use it correctly. Auto‑layout translates really well to CSS flexbox, so when a designer has properly set up the frames, I can replicate the layout with minimal guesswork. But when auto‑layout is used incorrectly — like a frame that's nested six levels deep with conflicting constraints — it's a nightmare. I've spent hours untangling designs that look fine visually but are a mess structurally. I think some designers don't really understand how auto‑layout works under the hood, and it creates problems downstream.
+
+INTERVIEWER: What about the UI3 changes?
+
+PARTICIPANT: Honestly, UI3 didn't affect me much because I mostly just inspect. But I've noticed that some of the tools designers rely on are harder to find now, which means they ask me more questions. Like "hey, can you check if this constraint is set correctly?" because they can't find it themselves. So indirectly, it's added to my workload.
+
+INTERVIEWER: If you could change one thing about the developer experience in Figma, what would it be?
+
+PARTICIPANT: Just give me reliable, machine‑readable design tokens. I don't need a fancy Dev Mode with version history and plugins — I need spacing values that match what's on the canvas. I need colors that aren't in some variable format that changes when a designer updates the library. And I need it to be free, or at least included in the seats we already pay for. Design specs shouldn't be a premium feature.
+
+INTERVIEWER: Thanks. That's really clear feedback.
+
+PARTICIPANT: Hope it helps. Devs are often overlooked in these discussions, but we're end users too.

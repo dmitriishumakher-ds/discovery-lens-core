@@ -1,0 +1,150 @@
+DISCOVERY LENS — USABILITY TEST SESSION NOTES
+Product: Airbnb (iOS 17.5 / Android 14, app v2026.x and web)
+Compiled by: research team
+Date range: April–May 2026
+Format: Moderated remote sessions, think-aloud protocol, screen share recorded.
+
+---
+
+SESSION 1 — First-time booker, weekend trip planning
+Participant: Female, 26, junior product manager, no prior Airbnb bookings, used hotels until now. Trip context: weekend in Edinburgh with partner. Device: iPhone 15. Duration: 32 min.
+
+TASK 1: Find a one-bedroom apartment in Edinburgh for two nights, budget around £200 total.
+- P opened Airbnb, searched "Edinburgh". Default sort applied. Date picker took her 3 attempts — she initially clicked the calendar but the modal didn't open on the first tap. "Why didn't that work?" Eventually used the bottom-sheet date picker. 18 sec friction.
+- Set price filter: max £100/night (thinking £100 × 2 = £200). Got 240+ results.
+- P scrolled, clicked on top result. £85/night. "Looks good." Clicked through to listing. Saw nightly price, scrolled to bottom for total. Total for 2 nights: £247. P paused. "Wait. It's £85 a night but the total is £247? Let me see why."
+- Tapped on price breakdown. Saw: £170 base + £55 cleaning + £22 service fee. "Fifty-five pounds cleaning for two nights? That seems a lot for a one-bedroom." [Obs: P expressed clear frustration. Spent 45 sec re-reading the price breakdown, comparing to nightly rate.]
+- P returned to search. Tried again with max £85/night. Total budget still busted. "I keep clicking on places that say £75 a night and the total is £230. The fees are everywhere."
+- [Obs: P did not discover the "Display total price" toggle in filters. Toggle is present but not prominent — small text under map view.]
+
+TASK 2: Use filters to narrow results.
+- P opened filters. "Bedrooms: 1." Tapped, set to 1. "Beds: 1." Different filter. P paused. "What's the difference between bedrooms and beds?" After 12 seconds: "I think bedrooms is rooms, beds is actual beds in the place? Confusing."
+- Looked for "central location" filter. Did not find one. Used map view instead. "Why isn't there a 'centre of city' filter?" [Obs: Search uses neighbourhood filters but does not surface this prominently. P resorted to manual map scanning.]
+- Tried "amenities" filter. Selected Wi-Fi, washer. "I don't even know what most of these are." 'Smoking allowed' next to 'Wheelchair accessible' — "weird ordering of filters."
+
+TASK 3: Read reviews on a candidate listing.
+- P found a candidate, scrolled to reviews. Read 4 reviews from the top. "These all say the place is great. They must be cherry-picked." Searched for negative reviews by sorting. Sort options: Most Recent, Most Relevant. No "Most Critical" or "Lowest Rated" sort. "Can I see the lowest reviews? Where?" [Obs: P explicitly looked for a way to see negative reviews. Not available.]
+- Eventually scrolled through 18 reviews to find one 4-star. Read it: "Great location, nothing to complain about." "That's not even negative. Where are the actual problems?"
+
+TASK 4: Complete booking.
+- P selected listing, tapped Reserve. Saw payment screen with full breakdown. "Okay so the actual total is £258, not £247? Where did the extra £11 come from?" Examined: a currency conversion fee was added on the payment page. [Obs: Currency conversion notice appears only on payment screen, not on listing page.]
+- P paused at the cancellation policy section. "Strict — what does that mean?" Tapped through to read. Took 90 sec. "This is hard to parse. I think it means I can't cancel after 24 hours and get a refund? Why isn't there a simple summary?"
+- P proceeded to complete booking.
+
+NOTES / ISSUES OBSERVED:
+- Price reveal pattern is frustrating for first-time users; the gap between displayed nightly price and total at booking creates trust loss in the first session.
+- Cleaning fee perceived as excessive for short stays; not explained as a real cost.
+- Filter for "central neighbourhood" not findable; users resort to manual map scanning.
+- "Bedrooms" vs "Beds" filter distinction confusing.
+- No mechanism to surface negative or critical reviews; users assume positive reviews are cherry-picked.
+- Currency conversion fee appears late in booking flow.
+- Cancellation policy explanations dense and not summarised.
+
+---
+
+SESSION 2 — Returning user, last-minute booking under pressure
+Participant: Male, 41, business traveller, ~50 Airbnb bookings over 4 years. Trip context: emergency client visit, needs accommodation in San Francisco for 3 nights starting tomorrow. Device: Pixel 8. Duration: 28 min.
+
+TASK 1: Find a Superhost listing with high cancellation reliability for tomorrow.
+- P opened the app. Searched "San Francisco", entered dates. Toggled "Superhost only" filter immediately. "I always do this for short-notice trips."
+- Sorted by Recommended (default). Browsed top 8 results. "Recommended isn't really by what I care about — it's optimised for Airbnb. I'd like 'most recently active host' or something."
+- P clicked through 3 listings, checking host profile each time. Looked for: response rate, response time, time since last review. "Some hosts have great ratings but haven't been active for months. The listing might not be reliable."
+- Found a candidate. Total cost $612 for 3 nights — within his per-diem.
+- Before booking, sent a message to host: "Hi, just confirming the apartment is available for tomorrow check-in. Will I receive check-in instructions within the next few hours?" [Obs: P proactively messages host before completing booking even on instant-book listings.]
+
+TASK 2: Verify check-in details after booking.
+- P booked. Confirmation screen shown. Check-in instructions: not present. "Where are the access instructions?"
+- Navigated through Trips → Booking details. Check-in info section. Showed: "Your host will send check-in instructions before your arrival." Specific time not given.
+- [Obs: P knows from experience that some hosts send instructions hours later, some not until day of. Source of anxiety for short-notice bookings.]
+- Host replied within 8 minutes with instructions. P relieved. "Okay, this host is responsive. I can trust this booking."
+
+TASK 3: Test cancellation policy understanding.
+- P navigated to cancellation policy on the booking. Read carefully. "This is a Strict policy — refund 50% within first 48 hours minus service fee, no refund after 48 hours."
+- Asked: "If my work meeting cancels, am I refundable?"
+- [Obs: P knows the answer is no but wanted to verify the policy is clearly stated. He commented that for business travel he'd prefer Flexible-only filtering, which exists but is buried.]
+
+TASK 4: Find listing's exact address before arrival (to share with assistant).
+- P tried to find the full address. Address section showed: "Exact location provided after booking." But booking was complete.
+- After 90 sec searching: address shown in booking confirmation email, not in app. [Obs: Address visibility inconsistent — confirmed bookings should surface address in app, currently requires email check.]
+
+NOTES / ISSUES OBSERVED:
+- Power users develop heuristics (Superhost filter, host response check, pre-booking message) that the platform doesn't formalise.
+- "Recommended" sort does not match what experienced users want.
+- Check-in instructions delivery is unpredictable; source of pre-arrival anxiety.
+- Cancellation policy text is dense; "Flexible-only" filter for business travel use case is hard to find.
+- Address visibility inconsistent between app and confirmation email.
+
+---
+
+SESSION 3 — First-time host onboarding
+Participant: Female, 38, marketing consultant, owns a 2-bedroom flat in Lisbon that she rents on long-term but is considering Airbnb for short stays. Has not yet listed. Device: web (Chrome on MacBook). Duration: 45 min.
+
+TASK 1: Begin the listing creation flow.
+- P navigated to airbnb.com → Become a Host. Walked through initial questions: property type (apartment), location, size (2 BR, 1 bathroom), how many guests it accommodates.
+- P uploaded 8 photos taken on her phone. "Should I do professional photos? It's offering me a thing called 'matterport' — is that worth it?" [Obs: She did not pursue further; checkbox for professional photography service unclear.]
+- Wrote listing title: "Bright Lisbon apartment near Bairro Alto". Description: ~120 words. "What should I put in the description? It's letting me write freeform but I don't know what guests care about."
+- [Obs: No prompts or guidance about what to include. P later said she wished there was a template or checklist.]
+
+TASK 2: Set pricing.
+- Smart Pricing tool suggested €82-€110/night based on Lisbon central. P moved slider to €95. "How do I know this is right?"
+- P paused. Looked for benchmarks. "I want to see what comparable listings charge. Is there a way?"
+- [Obs: No comparable-listings price benchmark visible from within listing creation. P navigated away to do guest-side search to check competitor prices. Returned 8 min later with revised figure of €105.]
+
+TASK 3: Set cleaning fee and house rules.
+- Cleaning fee field. P entered €50 (what her cleaner charges). Looked at suggested amount: "Hosts in your area typically charge €35-€85." Wide range. "Is €50 too high or too low? It doesn't tell me what most hosts do."
+- House rules: P clicked "Add house rules." Standard checkboxes (no smoking, no pets, no parties). Wrote freeform addition: "Quiet hours after 11pm." No guidance on what level of detail is normal.
+
+TASK 4: Decide on cancellation policy.
+- Three options shown: Flexible / Moderate / Firm / Strict (4 actually).
+- P read descriptions for each. "Flexible — full refund 1 day before arrival." "Strict — 50% refund up to 1 week before."
+- "What do most new hosts choose? Should I be guest-friendly to get bookings or host-friendly to protect myself?"
+- [Obs: No guidance on the implications of cancellation policy choice on booking volume. P chose Moderate after 4 min of deliberation, acknowledging uncertainty.]
+
+TASK 5: Publish.
+- Final preview screen. P scrolled through her listing as a guest would see it. Spotted typos in description. Edited.
+- Tapped Publish. "Wait — is it live now? Will I get bookings tonight?"
+- [Obs: Post-publish screen briefly explained what happens next but P missed it. She asked the moderator if her listing was live and if she needed to do anything else.]
+
+NOTES / ISSUES OBSERVED:
+- Listing creation lacks scaffolding for first-time hosts: no description template, no pricing benchmarks for similar listings, no guidance on cleaning fee norms.
+- Cancellation policy choice not contextualised — new hosts cannot anticipate effect on booking volume.
+- Post-publish confirmation is brief; new hosts uncertain about what happens next.
+- Professional photo service exists but is poorly explained and not clearly distinguished from regular photo upload.
+
+---
+
+SESSION 4 — Cleaning fee transparency feature test
+Participant: Mixed (4 users sequentially tested), age range 27-58, all returning Airbnb users. Trip context: shown a prototype "total price up front" UI variant for comparison with current production search. Device: iPhone (test build). Duration: ~12 min per participant, 48 min total.
+
+TASK: Find an apartment in Amsterdam for 4 nights, see what changes when total price is shown vs nightly.
+
+PRODUCTION (nightly displayed) — User 1 (Female, 35):
+- Browsed 6 listings. Settled on one showing €78/night. Clicked through. Total: €427. "That's €106 a night actually. The displayed price is misleading."
+- Selected anyway. Said she would not have clicked this listing if she'd seen €106/night up front (her threshold was €90).
+
+PROTOTYPE (total displayed) — User 2 (Male, 58):
+- Browsed same search results, now showing total prices. Settled on one showing €387 total. Clicked through. Same fee breakdown shown below.
+- "Easier. I know what I'm comparing. I don't have to do the math in my head."
+- Total time spent comparing 6 listings: 4 min (vs 7 min in production variant).
+
+PROTOTYPE — User 3 (Male, 27):
+- Reaction: "This should be the default. Why isn't this the default?"
+- Said the total-price display made him more likely to book. "I'd been frustrated for years that the price kept changing. This is what I want."
+
+PRODUCTION — User 4 (Female, 47):
+- Browsed, noticed mid-search the prices going up at the listing level vs search level. "Bait and switch. I've gotten used to it but I don't like it."
+- Selected a listing only after computing total per night herself. "I should not have to do this. Other booking sites just show me the total."
+
+CROSS-USER OBSERVATIONS:
+- All 4 participants preferred prototype (total price displayed) over production (nightly displayed).
+- Participants in production variant abandoned more listings at the price-reveal step (3 of 8 listings clicked through were abandoned at the total price reveal).
+- Participants who knew about the "Display total price" toggle (only 1 of 4) used it; others did not know it existed.
+- Booking confidence higher in prototype variant; "trust" mentioned spontaneously in prototype sessions.
+
+NOTES / ISSUES OBSERVED:
+- Default pricing display is the strongest single UX complaint across this session set.
+- The existing toggle for total-price view is not discoverable enough to mitigate.
+- Productivity gain (faster comparison) and trust gain are both significant when total price is shown by default.
+- Cleaning fee perception worsens when bundled with service fee at reveal; isolating cleaning fee may help.
+
+[END OF SESSION NOTES]

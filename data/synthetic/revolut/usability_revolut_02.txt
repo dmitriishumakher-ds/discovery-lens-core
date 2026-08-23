@@ -1,0 +1,85 @@
+Usability test session — Revolut
+Task: Check the GBP/EUR exchange rate before deciding to transfer
+Participant: P07 — Male, 45, freelance consultant, Revolut user for ~6 months, makes occasional EUR transfers
+Observer: James (UX research)
+Date: Oct 16, 2025
+Duration: ~14 min
+Setup: Mobile device on tripod, screen recording, think-aloud protocol
+
+---
+
+00:00 - Briefed P on task: "Imagine you're about to send 2000 GBP to a friend in France. Before you commit, you want to check today's exchange rate and decide if it's a good time. Show me how you'd check it."
+
+00:18 - P opens Revolut. Goes straight to home screen.
+       Quote: "Okay so I want to see the EUR rate today versus, you know, what it usually is."
+
+00:35 - P taps "Accounts" tab. Sees GBP and EUR balances.
+       Sees small EUR balance (€127). Taps EUR account.
+       Quote: "Hmm, this just shows my EUR balance. I want the rate, not my account."
+
+01:12 - P taps back. Returns to home. Scrolls through home.
+       Sees "Convert" widget at top. Taps it.
+       Quote: "Convert! That should show the rate."
+
+01:30 - Convert screen. Default: GBP → EUR. Shows "1 GBP = 1.1547 EUR."
+       Quote: "Okay so the rate today is 1.15ish. Is that good? I have no idea."
+       (P stares at screen ~10 seconds.)
+
+02:08 - P looks for historical rate or chart. Doesn't see one.
+       Quote: "It just shows me today's rate. I want to know if this is a good rate compared to last week. There's no graph?"
+       (P scrolls down on Convert screen. Nothing below the entry fields.)
+
+02:50 - P taps a small "i" icon next to the rate. Tooltip pops up:
+       "This is the interbank rate. Markup: 0.0% on weekdays for amounts up to £1000/month."
+       P reads slowly.
+       Quote: "Oh wait, there's a markup beyond £1000? I'm doing 2000. So I'd pay extra?"
+       (Notable confusion — tooltip is partially informative but creates new question)
+
+03:42 - P closes tooltip. Tries to find more details. Taps "?" in top right.
+       Lands in Help section. Searches "exchange rate fee."
+       (Search returns multiple articles. P picks the first one.)
+
+04:28 - Reads help article. Article explains: standard plan has 0% markup up to £1000/month, then 0.5% for amounts over.
+       Quote: "Okay so for £2000, the first thousand is free, the second thousand has a 0.5% markup. That's a fiver basically. Manageable."
+       (P does mental maths visibly.)
+
+05:15 - P returns to Convert screen. Looks at rate again.
+       Quote: "But the question is still, is 1.15 a good rate or a bad one? I'd need to compare to yesterday."
+
+05:48 - P opens browser, types "GBP EUR rate today" into Google.
+       Compares Google result (1.1556) with Revolut rate (1.1547).
+       Quote: "Yeah okay, basically the same. Revolut is fine."
+       (Observer note: P had to leave the app to validate the rate)
+
+06:30 - P returns to Revolut, satisfied. Says he'd proceed with the transfer.
+
+07:10 - Task ends. P provides additional unprompted feedback:
+       Quote: "Honestly the thing missing is a graph. Like a 30-day chart. Wise has that. I want to see if the rate is trending up or down. The single number is fine but it's only useful if I know the context."
+
+---
+
+OBSERVER NOTES:
+
+Friction points (ranked by severity):
+1. HIGH: No historical rate context (chart, comparison to yesterday/last week). User left the app to validate via Google.
+2. MEDIUM: Markup structure (0% under £1000, 0.5% over) is hidden behind tooltip + help article. User had to dig to understand cost.
+3. MEDIUM: Convert screen feels like a transactional tool ("convert now"), not an informational one ("check the rate"). Mental model mismatch.
+4. LOW: Initial entry point unclear — user opened EUR account first, expecting rate info there.
+
+Positive moments:
+- Once found, the rate display is clean and prominent.
+- Tooltip on rate, while incomplete, is at least findable.
+- Markup structure, once understood, was perceived as fair.
+
+Direct competitor mention:
+- P explicitly referenced Wise's rate chart as something he expected here.
+- "Honestly the thing missing is a graph."
+
+Quote of the session:
+"The single number is fine but it's only useful if I know the context."
+
+Recommendations to discuss with team:
+- Add 7-day or 30-day rate chart on Convert screen
+- Surface markup structure earlier (visible without tooltip)
+- Consider a dedicated "Rates" tab for users who want to monitor without converting
+- Investigate whether power users would value a rate alert feature

@@ -1,0 +1,55 @@
+DISCOVERY LENS — USER INTERVIEW TRANSCRIPT
+Product: Airbnb
+Participant: "Marcus" (anonymised) | 28, freelance graphic designer, currently nomadic (recruited via r/digitalnomad)
+Interviewer: X.
+Date: May 2026
+Duration: 36 minutes
+Note: Marcus has been location-independent for ~2 years. Mix of Airbnb, hostels, occasional Couchsurfing. Conducted via Zoom from Mexico City.
+
+---
+
+INT: How do you decide where you're staying for the next month?
+
+MARCUS: Honestly, mostly budget. I have a hard ceiling of about $1,200 a month for accommodation and that has to include everything. Some cities that's easy — I'm in Mexico City right now in a really nice one-bed for $850. Lisbon last summer I struggled, ended up in a place that was technically a studio but really a converted closet. Bangkok next month I'll probably be in luxury for the same money. So budget first, then location, then in some priority order: wifi, kitchen, washing machine, natural light. I always check the photos for whether there's a window in the bedroom because surprisingly often there isn't.
+
+INT: Walk me through the actual search process — what's that like?
+
+MARCUS: Long. I usually start about three weeks before I'm moving cities. I open Airbnb, type the city, set my dates, set monthly stay which gives you the discount which is usually 20-30%. And then I start filtering. I want at least 4.8 stars, Superhost, and I look at the price after all the fees because the displayed nightly price is meaningless. The fees are wild — and they're inconsistent between similar properties so you can't just multiply nightly times 30. You have to click into each one and check the actual total. So I'll have like 15 tabs open comparing identical-looking apartments and the prices are wildly different.
+
+INT: How long does this take?
+
+MARCUS: I've spent four or five hours on it before. Usually two or three spread over a few days. By the end I have a shortlist of maybe four places and I send messages to all of them with the same template asking about wifi speed, whether the kitchen actually has the basics, and whether the place is quiet at night. Most hosts reply within a day. The ones that don't, I cross off — if you can't reply to a question now, you're going to be impossible to reach when something breaks. The ones that reply with one-word answers — "yes" — also get crossed off. I want to know I'm dealing with a real person.
+
+INT: What about the filter system itself — does it work for you?
+
+MARCUS: It's frustrating. The filters are weirdly limited for what they should be. I want to filter for monthly rentals with specific amenities, in specific neighbourhoods, with a desk because I need to work, with a window in the bedroom — but I can't filter for things like "has a real desk" or "natural light" or "neighbourhood character." I can filter for "wifi" which is binary. Every place says they have wifi. That tells me nothing about whether it's 50 Mbps or 5. I message every host asking for an actual speed test and they're often vague — "fast enough for Netflix" doesn't tell me if I can do video calls. So the filter system gets me down to like 200 listings and then I'm scrolling and clicking individually anyway. It's a lot of effort for a single booking decision.
+
+INT: Has anything ever gone wrong with a booking?
+
+MARCUS: Plenty. Smallest one: I arrived at a place in Tbilisi and the heating didn't work in November. It was 4 degrees in the apartment. I messaged the host, she didn't reply for six hours, then sent me a YouTube video about Georgian heating systems. I stayed two nights in my coat and then moved to a hotel and Airbnb refunded the rest. Bigger one: I booked a place in Bali for a month, host cancelled four days before I was meant to arrive. No explanation. Airbnb refunded me but it's August in Bali, everything decent was booked, I ended up in a place double the price of what I'd planned. The Airbnb "compensation" was a $50 credit. Four days to find new accommodation in a peak season city is — yeah, $50 doesn't cover that.
+
+INT: How did you feel after the Bali cancellation?
+
+MARCUS: Furious. Mostly at the host, then at Airbnb for not penalising her properly. She kept her listing up. I checked. Same property, same price, presumably she just took a better-paying booking and dropped me. There's no real consequence to hosts cancelling, which is bizarre to me. If I cancel a booking I lose money. If they cancel — they lose nothing. And the platform's response feels like they side with hosts. Maybe they don't, maybe it's a perception, but the asymmetry is real.
+
+INT: Do you use other platforms?
+
+MARCUS: I've started checking Vrbo and Booking.com for direct competition. Vrbo for whole-apartment stuff, Booking for hotels when Airbnb is being weird. But honestly the inventory in most cities is on Airbnb, you can't really avoid it as a nomad. There are some communities — Nomad Stays, Outsite — that do longer-term rentals for nomads specifically. I've used Nomad Stays a couple of times. The prices are higher but the experience is better — they vet the properties, the wifi is actually fast, there's a community thing. It's like Airbnb if Airbnb cared about its long-stay customers, which it doesn't really.
+
+INT: That's interesting — you don't think Airbnb cares about long-stay guests?
+
+MARCUS: I think Airbnb's algorithm and product are optimised for short trips. The whole platform is built around a vacation use case: arrive Friday, leave Sunday. The monthly discount exists but the UX still treats you like a tourist. You don't get any kind of recognition for being a long-stay guest. There's no "verified nomad" status or anything. Hosts often treat you the same as someone there for a weekend — sending you welcome messages about the local nightlife when you're going to be working from the desk for 28 days. The product is for someone else and I'm using it because there's nothing better.
+
+INT: What would actually make a difference for you?
+
+MARCUS: Better filters. Specifically things that matter for working remotely — verified wifi speed, a real workspace, natural light. And then transparent pricing — show me total prices, not nightly. And do something about host cancellations because right now the platform tolerates them. Other than that, the experience when it works is fine. The hosts I've stayed with have been mostly good. I've had nice conversations, gotten local recommendations, all the things Airbnb's marketing talks about. But I had to do a lot of work to find the good hosts and that work is on me, not the platform.
+
+INT: Have you ever considered renting your own place out when you're away from it?
+
+MARCUS: I've thought about it. Mostly when I'm back at my parents' place between trips. But the process looks horrible. I'd have to clean to a standard, install a lockbox, write a listing, take good photos, deal with messaging guests. And the fees Airbnb takes plus the cleaning fees you have to set plus the platform fees — by the time you net it out it's not as much as it looks. I have friends who host and they describe it as a part-time job. I have a job. I don't want two.
+
+INT: Last question — would you keep using it?
+
+MARCUS: For now yes, because as I said the inventory is there. The day a competitor builds a better long-stay product I'd switch instantly. Airbnb's loyalty among nomads is paper-thin. It's a default, not a love.
+
+[END OF TRANSCRIPT]

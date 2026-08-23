@@ -1,0 +1,59 @@
+DISCOVERY LENS — USER INTERVIEW TRANSCRIPT
+Product: Airbnb
+Participant: "Sofia" (anonymised) | 45, primary school teacher, Athens (lists a holiday home in Naxos)
+Interviewer: X.
+Date: May 2026
+Duration: 34 minutes
+Note: Sofia inherited a small house from her grandmother. Started hosting in autumn 2025. ~3 months into hosting at time of interview.
+
+---
+
+INT: How did you decide to start hosting?
+
+SOFIA: My grandmother passed away two years ago and she left me her house on Naxos. It's a small place, two bedrooms, traditional Cycladic style. I don't use it more than two or three weeks a year. My husband suggested we rent it out for the rest of the summer season — we're not making much teaching, you know, and the maintenance on an old house is not cheap. My niece told me to try Airbnb because she'd done it with her parents' place in Crete. So I signed up in September last year, and I started taking guests in October. So far I've had — let me count — twenty-three bookings, mostly two or three night stays, some longer.
+
+INT: How was the setup process?
+
+SOFIA: Long. Much longer than I thought it would be. The signup itself is fast, but actually creating a listing that you feel confident publishing is a lot of work. You have to write a description, take photos, set your house rules, set the price, set your availability calendar, decide your cancellation policy, write a welcome guide, decide cleaning fees, decide check-in and check-out times. And for each of these you don't really know what's right. The platform gives you suggestions but they're general — "competitive pricing in your area is X to Y" — that's a huge range. I called my niece three times in those two weeks asking what to do. I think without her I would have given up before publishing.
+
+INT: What were the hardest decisions for you?
+
+SOFIA: Pricing. Definitely pricing. I had no idea what to charge. The Smart Pricing tool suggested €60 a night which felt low to me — Naxos in summer should be more — but the tool said it was optimised for bookings. I overrode it and set €85. I got fewer bookings than I would have liked in October-November, then in December a friend who works in tourism told me my photos were probably the issue. So I paid €200 for a photographer to take new photos. After the photos the bookings improved. I now think Airbnb should have told me earlier that the photos were the main reason for fewer bookings, but the dashboard just showed me a number, it didn't explain why.
+
+INT: What about the cleaning fees?
+
+SOFIA: That was another confusing one. I have a cleaner who comes between guests. She charges €40 for a clean of my house. I set the cleaning fee at €40. I learned later that many hosts charge more than the actual cleaning cost as a buffer for wear and tear. I haven't done that — €40 is what it costs me, that's what I charge. But I see in the reviews sometimes that guests think the cleaning fee is high, and €40 seems normal to me for a two-bedroom house. I don't know whether to lower it and absorb the cost, or to keep it.
+
+INT: How are you finding the guests?
+
+SOFIA: Mostly lovely. A few notes — most guests are wonderful, they leave the house tidy, they're respectful, some leave little notes. One was very fussy — they didn't like that the bathroom was a wet-room style, which was clearly shown in the photos. They complained in their private message that the bathroom "wasn't standard" and gave me four stars. That hurt me more than I expected. I'd done everything to make the house nice. The wet-room is a feature of the building, my grandmother had it for thirty years. I don't know how I'd communicate that better in the listing. I added a line in the description after that saying "traditional wet-room style bathroom (no shower cabin)" but it feels defensive.
+
+INT: Anything that's gone wrong?
+
+SOFIA: One small thing. A guest broke a vase. It wasn't expensive, maybe €30 to replace, but it was sentimental — it had been my grandmother's. The guest told me. I told them not to worry about it, I appreciated them being honest. They left me a five-star review. I felt fine about it. But my husband said I should have made a claim through Airbnb's host protection. I didn't because the vase wasn't expensive and the guest was honest. But it made me wonder how the protection works when it's something sentimental rather than monetary. Anyway — small thing. Not a big problem.
+
+INT: What about support from Airbnb when you've had questions?
+
+SOFIA: I've messaged them three times. The first was about how to set up a discount for longer stays. The answer came two days later with a help article link. The help article was clear enough, but two days felt slow for what was actually a simple question. The second was when a guest's payment failed and I wasn't sure what to do. That was urgent — the guest was arriving the next day. Airbnb responded after eight hours, by which point I'd already messaged the guest, who'd updated their card, and the booking went through. So the support was too slow to actually help me. The third was about the cleaning fee question — I asked if there was guidance for what to charge. The response was a link to a generic help article that didn't actually answer my question. I gave up.
+
+INT: What do you wish you'd known when you started?
+
+SOFIA: Everything I learned in the first month. How important the photos are. That the description should be specific not flowery. That Greek listings should mention Greek words for things — like, "traditional kafenio nearby" performs better in search than "local café." That the calendar settings need attention because if you don't block off time for cleaning between guests you can accidentally take a booking that starts the same day another ends. I did that once and had to cancel — felt terrible — and a friendly guest let me move the booking. I learned later that cancellations from the host side hurt your status. I had no idea.
+
+INT: How do you feel about hosting now compared to when you started?
+
+SOFIA: More confident. But also more aware of how much it is. I check the app multiple times a day. I respond to messages quickly because I've learned response time matters for ranking. I check the calendar. I think about pricing for upcoming weeks. It's not a passive income source. It's a small business. I wasn't prepared for that and I think most new hosts probably aren't either.
+
+INT: What's been the biggest surprise?
+
+SOFIA: How emotional it is. I didn't expect to feel personally hurt by a four-star review or to feel proud when someone wrote a long review about how lovely the house was. It's my grandmother's home. When guests have a good time there I feel like I'm doing right by her. When a guest is critical it stings. I've had to learn to take feedback constructively without taking it personally, which isn't easy. I have a friend who's an experienced host and she told me, "Sofia, don't read every review carefully. Look at the average, look for patterns, ignore the individual ones." That was hard for me to do but it's good advice.
+
+INT: One thing the platform could improve for new hosts like you?
+
+SOFIA: A better onboarding. Something more like — okay, you're publishing for the first time, here are the five things that matter most, here's a checklist. The current onboarding tries to cover everything but ends up covering nothing well. And maybe a way to talk to other hosts when you're starting out. I learned more from my niece in three phone calls than I did from all of Airbnb's help articles combined. They could facilitate that. A new-host community or a mentorship matching system. Something. Right now you publish into the void and hope.
+
+INT: Will you keep hosting?
+
+SOFIA: Yes, for now. The income matters and the work is mostly fine once you've figured it out. But ask me again in a year. I'm still learning.
+
+[END OF TRANSCRIPT]

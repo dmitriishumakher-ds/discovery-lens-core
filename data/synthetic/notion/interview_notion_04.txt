@@ -1,0 +1,79 @@
+SOURCE TYPE: interview
+PRODUCT: Notion
+INTERVIEW: 04 of 06
+PARTICIPANT: Yemi A., Content & Comms Manager
+COMPANY SIZE: ~60 employees, fully remote HR tech company
+TENURE WITH NOTION: 2 years
+INTERVIEWER: Discovery Lens Research Team
+DATE: March 2025
+FORMAT: 40-minute remote session, Google Meet
+NOTE: Participant works primarily from mobile and laptop across multiple time zones. Transcript edited for length and readability.
+
+---
+
+INTERVIEWER: Yemi, thanks for joining. Tell me a bit about your role and how you use Notion.
+
+YEMI: So I do all of our internal and external comms — company blog, newsletter, social media, internal announcements, some PR. Notion is where we keep everything — editorial calendar, content briefs, brand guidelines, draft documents, the lot. I've been using it for two years since I joined.
+
+I work from home but I'm also constantly moving around. I do school runs, I'm out a lot, I travel a fair bit for company events and customer visits. So I'm probably fifty-fifty between laptop and phone on any given day.
+
+INTERVIEWER: Let's start with what works. What do you genuinely value about Notion?
+
+YEMI: The editorial calendar is really good. Being able to see all our content by status, by publication date, by platform, by who's assigned — in one database view — that's massively better than the spreadsheet we had before. And the ability to link a content brief to its calendar entry, and link the calendar entry to a campaign, and have everything visible from one record — that kind of relationship structure is genuinely powerful.
+
+Also, collaboration is fine. Comments work. Mentions work. My manager and I go back and forth on draft documents without issue. That part is solid.
+
+INTERVIEWER: Now what doesn't work?
+
+YEMI: [exhales] Mobile. Can I talk about mobile for a while?
+
+INTERVIEWER: Please do.
+
+YEMI: So here's a day I had last month that is representative of the problem. I was at my son's school thing in the morning, and our head of marketing sent me a message saying a piece we'd planned had been bumped up by two weeks and I needed to update the editorial calendar and brief the freelancer. Fine, normal stuff.
+
+I open Notion on my phone. I navigate to the editorial calendar — that takes a bit because the sidebar navigation on mobile is awkward, you have to swipe and scroll. I find the content item. I try to change the publication date. That requires opening the record and editing a date field. On desktop this is two clicks. On mobile I'm tapping, the date picker comes up, it's a tiny wheel scroll thing that's hard to control precisely on a small screen. I change the date. I try to add a comment to brief the freelancer. The comment box is at the bottom, but the keyboard covers it when it opens and the page doesn't scroll up the way I expect, so I end up typing without seeing what I'm typing. I post the comment. Something has gone wrong — the formatting is off, there's a line break in the middle of a sentence.
+
+This whole thing took maybe six or seven minutes on mobile. On desktop it would have been forty-five seconds. And those minutes were frustrating minutes, not productive minutes.
+
+INTERVIEWER: Is that experience typical?
+
+YEMI: It's typical for anything that involves creating or editing content. Reading is okay. If someone shares a link with me and I just need to read it — fine, works on mobile. But anything involving editing, creating records, writing comments, using databases — it's consistently worse than desktop. Not slightly worse. Significantly worse.
+
+And the thing is — for my job, mobile capture is actually important. I'm often away from my desk when something time-sensitive comes up. If I can't deal with it on my phone, I either have to wait until I'm at my laptop — which sometimes means things slip — or I deal with it badly on mobile and then fix it later on desktop. That's double handling.
+
+INTERVIEWER: Have you tried any workarounds?
+
+YEMI: I've tried a few. For quick notes, I use WhatsApp to message myself and then transfer to Notion later. Which is obviously ridiculous — I'm using a messaging app as a notes inbox for my notes app. I also keep a Moleskine notebook for actual quick capture when I'm in meetings or events. The notebook is more reliable than Notion mobile for that specific use case, which is a strange thing to say in 2025.
+
+Someone in a Notion community I'm in suggested using Notion Web Clipper as a workaround for quick capture on mobile. I tried it. It's not really designed for quick notes, it's for saving web content. Doesn't help.
+
+INTERVIEWER: Let me ask about something different — how do you find things in Notion? You have a lot of content.
+
+YEMI: Hit and miss. If I remember the name of something, I can usually find it through search. If I only remember vaguely what something was about — "there was a document about the rebranding, what was it called" — I often can't find it through search. I end up browsing the folder structure, which works if I remember where I put it.
+
+The thing that really frustrates me is finding content inside records. A lot of my actual work content — briefs, draft copy, notes — lives inside database records. Notion's search doesn't reliably find text inside database record bodies. So searching for a specific phrase that I know is in a brief often returns nothing, and I have to open records one by one.
+
+INTERVIEWER: You mentioned the AI features earlier. Does Notion AI help with findability?
+
+YEMI: I tried it. The Q&A feature where you ask Notion AI a question and it finds relevant content — I tested it a few times. It works better than keyword search for some queries. But it's an add-on cost, which we haven't approved for the team. So I see it, I can try it occasionally, but it's not in my actual workflow because it's behind a paywall.
+
+And honestly that's a bit frustrating. The feature that would solve my main pain point — finding content across my workspace — is the one they're charging extra for on top of an already expensive subscription.
+
+INTERVIEWER: If someone at Notion was listening to this conversation, what would you want them to know?
+
+YEMI: That mobile isn't an edge case for me. It's half my work life. I think Notion was designed for someone sitting at a desk with a big monitor and plenty of time to set things up carefully. That's not most of my working day. And I suspect it's not most of their users' working days either, especially now that remote and hybrid work is just how work is.
+
+If the mobile app felt as capable as the desktop — if I could edit, create, comment, and search with the same ease — I would be a much happier user. Right now I work around it. I don't want to work around it.
+
+INTERVIEWER: Last thing — your editorial team, do they use Notion the same way you do?
+
+YEMI: Our freelancers use it to read and comment on briefs. That works fine. My manager uses desktop mostly. I'm probably the most mobile-dependent person on the team and I feel it the most.
+
+We've talked about whether there's a better tool for content management. Someone suggested Airtable for the editorial calendar specifically. I'm not opposed to looking. But I don't want to manage two tools — I'd rather Notion fixed the thing.
+
+INTERVIEWER: Brilliant, thank you Yemi. Really useful.
+
+YEMI: Hope so. Fix the mobile app. Tell them I said that.
+
+---
+END OF INTERVIEW 04

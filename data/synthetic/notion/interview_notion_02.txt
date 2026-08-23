@@ -1,0 +1,71 @@
+SOURCE TYPE: interview
+PRODUCT: Notion
+INTERVIEW: 02 of 06
+PARTICIPANT: Priya S., Senior Software Engineer
+COMPANY SIZE: ~80 employees, developer tooling startup
+TENURE WITH NOTION: 1.5 years (company-mandated)
+INTERVIEWER: Discovery Lens Research Team
+DATE: March 2025
+FORMAT: 45-minute remote session, Google Meet
+NOTE: Participant was candid and sometimes critical. Transcript lightly edited for readability.
+
+---
+
+INTERVIEWER: Priya, you mentioned before we started that you're a reluctant Notion user. Can you tell me what you mean by that?
+
+PRIYA: Sure. I didn't choose Notion. It was already there when I joined. Our team uses it for everything — engineering specs, architecture decision records, project planning, meeting notes, onboarding docs. It's inescapable. So when I say reluctant, I don't mean I hate it, I mean I didn't opt in and I've had to adapt my working style to it rather than the other way around.
+
+INTERVIEWER: How does your daily interaction with Notion look?
+
+PRIYA: I open it probably fifteen to twenty times a day. Checking meeting notes from yesterday. Looking for a spec someone wrote. Updating a ticket-ish thing we track in a database. Writing a design doc. It's always open in a tab. 
+
+The honest answer about how it feels is... fine? It does the job. But there are specific moments where it actively gets in the way and those are the moments I remember because they're frustrating.
+
+INTERVIEWER: Tell me about those moments.
+
+PRIYA: The biggest one is performance. We have a database that tracks all our engineering projects — ongoing, planned, archived. It's probably around three thousand records now. When I open a filtered view of that database — just to see active projects assigned to my team — I wait. Sometimes it's two seconds, sometimes it's six or seven. And I know that sounds like nothing, but it happens many times a day and it interrupts my flow in a specific way. You're in the middle of something, you need to check a project detail, you click, and then you're just waiting. Your brain can't do anything useful in that gap so you end up getting distracted. 
+
+The second thing — and this one bothers me as an engineer because it feels like a solvable problem — is that search doesn't work on database content. If I write a design doc inside a Notion database record, and then two months later I search for a term that's in that doc, Notion often doesn't find it. I have to remember which project it was attached to and navigate there manually. That's not search, that's memory-assisted navigation.
+
+INTERVIEWER: Has performance always been this way?
+
+PRIYA: I can't compare from before I joined, but teammates who've been here longer say it's gotten slower. One of them told me it used to feel snappy. Now it doesn't. I don't know what changed technically, whether it's the data volume or something on Notion's end, but the subjective experience is slow. Not unusable slow, but slow enough to notice.
+
+INTERVIEWER: What about on mobile? Do you use Notion on your phone?
+
+PRIYA: I've tried. I basically don't anymore. The use case I had in mind was — you finish a meeting, you're walking back to your desk, you want to quickly jot down the action items while they're fresh. On Notion mobile, by the time I've found the right database, created a new record, typed the title, and then tried to add content in the body — which the mobile editor makes weirdly hard — the moment has passed. I use Apple Notes now for quick capture and then either transfer to Notion later or just... don't. Honestly sometimes things stay in Apple Notes forever because the friction of moving them is too high.
+
+INTERVIEWER: Does your team have a shared convention for what lives in Notion?
+
+PRIYA: We have loose conventions that have degraded over time. We started with a clear structure — Engineering > Projects > [project name] > [spec, meeting notes, decisions]. That still exists but people don't always follow it. Sometimes a spec is at the top level of someone's personal workspace. Sometimes meeting notes are nested three different ways depending on who created them. When you're new you spend a lot of time figuring out "where is the thing" rather than reading the thing.
+
+We had a proposal to assign someone as "Notion owner" for the engineering team whose job would be to maintain structure. We never did it because — who has time? So the entropy continues.
+
+INTERVIEWER: You mentioned architecture decision records. How does that workflow work?
+
+PRIYA: We use ADRs to document significant technical decisions. The format is standard — context, decision, consequences. Notion is fine as a container for these. Where it breaks down is when you want to find an ADR from two years ago when someone made a decision about, say, our database choice, and you're trying to understand the reasoning. The search problem comes back. If the ADR title doesn't contain the exact keyword you're searching for, you might not find it. We've had engineers repeat analyses that had already been done because they couldn't find the original decision. That's waste.
+
+INTERVIEWER: What would you want to be different?
+
+PRIYA: Search that actually works. Like, genuinely indexes all content, handles synonyms, ranks by relevance. That one thing would make Notion dramatically more useful for an engineering team with years of accumulated documentation.
+
+And performance. Specifically on databases. I don't need it to be instant, I just need it to not be the thing I'm waiting on multiple times a day.
+
+INTERVIEWER: If you were designing a better version of what Notion does, what would it look like?
+
+PRIYA: Honestly the core concept is good. Blocks, databases, flexibility — that's all fine. I'd keep that. What I'd change is under the hood. Make the sync architecture faster for large datasets. And build real search — index everything, search everything, return ranked results. Those two changes would make me actually enthusiastic about Notion rather than just tolerating it.
+
+Oh, and mobile. Design mobile as a primary experience, not a responsive desktop. Quick capture should be three taps maximum. Voice note that transcribes to a database record. Something that fits how people actually use phones.
+
+INTERVIEWER: Is there anything you genuinely like without caveats?
+
+PRIYA: [pause] Yeah actually. The relational database stuff, when it works, is genuinely impressive. We have a database of engineering projects linked to a database of people linked to a database of systems. Being able to create a view that shows "all projects involving the payments system and their owners" without writing SQL — that's actually kind of amazing for a non-technical team member. The concept is powerful.
+
+And the docs — writing a design doc in Notion is actually nicer than Google Docs for me. The formatting is cleaner, it feels less cluttered. When I'm just writing, Notion is great. It's when I need to retrieve something that it falls down.
+
+INTERVIEWER: Thank you Priya, this has been really helpful.
+
+PRIYA: No problem. Hope you can do something with all that.
+
+---
+END OF INTERVIEW 02

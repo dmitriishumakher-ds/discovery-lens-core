@@ -1,0 +1,79 @@
+Discovery interview — Revolut
+Participant: Digital nomad, female, 29, freelance UX designer
+Interviewer: Product researcher
+Setting: Remote video call, ~45 minutes
+Date: October 2025
+
+---
+
+Interviewer: Hi! Thanks so much for joining today. Before we start, can you tell me a bit about yourself and how you generally manage your money?
+
+Participant: Sure, hi! So I'm Sofia, I'm a freelance UX designer, and I've been location-independent for about three years now. Right now I'm in Lisbon, but last year I spent six months in Mexico City and three in Bali. The money thing has been... a journey, honestly. I started with a regular UK bank — HSBC — and that was a nightmare. They kept flagging my card every time I tried to buy a coffee in a new country. Like, I get it, security, but I literally told them I was traveling. Multiple times. Anyway, a friend in Berlin told me about Revolut maybe two and a half years ago and I haven't really looked back.
+
+Interviewer: Got it. So when you say you haven't looked back — does that mean Revolut is your primary account now?
+
+Participant: Yeah. Well, mostly. I still have HSBC because I get paid into it sometimes — some clients are old-school and only do bank transfers to UK accounts. But like 80% of my actual life happens in Revolut. Spending, transfers, even some of my savings.
+
+Interviewer: That's helpful. Can you walk me through what happened the first time you tried to send money internationally with Revolut?
+
+Participant: Oh god, okay. So this was, um, maybe a year and a half ago? I had to pay rent in euros to my landlady in Berlin while I was still earning in pounds. And I remember being really nervous because with HSBC the exchange rate was always — they would say "no fees" but then the rate was just terrible, you know? You'd lose like 4% just on the spread. So I tried Revolut, and I think I sent like fifty pounds first as a test, because I just didn't trust it. And it arrived in like — I want to say two minutes? It was almost suspicious. I actually messaged my landlady to make sure it was real money.
+
+Interviewer: Ha, that's a great way to put it. What was suspicious about it?
+
+Participant: Just — banks have always been slow. Like, that's the whole experience of banks. You send money and it disappears for three days and you cross your fingers. So when something is instant, your brain goes "wait, where's the catch?" The catch turned out to be nothing, really. I mean, on weekends the rate is slightly worse, which I learned later. But for what I needed it was fine.
+
+Interviewer: You mentioned the rate. How aware are you, day to day, of the exchange rate Revolut is giving you?
+
+Participant: Honestly? Not as aware as I should be. I check it sometimes. Like before a big transfer I'll glance at the rate. But for everyday spending — like buying groceries in a different currency — I just trust it. I assume it's basically the market rate. Is it? I don't actually know. I should probably check that.
+
+Interviewer: What would help you check it more easily?
+
+Participant: I mean, the in-app rate is shown when you're doing a transfer, which is good. But when I'm just paying with the card, I have no idea what rate I got until the transaction shows up. And by then it's too late anyway. I guess... a notification? Like "hey you just paid 12 euros at this rate"? But also that would be annoying probably. I don't know.
+
+Interviewer: That's interesting. Let's talk about trust. You said you keep most of your life in Revolut now. Do you trust it completely?
+
+Participant: Yes. I mean — yes. Yeah. Mostly.
+
+Interviewer: Mostly?
+
+Participant: Okay so, here's a contradiction I have with myself. I say I trust it. But I also keep a kind of emergency buffer in HSBC. Like maybe 800 pounds that I don't touch. Just in case. And I know that's irrational because if Revolut went down HSBC isn't going to magically be available either, like there's no logical reason. But there's something about — I don't know, fintech is fintech, you know? It's an app. My HSBC account has a physical building somewhere with people in it. That feels different even though logically it shouldn't.
+
+Interviewer: That's super interesting. Have you ever had a problem with Revolut that made you nervous?
+
+Participant: Oh yeah. Once. So this was probably eight months ago. I was in Mexico City and I tried to buy a flight to Oaxaca with my Revolut card and it just got declined. And I tried again, declined. And then I checked the app and it said something like "your card has been temporarily blocked for your protection." And I was just standing there in this airport like — okay. Okay. So I tried to use the chat support thing in the app, and the chat just... it wasn't really a chat. It was like a bot that kept asking me to verify things. And then it said an agent would be with me in — I don't remember — like 30 minutes? And I'm at the airport. So I ended up paying with my HSBC card, which obviously also got flagged because of course it did, but then I called HSBC and they unblocked it in like 4 minutes because I could actually talk to a human.
+
+Interviewer: How did the Revolut situation eventually resolve?
+
+Participant: I think someone replied like 90 minutes later? And by then I'd already missed the flight I was trying to book. They unfroze the card. They didn't really apologize, they just said "your card is now active." Which — fine. But yeah, that whole experience was really frustrating because I literally couldn't reach a human when I needed one. And the thing is, I get why they do it, I'm sure they prevent fraud all the time, but as the person in the airport you just feel completely powerless.
+
+Interviewer: After that, did anything change about how you use Revolut?
+
+Participant: Yeah, I top up my HSBC card before I travel anywhere now. Just so I have a backup. So in a way I trust it less? But I still use it. It's still my main thing because the alternative is just worse. Have you tried doing international transfers with HSBC? It's like filling out a tax form.
+
+Interviewer: Have you considered alternatives like Wise or N26?
+
+Participant: Yeah, I have Wise actually. I use it for receiving money from US clients sometimes because the rates on USD-GBP are slightly better. But Wise feels more like a tool, you know? Like I open it when I need to transfer something and then I close it. Revolut is — it's a place I live. I check my spending, I have my budgets, I see my analytics. Wise doesn't feel like home. N26 I tried briefly when I was in Berlin but I just never really got into it. The app felt clunky.
+
+Interviewer: You mentioned analytics. How do you use those?
+
+Participant: I look at the spending breakdowns, like how much I spent on groceries vs going out vs travel. It's mostly to feel guilty, honestly. Like at the end of the month I'll see "you spent 340 pounds on restaurants" and I'll be like, oh god. But I never actually change my behavior based on it. I just feel bad for an afternoon. Is that useful? I don't know. Probably not.
+
+Interviewer: What about savings? You mentioned you keep some savings in Revolut.
+
+Participant: Yeah, I have a vault. I think it's called a Pocket now? Or a Vault? They renamed something. I have one for taxes because as a freelancer that's a thing you have to think about. And I have one for "next move" which is just money I'm setting aside for when I move to the next country. The interface for that is fine. I set up a recurring transfer when I get paid. The interest rate is okay, not amazing, but I'm not really doing it for the interest, I'm doing it because if it's in a vault I won't accidentally spend it.
+
+Interviewer: Have you ever considered Revolut Premium or Metal?
+
+Participant: I had Premium for a few months. The lounge access was nice when I was traveling a lot. But honestly I couldn't justify the cost given how much I was actually using it. I downgraded back to free. I think if I traveled even more I'd reconsider, but right now I'm staying put for stretches of three or four months at a time so the lounge thing isn't worth it.
+
+Interviewer: One last question. If you could change one thing about Revolut, what would it be?
+
+Participant: Oh that's a good one. Um. Customer support, hands down. The product itself I really like. The transfers, the cards, the analytics, all of that — fine, good even. But the moment something goes wrong, you feel like you're shouting into a void. And for a thing that holds your money, that's a really specific kind of stress. If I could pay a small monthly fee to get a real human within 5 minutes, I'd probably do it. Like that's how much I value it.
+
+Interviewer: Has that ever made you consider switching back to a traditional bank?
+
+Participant: No. I mean, like I said, traditional banks are worse in pretty much every other way. So I'm stuck. But "stuck because the alternatives are worse" isn't the same as loving something, you know?
+
+Interviewer: That's a great note to end on. Thank you so much, Sofia, this was really useful.
+
+Participant: Yeah, of course! Hope it helps.

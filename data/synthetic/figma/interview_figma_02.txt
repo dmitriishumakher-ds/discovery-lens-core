@@ -1,0 +1,31 @@
+INTERVIEWER: Tell me about your role and how your team uses Figma.
+
+PARTICIPANT: I'm the design lead for a product org of about 200 people — designers, PMs, engineers. We have 40 designers across four time zones, all in Figma. We maintain a design system with around 300 components across eight library files. So Figma is the backbone of everything we do. I've been championing Figma internally since we switched from Sketch in 2020, and honestly, I don't regret the switch. But lately, it's been harder to defend.
+
+INTERVIEWER: What's changed?
+
+PARTICIPANT: Performance. It's become a serious problem. Publishing a change to our core component library takes four to five minutes. During that time, my machine is completely frozen — I can't do anything else. I've started going to get coffee while it publishes. And if we need to push an urgent fix, like a broken button state, the delay is just unacceptable. Our developers are waiting on us, and five minutes times however many publishing cycles we need adds up to real delays. We've tried splitting the libraries, cleaning up unused components, reducing variants — it helps a little, but it's a band‑aid on a bullet wound.
+
+INTERVIEWER: So the design system management is a major friction point?
+
+PARTICIPANT: Yes, and it's not just performance. We moved from styles to variables about eight months ago because Figma positioned variables as the future of design tokens. And the idea is great — being able to define a single source of truth for colors, spacing, typography across modes and themes. But in practice, variables have been buggy as hell. We've had instances where variables just... disappear from the library. Not deleted, not hidden — just not visible. Our designers would open a file and all the colors would be wrong because the variable references were broken. It took us weeks to figure out what was happening, and support wasn't helpful. They'd say "clear your cache" or "check your team permissions." It was a known bug that wasn't documented anywhere. We're paying for an enterprise plan, and we're acting as beta testers. That's not sustainable.
+
+INTERVIEWER: What about the collaboration side? That's usually Figma's strength.
+
+PARTICIPANT: It is, but there are downsides we didn't anticipate. Real‑time collaboration is great, but it also creates a lot of visual noise. I have designers working in the same file from different time zones, and when I open it in the morning, I see cursors everywhere, people making changes, comments popping up. Sometimes I just want to review a screen without the chaos. We've had to implement internal etiquette — like "don't work on the same page as someone else without messaging them first" — which defeats the purpose of real‑time collaboration. We've essentially recreated async workflows inside a synchronous tool.
+
+INTERVIEWER: That's a really interesting tension. What about UI3?
+
+PARTICIPANT: Oh man. The rollout was rough. My team complained for weeks. Constraints moved, clip content became a dropdown, the library update button vanished from where they'd been trained to find it. I sent out a survey after two months and 70% of the team said they were slower. That's not resistance to change — that's a measurable impact. I actually had to justify our team's velocity dip to my VP. "Figma redesigned their interface" is not a great explanation for why sprint commitments slipped.
+
+INTERVIEWER: Have things improved since?
+
+PARTICIPANT: People have adapted. Muscle memory has been rebuilt. But I still hear grumbles about specific interactions. And it's telling that nobody said "wow, this new UI is so much better." The best reaction was "it's fine now." That's a missed opportunity for a design tool company, don't you think?
+
+INTERVIEWER: What would you change if you could?
+
+PARTICIPANT: I'd freeze feature development for six months and let the engineering team focus entirely on stability and performance. No new AI features, no Figma Slides, no Config announcements. Just make the tool faster, more reliable, and fix the variables bug. Our design system is too important to be held hostage by tool instability.
+
+INTERVIEWER: Thank you. This was incredibly insightful.
+
+PARTICIPANT: Hope it helps. Figma is still a great tool, but it needs to grow up as a platform.

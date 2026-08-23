@@ -1,0 +1,79 @@
+Discovery interview — Revolut
+Participant: Mid-career professional, male, 53, regional sales manager
+Interviewer: Product researcher
+Setting: Remote video call, ~45 minutes
+Date: November 2025
+
+---
+
+Interviewer: Hi David, thanks for joining today. Can we start with you telling me a bit about yourself and your relationship with banking generally?
+
+Participant: Yes, certainly. I'm 53, I work in regional sales for a mid-sized industrial supplies company, been with them about, oh, eighteen years now. I'm based just outside Birmingham. Married, two kids — one's at university, the other's just started working. Banking-wise, I've been with NatWest for, I want to say, since I was sixteen? When my dad took me down to open my first account. So we're talking nearly four decades with the same bank. That's just how it was, you know. You picked a bank, and that was your bank.
+
+Interviewer: That's a long relationship. What made you start looking at alternatives?
+
+Participant: Honestly, my daughter. She's the one at university. Last year we went on a family holiday to Italy and she's there with her phone telling me "Dad, you're losing money on every transaction with NatWest." And I'm trying to explain that's just how it works, you pay a fee for international, that's the deal. And she shows me her Revolut app, shows me the rate she's getting, and I do the maths, and yeah. She was right. It was costing me a meaningful amount.
+
+Interviewer: How meaningful?
+
+Participant: Well, on that trip alone — we were there for ten days, I was paying for restaurants, taxis, I bought my wife a piece of jewellery — I worked it out afterwards and I think I lost about ninety pounds just on the conversion fees and the rate spread. For ten days. And I thought, right, this is silly. I'm not going to keep doing this.
+
+Interviewer: So you signed up for Revolut. What was that like?
+
+Participant: It was — okay, I want to be honest. It was harder than I thought. Not because the app is bad, I think the app is fine. But because I was nervous about it. The whole process of, you know, taking a photo of my passport with my phone, having to do that little video where you turn your head — I found that uncomfortable. I kept thinking, is this real? Is this a scam? My daughter had to FaceTime me through some of it.
+
+Interviewer: That's really useful feedback. What was uncomfortable about the verification?
+
+Participant: I think it's that — with NatWest, I went into a branch, I sat down with a person, I signed papers. There's a, there's a ritual to it, I suppose. With this, I'm in my kitchen, I'm holding my phone in front of my face, I'm reading instructions on a screen. I have no one to ask if I'm doing it right. And the stakes feel high because it's — it's money, you know. If I get this wrong, am I going to lose access to my own funds? I don't know. So I was probably more cautious than I needed to be.
+
+Interviewer: How did you eventually feel comfortable using it?
+
+Participant: Slowly. (laughs) I started by transferring just twenty pounds. I made one transaction, watched it work. Then I transferred fifty. Took a few weeks before I really started using it as a, you know, normal thing. My wife thought I was being ridiculous, she just put two hundred pounds in straight away and started using the card. But she's always been more, ah, adventurous with technology than me.
+
+Interviewer: How do you use Revolut now, day-to-day?
+
+Participant: I use the card when I travel. So when we went back to Italy this summer, I used Revolut for everything and it was — it was great, actually. I'd see the rate, I'd see the transaction, I'd see the categories, and I felt in control. Which is more than I can say for my old NatWest experience where I'd just get the statement at the end of the month and squint at all the fees.
+
+Interviewer: What about for non-travel spending?
+
+Participant: I don't really use it for that. My salary still goes into NatWest, my mortgage comes out of NatWest, my direct debits, all of that, NatWest. I just transfer some money to Revolut before a trip. I don't think I'm using it the way younger people use it as their, you know, main account. I'm not sure I'd want to.
+
+Interviewer: Why not?
+
+Participant: A few reasons, I suppose. One is just inertia. NatWest works fine for the everyday stuff. Direct debits, salary, those things have been set up for years. I don't want to deal with changing all of them. Two is — and this is going to sound old-fashioned — but if I have a problem with NatWest, there's a branch ten minutes from my house. I can walk in, sit down, talk to a person. With Revolut, if something went wrong, where would I go? An app? A chatbot? I don't know. That feels less safe to me.
+
+Interviewer: Have you actually had a problem with Revolut?
+
+Participant: One time, yes. I was trying to send my son some money — he's the one who just started working, and I was helping him out — and the transaction got flagged. It said something about needing to verify. I tried to find help in the app and it took me ages to figure out how to even contact a person. And when I finally got through to the chat, it was, I don't know, twenty minutes of back and forth. He needed the money for his rent that day. Eventually it worked out but it was — I felt very out of control during that. Like the app was deciding things and I was just waiting.
+
+Interviewer: That's a really specific kind of frustration. Did you talk to NatWest after that incident?
+
+Participant: No, I didn't change anything. But I did think about it. I thought, would NatWest have done that? Probably also yes, to be fair. They have their own fraud checks. But the difference is I'd have phoned NatWest, gotten through to a person within five minutes, and we'd have sorted it. With Revolut it's — it's all through this little chat window.
+
+Interviewer: Are there features of Revolut you actively like?
+
+Participant: Yes, the spending breakdowns are surprisingly useful. I like seeing where the money's actually going. NatWest has something similar but it's not as clear. The exchange rates are obviously the main thing. And the card itself — I like that I can freeze it in the app if I lose it. I tested that once on purpose, just to see if it worked. It did.
+
+Interviewer: What about features you find confusing or don't use?
+
+Participant: Most of it, honestly. There's all this stuff about, ah, Pockets and Stocks and crypto and — I don't touch any of that. I don't understand it and I don't trust myself with it. There's also, like, special offers? Cashback things? I can never figure out which ones apply to me or how to activate them. So I just ignore that whole part of the app.
+
+Interviewer: Do you think the app is too complicated, or are you just not the target user for those features?
+
+Participant: That's a fair question. I think both. I think they're aimed at people younger than me who want to do everything in one place. But I also think — and this might just be a gripe — but every time I open the app there's a new, you know, a new banner or pop-up trying to get me to do something. Try Premium, get cashback, invite a friend. I just want to see my balance. Sometimes it's hard to find the basic stuff because there's so much going on.
+
+Interviewer: Are there things you miss from NatWest that Revolut doesn't have?
+
+Participant: The branch, like I said. The phone number, real customer service. Cheques, although I'm not sure anyone uses cheques anymore. I write maybe two cheques a year now, both for, ah, my mother-in-law for her birthday. So that's not really a Revolut problem, that's a me-being-old problem. (laughs)
+
+Interviewer: Thinking about your daughter, who introduced you to Revolut — how do you think she uses it differently from you?
+
+Participant: She just uses it. There's no — she doesn't think about it the way I do. To her it's just an app. Like Spotify or whatever. She uses Revolut, then she swipes over and uses Instagram, then she swipes back and pays for something. It's all just phone life to her. For me, it's a bank, with all the weight that word carries. Different relationship.
+
+Interviewer: One last question. If Revolut wanted to make life easier for someone like you — older, traditional banking background, cautious — what would you suggest?
+
+Participant: A real phone number. (laughs) I know that's not on-brand. But honestly, even just — if there was a way to know that within X minutes I'll talk to a real human if I have a problem, I'd feel a lot better about putting more of my financial life in it. The other thing is, ah, simplification. Maybe a "simple mode" where the app just shows me my balance, my transactions, and the card. I don't need everything else. If I want to get into Stocks I can ask for that to be turned on. Right now I feel like I'm using ten percent of an app that's trying to do a hundred things.
+
+Interviewer: That's a brilliant note to end on. Thank you so much, David.
+
+Participant: My pleasure. Hope it's useful. Tell my daughter I cooperated.

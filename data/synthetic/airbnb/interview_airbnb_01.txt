@@ -1,0 +1,55 @@
+DISCOVERY LENS — USER INTERVIEW TRANSCRIPT
+Product: Airbnb
+Participant: "Hanna" (anonymised) | 32, management consultant, Frankfurt (frequent business traveller)
+Interviewer: X.
+Date: May 2026
+Duration: 42 minutes
+Note: Hanna travels ~120 nights per year for work. Mix of Airbnb and hotels. Lightly edited for readability.
+
+---
+
+INT: To start — when do you actually choose Airbnb over a hotel for work travel?
+
+HANNA: It's a specific calculation. For one or two nights I almost always do a hotel. For three nights or more I start considering Airbnb, and for a week or more it's almost always Airbnb. The reason is — when I'm somewhere for a week I want a kitchen, I want laundry, I want to not be eating in restaurants every meal. Hotels start to feel like an extended interrogation after night four. Airbnb gives me a normal life on the road. That's the value proposition for me.
+
+INT: What's frustrating about it though? You hesitated when I asked about hotels.
+
+HANNA: Oh god, where do I start. The price. That's the headline. I'll search for a place in, let's say, Lisbon, and the listing shows €60 a night. Great, I think, €420 for the week. I click through and the actual total is €780. Cleaning fee €90, service fee €110, "occupancy tax" €40. And the cleaning fee is the one that makes me genuinely angry because it's not a fixed thing. The same exact apartment will have a €40 cleaning fee from one host and a €120 cleaning fee from another, and I don't know if it reflects actual cleaning cost or if it's just the host hiding price.
+
+INT: Has that affected how you search?
+
+HANNA: Completely. I now sort by "total price" not nightly price, which Airbnb does let you do — but you have to manually toggle it every time. The default is nightly. Which I think is deliberate. The first thing you see is the smaller number. And there are listings where I've gone all the way to checkout and seen the breakdown and just left the booking. Probably... I'd say one in four bookings I start, I abandon at the price reveal stage. That's not a small number.
+
+INT: When you do find a place — what's the actual stay like?
+
+HANNA: It varies enormously. That's the other thing — the inconsistency. With a Marriott or a Hilton you know what you're getting. With Airbnb I genuinely don't know until I walk in the door. I've had places that were better than the photos and I've had places where I walked in and the bedroom was the size of a closet and the "kitchen" was a microwave and a sink. The photos are wide-angle, the descriptions are euphemistic — "cozy" means tiny, "lively neighbourhood" means you'll hear drunk people at 3am. I've started looking at the photos really carefully now, looking at things like — is there a window in the photo of the bedroom? Sometimes there isn't. That's the kind of thing you have to detective.
+
+INT: Do you read reviews carefully?
+
+HANNA: I read every review for any place I'm seriously considering. And I trust them more than the host's description. But there's a problem — Airbnb reviews are weirdly polite. People are reluctant to give a 3-star or below because of the reciprocal review system, where they know the host might leave them a bad review as a guest. So the reviews skew up. I've learned to read between the lines. "The host was responsive" can mean "I had a problem and the host responded to it." "It's a great location for the price" can mean "the place itself isn't great but it's cheap." It's almost a different language.
+
+INT: Have you ever had a really bad experience?
+
+HANNA: Yes. I had a place in Madrid where I arrived at 10pm after a flight and the lockbox code didn't work. I tried three times. I messaged the host. No reply. I waited outside the building for forty minutes. I called Airbnb support — that itself was a journey, finding the phone number — and the agent's first response was "have you tried messaging the host?" Yes, I have. Several times. The agent then put me on hold for twenty minutes and came back and said the host wasn't responding and they could try to find me alternative accommodation but they couldn't guarantee anything in the next hour. I ended up booking a hotel from my phone while standing on the street with a suitcase. Airbnb did refund the booking, eventually — three days later after I emailed the support chain twice. But the experience of being locked out of an apartment in a foreign city at 11pm with no working contact for the host is something hotels do not produce.
+
+INT: Did that put you off Airbnb?
+
+HANNA: For about a month. Then I went back to it because the cost-of-stay calculation still works for longer trips, like I said. But my trust in the platform shifted. I now only book Superhosts where the property has been on Airbnb for over a year and has at least 50 reviews. I won't risk it on new listings. Which is probably bad for the platform — new hosts can't get started if everyone thinks like me. But that's my heuristic now.
+
+INT: How do you feel about the host responses generally?
+
+HANNA: Most are fine. Some are great. A few are weirdly possessive — like, they message you four times before you arrive with house rules and "I'll be checking the property after you leave" and it just makes you feel like you're being managed rather than welcomed. I had one host who messaged me every morning of a 7-day stay asking how the apartment was and whether I needed anything. It was meant kindly but it made me feel watched. I don't message my hotel concierge every morning, you know what I mean. It's a guest, not a relationship.
+
+INT: Anything about the platform that you'd change tomorrow if you could?
+
+HANNA: Show total prices up front. Not nightly. The total. Including everything. Because if I'm comparing five apartments and three hotels, I want to compare on the same metric. And limit the cleaning fees somehow — like, tie them to a percentage of the nightly rate, or to property size, or something. The current model where the host sets whatever they want and it's just revealed at checkout is bad design and it's eroding trust. I read articles about Airbnb's stock price and pricing controversy — they know. They know this is a problem. Why haven't they fixed it?
+
+INT: Anything about reliability or service guarantees?
+
+HANNA: I'd pay for a tier of listings that comes with a service guarantee. Like — verified properties where Airbnb has actually inspected and the price is fixed and if anything goes wrong they have a 24-hour resolution. I'd pay 15% more for that. Maybe more. Because what I'm paying for at a hotel, partly, is the certainty. If something goes wrong at the Marriott, I can yell at the front desk and they'll fix it. With Airbnb the recourse is unclear and slow.
+
+INT: One last thing — would you recommend Airbnb to a colleague going on a business trip?
+
+HANNA: For longer stays, yes, with caveats. I'd tell them: filter for Superhost, sort by total price not nightly, read every review, look at the photos carefully, and have a backup plan in case the booking goes wrong. Which is a lot of friction for what should be a simple transaction. For a one-or-two-night trip I'd say just book the hotel. The marginal extra cost is worth the certainty.
+
+[END OF TRANSCRIPT]

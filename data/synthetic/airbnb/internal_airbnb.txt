@@ -1,0 +1,143 @@
+DISCOVERY LENS — INTERNAL NOTES COMPILATION
+Product: Airbnb
+Source type: internal
+Date: May 2026
+
+---
+
+DOCUMENT 1 — Account Manager call note
+Account: Airbnb for Work — Mercer & Holm Consulting (820 employees, professional services firm)
+AM: T. Larsson
+Date: 18 February 2026
+Duration: 45 min (Zoom)
+
+Attendees: Head of Travel Operations (Bernadette O.), Senior Travel Manager (Hwang J.), Airbnb for Work AM
+
+SUMMARY:
+
+Bernadette opened by saying Mercer & Holm has been using Airbnb for Work for 18 months and overall satisfaction is "mixed but trending positive." They are evaluating renewal in advance of the Q3 contract date. Hwang joined to provide the operational view.
+
+**Booking volume:** Mercer & Holm books approximately 1,400 nights/quarter on Airbnb across consulting engagements (typically week-long stays for project teams). This is up 22% YoY. The driver is partner satisfaction — partners have requested Airbnb specifically for stays over 4 nights because of the kitchen/workspace/laundry advantages over hotels.
+
+**Top operational concerns raised (in order of weight):**
+
+1. *Host cancellations and ripple effects.* Hwang cited 4 incidents in the past 6 months where a host cancelled within 72 hours of arrival and the firm had to scramble to relocate a consultant to a hotel at higher cost. In one case the consultant was a partner travelling to a client engagement, and the cost difference was billed back to the client awkwardly. The team has started building in 10% budget buffer for "host cancellation contingency." Hwang: "We can't fully trust the booking until check-in."
+
+2. *Reporting and expense reconciliation.* Their expense system requires per-booking line item with cleaning fee, service fee, and total clearly separated. Airbnb's receipt format bundles these in a way their automated expense matching doesn't parse cleanly. Result: ~12% of Airbnb bookings require manual reconciliation by Hwang's team. This is operationally painful but not a deal-breaker.
+
+3. *Centralised consultant safety information.* Mercer & Holm needs to know where their consultants are sleeping for duty-of-care purposes. The Airbnb for Work dashboard provides this for direct bookings but not for personal bookings consultants make and expense back. Hwang: "We're trying to consolidate but the way Airbnb is used by partners means it's hard."
+
+**Renewal context:** Bernadette indicated renewal is likely but they are also evaluating Booking.com for Business, which she described as having "better corporate reporting but worse stays for longer trips." She did not commit to renewal terms and asked for a 20% reduction in service fee for the corporate tier as part of contract negotiation.
+
+ACTION ITEMS:
+- AM to follow up with renewal proposal including service fee reduction request — needs internal sign-off
+- AM to surface Mercer & Holm's host-cancellation concerns to Trust & Safety roadmap discussion
+- Investigate expense receipt formatting for corporate accounts (technical product question)
+
+---
+
+DOCUMENT 2 — CS team escalation memo
+Internal escalation: Host cancellation policy enforcement — request for review
+Raised by: Trust & Safety CS Lead
+Date: 6 March 2026
+Distribution: T&S, Product (attn: Cancellations PM), Legal
+
+SUMMARY:
+
+The Trust & Safety CS team is raising this for review based on Q1 2026 ticket data. We are observing a measurable increase in host cancellations within 7 days of arrival, particularly for high-value bookings (€500+ total) in peak demand periods. The pattern strongly suggests a subset of hosts are cancelling lower-priced bookings to accept higher-priced replacements.
+
+**Q1 2026 data points:**
+- 7-day-or-less cancellations up 18% YoY
+- Of cancellations submitted within 72 hours, 34% involved listings that remained active and accepting new bookings for the same dates within 24 hours (n=287)
+- Average guest rebooking cost differential: +€340 (guests pay more on average for replacement bookings made on short notice)
+- Average resolution time for guest complaints in these cases: 4.2 days
+
+**Current enforcement:**
+- Host cancellation strikes (up to 3 in 12 months = listing pause)
+- Loss of Superhost status for hosts cancelling within 7 days
+- AirCover guest rebooking credit up to 100% of original booking
+
+**Issues:**
+- Enforcement is reactive — guests must dispute and we must investigate per case
+- The 100% rebooking credit cap is insufficient when peak-demand replacement bookings cost significantly more
+- We have no visibility tool that flags suspected bad-faith cancellations proactively
+- Repeat cancellations require manual case review by senior agents
+
+**Request to product team:**
+1. Build automated detection for "cancel-and-relist" patterns (listing remains active for cancelled dates within 48 hours)
+2. Increase guest rebooking credit cap for verified bad-faith cancellations (up to 150% of original booking)
+3. Provide CS agents with a host's cancellation history view at first contact (currently requires database query)
+4. Consider escalating consequence ladder: 3 strikes = listing pause, currently same regardless of pattern detected
+
+This is a guest experience issue with measurable churn implications. Guests who experience a host cancellation within 7 days have 2.3× higher 90-day churn than control. Awaiting product response.
+
+---
+
+DOCUMENT 3 — Sales discovery call note
+Prospect: TechFleet — corporate relocation services for tech companies (4,500 placements/year)
+Sales rep: M. Carlin
+Date: 14 April 2026
+Duration: 60 min
+
+PROSPECT PROFILE:
+TechFleet relocates employees of tech companies for short-term assignments — typically 30-90 day stays for new hires, contract workers, or temporary project assignments. Currently use a mix of corporate apartment providers and Airbnb. Contact: Sasha M., VP of Operations. Decision-maker for vendor selection.
+
+CALL NOTES:
+
+Sasha has used Airbnb for ~30% of placements over the past 2 years. The rest is split between corporate housing providers (BluePillow, Sonder, Stay Alfred) and direct property management firms. She is evaluating consolidating to fewer vendors and Airbnb is in the running.
+
+**What works:**
+- Inventory breadth. "No other platform has the variety. I can place an engineer in Tokyo or in Boise."
+- Brand familiarity. Relocated employees recognise Airbnb and trust the platform brand more than smaller corporate housing names.
+- Monthly discount makes 30-day stays viable.
+
+**Concerns raised:**
+
+1. *Property consistency for 30+ day stays.* Sasha noted that for longer stays, the apartment must function as a real home — reliable Wi-Fi for remote workers, washing machine, real kitchen, desk. Airbnb listings vary wildly here. Sonder and BluePillow have standardised offerings. "I can guarantee a Sonder apartment will have what my placement needs. With Airbnb I'm gambling." [This was the key concern.]
+
+2. *Host reliability for longer stays.* Sasha cited 2 incidents in the past year where hosts ended an Airbnb monthly stay early — once for "personal reasons," once for an alleged rules violation that her placement disputes. In one case her engineer was relocated 5 days into a 60-day assignment. "If I can't trust the placement to last, the whole proposition collapses."
+
+3. *Lack of a corporate-housing-style tier.* "What I want is Airbnb's inventory and brand but Sonder's consistency. Does that exist?" Sales rep noted Airbnb's "Airbnb for Work" tier and the verified-listings programme. Sasha said these don't go far enough — she needs a "verified workspace + verified Wi-Fi speed + corporate-housing-quality guarantee" tier.
+
+4. *Reporting and reconciliation.* Same issue as Mercer & Holm — corporate-format invoicing not native.
+
+**Pricing discussion:**
+Sasha was open to a partnership pricing model. She is willing to commit volume (~1,400 nights/quarter in TechFleet's case) for a verified-listings tier with service guarantees. She is not willing to pay full retail with no guarantee improvements.
+
+**Competitive landscape:**
+She is in active discussions with Sonder (looking to expand corporate offering) and BluePillow (smaller player but offers strong corporate relocation features). She thinks Airbnb has the strongest underlying product if they would build for her use case.
+
+**Outcome:** Sales rep to escalate request for a corporate-relocation-tier discussion with product. Sasha is high-intent and represents a meaningful volume commitment. The win depends on whether product can deliver a differentiated tier for her use case within 6 months.
+
+---
+
+DOCUMENT 4 — Q1 2026 CS feedback summary memo
+From: Customer Success organisation
+To: Product (attn: Search PM, Trust & Safety PM, Listings PM, Host PM)
+Subject: Top themes from Q1 2026 ticket volume
+
+This is our quarterly signal summary. Not exhaustive — see the full tagged Zendesk export shared separately.
+
+TOP 6 TICKET THEMES BY VOLUME (Q1 2026):
+
+1. **Cleaning fee disputes and total cost transparency** (21% of tickets) — guests dispute cleaning fees as excessive, or feel misled by the gap between nightly display price and total at checkout. Refund requests in this category increased 24% YoY. A subset of guests churn after one bad experience here ("price reveal" abandonment is detectable but underreported because users abandon silently before contacting support). CSAT on these tickets: 3.4/5. Resolution rate (any refund granted): 41%.
+
+2. **Host cancellations and rebooking** (16%) — see separate Trust & Safety memo. CSAT 2.9/5. Resolution rate (rebooking accepted): 78%, but customer satisfaction is poor due to cost differential and stress. This is our weakest area for veteran user retention — power users who experience this are 2.3× more likely to churn within 90 days.
+
+3. **Listing inaccuracy and misrepresentation** (14%) — photos vs reality, description vs reality, noise/neighbourhood vs description. Most of these are resolved via partial refund (60%) or full refund + relocation (12%). The remainder are ruled "within reasonable variance" by our policy. Guests in the third category are highly dissatisfied — many leave platform-critical reviews afterward.
+
+4. **AirCover host claims** (11%) — host damage claims. Average resolution time 12 days. Hosts frequently express dissatisfaction with depreciation calculation and "lost income not covered" policy outcomes. This is a known structural complaint among veteran hosts; we are seeing 3.2× higher churn for hosts whose AirCover claims result in <50% of submitted damage value compared to those receiving ≥75%.
+
+5. **Account verification, suspension, and access** (9%) — account suspensions sometimes catch legitimate users in automated review queues. Resolution time has slipped from average 1.4 days (Q4 2025) to 3.8 days (Q1 2026) due to backlog. Some tickets remain unresolved for 7+ days. Affected users cannot access bookings during suspension, leading to missed check-ins and unrefundable losses.
+
+6. **Search and filter limitations** (7%) — increasingly common feature requests via support: filters for verified Wi-Fi speed, dedicated workspace, neighbourhood character, "central location" toggle, and negative-review sorting. The volume of these has doubled in the last 12 months as long-stay and remote-work usage grows. Product team has acknowledged but no concrete roadmap to date.
+
+ADDITIONAL OBSERVATIONS:
+
+- *Cross-source pattern:* Themes 1 (cleaning fees), 2 (host cancellations), and 3 (listing inaccuracy) all surface a single underlying user expectation: the listing as displayed and priced should be what the guest receives. The gap between displayed and actual is the dominant source of guest dissatisfaction in Q1.
+
+- *Veteran-host churn signal:* We are observing increased churn among hosts who have been active for 4+ years. Exit reasons cited: support degradation, AirCover claim experience, fee structure changes, increasing platform demands. This is a strategic concern for inventory supply quality and brand trust. We recommend a host-retention review in Q2.
+
+- *Long-stay use case underserved:* A growing minority (~14% of Q1 bookings) are 14+ nights. Filters, search ranking, and customer support all remain optimised for short-stay use case. Long-stay user feedback is consistent across interviews and tickets — the platform doesn't yet meet this segment's needs.
+
+[END OF MEMO]

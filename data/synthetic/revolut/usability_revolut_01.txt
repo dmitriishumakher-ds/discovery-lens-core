@@ -1,0 +1,95 @@
+Usability test session — Revolut
+Task: First international transfer (GBP → EUR to friend in Germany)
+Participant: P03 — Female, 32, marketing manager, recently signed up for Revolut, never sent international transfer before
+Observer: Sarah (UX research)
+Date: Oct 14, 2025
+Duration: ~22 min
+Setup: Participant sharing screen via Zoom, thinking aloud encouraged
+
+---
+
+00:00 - Session starts. Briefed P on task: "Send 50 EUR to your friend Anna in Berlin. Use any account details you'd like, but pretend it's a real transfer."
+
+00:42 - P opens Revolut app on phone. Lands on home screen. Pauses.
+       Quote: "Okay so... where do I... transfer? Send money?"
+       (P scrolls down, sees Cards, Crypto, Stocks. Doesn't see send option immediately.)
+
+01:18 - P taps "Payments" tab at bottom. Sees options: Pay request, Transfers, Bank transfer.
+       Quote: "Oh, transfers. That's me I think. Or bank transfer? I don't know what the difference is."
+       (Notable: P has paused for 8 seconds reading the options)
+
+01:34 - P taps "Transfers." New screen with recent recipients (empty).
+       Sees "+ New transfer" button, taps it.
+       Quote: "Okay this looks right."
+
+02:01 - Asks for country. P selects Germany. Then asks for account type: IBAN or SWIFT.
+       Long pause. P looks confused.
+       Quote: "What's the difference? I just have her IBAN."
+       (P taps IBAN option. No tooltip or explanation visible.)
+
+02:48 - Enters fake IBAN. App accepts. Asks for recipient name: "Anna Schmidt." Asks for address.
+       Quote: "Why does it need her address? I just want to send money. Do I... I don't know her exact address."
+       (P enters partial address — street name only.)
+
+03:22 - Address field accepts incomplete entry. P moves on.
+       Asks: "What is the purpose of this transfer?" Dropdown with options: Family support, Goods, Services, etc.
+       P scrolls. Picks "Family support" even though she said earlier it's a friend.
+       Quote: "Friends isn't an option. Family support is closest I guess?"
+       (Observer note: friction point — taxonomy doesn't match user's mental model)
+
+04:15 - Amount screen. P enters 50, sees toggle "Send GBP / Send EUR."
+       P pauses ~6 seconds.
+       Quote: "Hmm. Should I send 50 GBP or 50 EUR? She wants 50 EUR... so... I pick EUR? But I have GBP..."
+       (P toggles to "Send 50 EUR." App shows: "You'll send: ~£43.21")
+       Quote: "Okay so it's converting it. Got it."
+
+05:30 - Rate display. Shows "Mid-market rate" with small text below: "Updated 2 sec ago."
+       P doesn't really read this. Scrolls to fee.
+       Sees: "Fee: £0.00"
+       Quote: "Oh, no fee. That's nice. With my old bank that was like five quid."
+
+06:04 - Confirmation screen. P pauses, re-reads.
+       Quote: "Wait, is this the right amount? £43.21 going out, £50 EUR landing. Yeah okay."
+       (P re-reads the screen 3 times. Visible hesitation.)
+
+06:48 - P taps "Send."
+       Face ID prompt. Confirms.
+       Loading spinner ~3 sec.
+       Success screen: "Transfer sent! Anna will receive 50 EUR shortly."
+
+07:12 - Success screen. P stares at it.
+       Quote: "Wait that's it? It's already gone?"
+       (P switches to home screen, sees balance reduced. Switches back. Looks for confirmation timing — not visible.)
+       Quote: "I think she'll get it... when? Like, today? It doesn't say."
+
+08:05 - P tries to go back to transaction details. Taps recent transactions on home.
+       Finds the transfer. Sees: "Sent — pending" with small text.
+       Quote: "Oh okay it's pending. So how long?"
+       (No timing estimate shown on this screen either.)
+
+09:20 - Task complete. P didn't fail any step but expressed friction at multiple points.
+
+---
+
+OBSERVER NOTES:
+
+Friction points (ranked by severity):
+1. HIGH: No clear timing estimate for transfer arrival. P expected to see "arrives in X hours/minutes." Stress at end of flow despite successful send.
+2. MEDIUM: IBAN vs SWIFT choice has no explanation. P guessed correctly but felt uncertain.
+3. MEDIUM: "Purpose of transfer" dropdown doesn't include "friends/personal." User forced to pick mismatched category.
+4. MEDIUM: Confirmation screen requires re-reading (rate + fee + arrival amount). Layout could be clearer.
+5. LOW: Initial discovery of "Transfers" entry point took 90 seconds. Sub-optimal but recoverable.
+
+Positive moments:
+- Zero fee was a delighter ("That's nice")
+- Face ID confirmation felt secure and fast
+- Currency conversion logic was understood once shown
+
+Quote of the session:
+"With my old bank, doing this would have taken me 20 minutes and cost me £5. So this is great. I just wish it told me when it'll actually land."
+
+Recommendations to discuss with team:
+- Add ETA on confirmation and success screens ("Arrives within ~2 hours" or "Instant")
+- Add tooltip explaining IBAN vs SWIFT
+- Add "Friends / personal" option to purpose dropdown
+- Consider redesign of confirmation summary card

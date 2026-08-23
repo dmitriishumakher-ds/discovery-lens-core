@@ -1,0 +1,79 @@
+SOURCE TYPE: interview
+PRODUCT: Notion
+INTERVIEW: 06 of 06
+PARTICIPANT: Kira M., Head of Operations
+COMPANY SIZE: ~110 employees, scaling B2B logistics startup
+TENURE WITH NOTION: 3 years
+INTERVIEWER: Discovery Lens Research Team
+DATE: April 2025
+FORMAT: 55-minute remote session, Zoom
+NOTE: Participant introduced Notion to the company and has strong feelings about what's worked and what hasn't at scale. Occasional tangent about their company culture was not fully transcribed. Transcript lightly edited.
+
+---
+
+INTERVIEWER: Kira, you were the person who originally brought Notion into your company. Can you tell me about that decision and how it's played out?
+
+KIRA: I came in about three years ago and the company was a mess operationally. Nothing was documented. Processes lived in people's heads. When someone left, their knowledge left with them. We'd had a few painful situations where a key person left and we realised we had no documentation of what they actually did.
+
+I evaluated a few options. Confluence felt too heavy for where we were. Google Docs was what we had and it was clearly not working — nobody could find anything, there was no structure. Notion felt like the right level of power and flexibility for a company our size.
+
+I spent probably three months setting up our workspace. Org chart, company handbook, departmental wikis, project templates, meeting notes system, a lightweight OKR tracker. I'm proud of what I built. When it works, people tell me it's the best-documented company they've ever worked at. That's meaningful.
+
+INTERVIEWER: "When it works" — what do you mean by that?
+
+KIRA: When people use it. The problem isn't the tool. The problem is adoption. I'd say we have about a third of the company who use Notion fluently — they create pages, they maintain their documentation, they use databases. Another third use it passively — they read things when someone sends them a link, but they don't initiate anything. And another third — honestly — almost never open it unless forced.
+
+We've grown from about thirty people to a hundred and ten in three years. In the early days I could keep culture around documentation by example and by gentle nudging. Now I can't be everywhere. And the company has grown faster than the tooling culture.
+
+INTERVIEWER: What does poor adoption look like in practice?
+
+KIRA: Information existing only in people's heads or in Slack, not in Notion. Meeting notes not written up. Projects completed with no retrospective documented. New joiners finding the onboarding docs are outdated because nobody updated them after the process changed. 
+
+I had a situation last month where a new ops coordinator asked me a question about how we handle a specific supplier approval process. I said "it's in Notion, I documented it two years ago." She said she'd searched and couldn't find it. I searched. I couldn't find it either. It turned out it had been moved — someone reorganised a section of the workspace months ago and the page ended up nested somewhere unexpected. 
+
+So she'd spent thirty minutes looking for a document that existed. I spent twenty minutes helping her find it. And in the end the document was slightly out of date anyway because the process had changed and nobody had updated it. So it wasn't even reliable once we found it.
+
+INTERVIEWER: That sounds like a compounding problem — findability plus stale content.
+
+KIRA: Exactly. The two problems feed each other. If content is hard to find, people don't go to Notion first — they ask a colleague. If nobody is reading a page because it's buried, nobody notices when it becomes stale. So you end up with documentation that exists in theory and is invisible and unreliable in practice.
+
+What I really want is something like a content health system. Surface pages that haven't been updated in six months and flag them. Tell me which pages haven't been viewed recently. Let me set a "review due" date on a page. Notion doesn't have any of this. It treats a page you wrote yesterday the same as a page you wrote two years ago.
+
+INTERVIEWER: What else would you change about Notion from an ops leadership perspective?
+
+KIRA: Permissions, for one. We've started doing more work with external partners — suppliers, consultants, external auditors. Sharing specific content with external people without worrying about what else they can see is genuinely anxiety-inducing. I have a mental model of the workspace that most of my colleagues don't share, which means when they share pages with external people, they often don't realise the implications. I've had to step in twice when someone shared a page that had a parent page with commercially sensitive content visible.
+
+The admin view for permissions is not great. I can't easily answer the question "what can this specific external person see in our workspace" without going page by page. That question should be answerable in two clicks.
+
+INTERVIEWER: You mentioned onboarding documentation was out of date. How do you manage documentation quality at scale?
+
+KIRA: Badly, honestly. I've tried a few approaches. Assigning "documentation owners" to each department — works in theory, inconsistently executed in practice. Quarterly documentation reviews — I do these myself, which doesn't scale. Automated reminders via Slack to review pages — people click dismiss and forget.
+
+The fundamental challenge is that updating documentation is invisible work. It doesn't ship a feature, it doesn't close a deal. In a fast-moving startup, it consistently gets deprioritised. I believe in it — I know what happens when documentation doesn't exist — but I'm fighting against incentive structures that don't reward it.
+
+If Notion surfaced stale documentation proactively — told me "these ten pages haven't been updated in a year, here's who owns them" — that would give me ammunition to have those conversations. Right now I'm doing that manually. It shouldn't be manual.
+
+INTERVIEWER: Let me ask about something different. What about Notion as a place where decisions get made versus documented?
+
+KIRA: Great question. Notion is good at documentation. It's mediocre at decision support. When we're trying to make a decision — say, which vendor to use for a new service — the information we need to make that decision is often scattered across Notion, Slack, email, and people's heads. Notion doesn't help you bring that together. It's a passive repository, not an active decision support tool.
+
+I've seen some interesting use cases where people build decision trackers in Notion databases. I've done that. But it requires significant setup and discipline to maintain, and the information doesn't flow into it automatically.
+
+INTERVIEWER: What's your view on Notion AI?
+
+KIRA: Potentially interesting, practically frustrating so far. The Q&A feature — being able to ask "what's our parental leave policy" and have it find the answer — that directly addresses the findability problem I described. I tested it and it works reasonably well for concrete factual questions. 
+
+But it's an additional cost on top of our subscription. And I can't easily evaluate the ROI because I don't have a clean metric for "time spent finding information." So I can't make a business case for it internally. It feels like Notion is charging me extra to fix a problem they created.
+
+INTERVIEWER: Last question — if you were starting fresh at a new company tomorrow, would you still choose Notion?
+
+KIRA: [pause] For a company up to maybe fifty people — yes, probably. The flexibility is real and the setup investment pays off. For a company growing beyond that — I'd think harder. The things I've described — adoption gaps, stale content, permission complexity, findability at scale — they all get harder as you grow, not easier. And Notion's roadmap seems focused on AI and new features rather than fixing the foundational things that matter most for larger teams.
+
+I'm not leaving. Too much investment, too much risk in migration. But I hold Notion to account in conversations with them because I think the feedback matters. Someone should be saying: your core product has structural problems at scale. No amount of AI overlay fixes that.
+
+INTERVIEWER: That's a really clear articulation of it. Thank you so much Kira.
+
+KIRA: Good luck with whatever you're building with this research.
+
+---
+END OF INTERVIEW 06

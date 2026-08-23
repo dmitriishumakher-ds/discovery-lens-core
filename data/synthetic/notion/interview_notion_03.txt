@@ -1,0 +1,71 @@
+SOURCE TYPE: interview
+PRODUCT: Notion
+INTERVIEW: 03 of 06
+PARTICIPANT: Dan W., Co-founder & CEO
+COMPANY SIZE: 12 employees, early-stage B2B SaaS
+TENURE WITH NOTION: 4 years
+INTERVIEWER: Discovery Lens Research Team
+DATE: January 2025
+FORMAT: 50-minute remote session, Zoom
+NOTE: Participant is a self-described Notion power user and generally positive. Still surfaces meaningful friction points. Transcript lightly edited.
+
+---
+
+INTERVIEWER: Dan, you've been using Notion for four years across multiple companies. You're one of the most enthusiastic Notion users we've spoken to. Can you tell me why?
+
+DAN: Happy to. I discovered Notion when I was running my first startup and we were drowning in Google Docs, Trello, Confluence, Slack, and like three other tools. The idea that you could consolidate everything into one workspace that's actually flexible enough to handle all those different use cases — that was transformative for me. I built our entire company operating system in Notion. Investor updates, product roadmap, OKRs, sprint planning, hiring pipeline, customer feedback tracking. All in one place.
+
+For a small startup, that consolidation is genuinely worth a lot. The cost of switching context between tools, maintaining docs in multiple places, things going out of sync — we eliminated most of that. Our team is twelve people and we're unusually well-organised compared to other startups I've seen at our stage. I attribute part of that to Notion.
+
+INTERVIEWER: That's a strong endorsement. What's the cost of being that well-organised in Notion?
+
+DAN: [laughs] Okay, fair. The cost is setup time. I've spent — I don't want to admit how many hours — building and rebuilding our Notion workspace. The flexibility is real but it requires someone who thinks systemically to make it work. I've built our workspace three times from scratch as our needs changed. Most founders don't have the time or inclination to do that. For us it works because I genuinely enjoy it. For most companies, it requires either a dedicated person or a lot of messy improvisation.
+
+INTERVIEWER: Let's talk about your team's experience. You're the Notion architect. Do your team members share your enthusiasm?
+
+DAN: Honestly, mixed. My CTO uses it heavily and gets it. Our head of marketing adapted well. But we have two engineers who basically treat Notion as an email inbox — they open it when someone sends them a link, they read the thing, they close it. They don't proactively use it for anything. And there's one person on our ops team who finds the whole block-based model confusing even after a year. She still asks me to show her how to do things she's done before.
+
+So there's a real adoption gap. I can build something beautiful in Notion and the team can read it. But getting everyone to contribute to it, to feel comfortable creating pages and databases themselves — that's much harder than I expected.
+
+INTERVIEWER: What do you think causes that gap?
+
+DAN: The blank canvas problem. When someone opens a new page in Notion, they see an empty page with a blinking cursor and "Type '/' for commands" and... that's it. If you know Notion well, that's full of possibility. If you don't, it's intimidating and unguided. Other tools hold your hand more. Notion doesn't hold your hand at all.
+
+I've tried to mitigate this by creating templates for everything — meeting notes template, project template, decision template. But then the friction is people have to remember to use templates, and they don't always. So you end up with half your meeting notes formatted consistently and half as raw brain dumps that don't have the standard sections.
+
+INTERVIEWER: What about the product itself — are there things you'd change?
+
+DAN: Yes. The biggest one is something I hit constantly, which is the mobile experience. I do a lot of customer discovery. I travel to customer sites, I run conversations, and I need to take notes. The ideal workflow is: I'm in a conversation, I have my phone, I can quickly create a note or update a database record with what I'm learning. Notion mobile makes that harder than it should be. 
+
+I've tried multiple times to go Notion-mobile-first for customer discovery and I always end up keeping a paper notebook or using Voice Memos and then transcribing later. The mobile app is just too slow for high-stakes capture. I can't afford to watch a spinner while someone is saying something important.
+
+INTERVIEWER: You mentioned offline earlier as a limitation. Now that they've shipped offline mode, does that help?
+
+DAN: Partially. I was one of the people who'd been asking for offline for years. When they shipped it, I was genuinely excited. And for reading content offline, it's good now. I was at a customer site last month with terrible WiFi and I could pull up the background on their company I'd put together in Notion. That was useful.
+
+But here's the thing that actually killed me — the 50-row limit on databases. Our customer CRM is in Notion. It has four hundred records. None of that is accessible offline. So if I'm at a customer meeting and I want to reference their history, their past conversations, their contract status — I can't. I have to hope my memory is good or that I had the presence of mind to open those records while I was online. That's not offline mode, that's offline mode for notes.
+
+INTERVIEWER: What would a genuinely useful offline mode look like for you?
+
+DAN: Everything syncs. Obviously that has storage and complexity implications. But the expectation when I pay for a workspace tool is that my workspace is available to me. The full workspace. Not the twenty pages I remembered to pin. 
+
+At minimum, if they can't do everything, let me define a "travel pack" — a set of databases and pages I explicitly say "always keep this fully synced offline." I'd be fine with that tradeoff if it meant my CRM worked on a plane.
+
+INTERVIEWER: Any other pain points?
+
+DAN: Permissions management when we work with investors and advisors. I share our board deck, our metrics, our roadmap with external stakeholders. Every time I add someone new, I'm nervous about what they might be able to see beyond what I intend. I've actually audited our workspace specifically for this and found three cases where external people had more access than intended. Not sensitive enough to cause a problem, but it shouldn't happen at all.
+
+And the AI features — I want to like them, but the implementation is frustrating. The AI button is everywhere now. My ops person who already finds Notion confusing hit the AI summarise button by accident three times in one session and couldn't understand what was happening or how to undo it. I end up in a support role for Notion more than I want to be.
+
+INTERVIEWER: Given all this — four years in — if you were starting fresh today, would you still choose Notion?
+
+DAN: For a small startup, yes. For my use case — someone who builds systems, who has the time and interest to architect a workspace — Notion is still the best option. The consolidation value is real and the alternatives I've looked at either sacrifice flexibility (like Linear) or are enterprise-priced (like Confluence).
+
+But I'd go in with eyes open. It's not a plug-and-play solution. You're buying flexibility with setup time and ongoing maintenance. For some teams that trade-off works. For many it doesn't, and those teams are going to have a bad time.
+
+INTERVIEWER: Perfect. That's really useful context. Thank you Dan.
+
+DAN: Anytime. Good luck with whatever you're building.
+
+---
+END OF INTERVIEW 03

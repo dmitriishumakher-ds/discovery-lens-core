@@ -1,0 +1,27 @@
+INTERVIEWER: How do you use Figma in your role?
+
+PARTICIPANT: I'm a product manager, not a designer, so my use is probably different from your typical user. I use Figma mainly for wireframes and quick mockups — just enough to communicate an idea to a designer or an engineer. I don't create final designs, but I need to be able to sketch flows, annotate screens, and sometimes prototype simple interactions. Our design team owns the polished files, but I need a sandbox where I can think visually without slowing them down.
+
+INTERVIEWER: How well does Figma serve that need?
+
+PARTICIPANT: It's... okay. The learning curve is steep for someone who isn't in the tool every day. Auto‑layout, in particular, is a mystery to me. I've watched tutorials, but the mental model of "hug vs fill" and how nested frames interact just doesn't stick. I can spend 20 minutes trying to get a simple card to resize properly, and it's incredibly frustrating. I end up using a lot of placeholder rectangles and text labels, which isn't ideal but gets the point across.
+
+INTERVIEWER: What about the interface?
+
+PARTICIPANT: UI3 made things harder for me. The constraints settings are now hidden in a dropdown, and I use constraints a lot for basic responsive layout. The clip content toggle — which I honestly use maybe once a month — is now also a dropdown. It's like Figma optimized the interface for power users who already know where everything is, or for complete beginners who don't need advanced features. People like me, in the middle, get lost.
+
+INTERVIEWER: Any features you wish Figma had?
+
+PARTICIPANT: I'd love a "PM mode." Something that strips away all the advanced design features and gives me a simpler canvas — maybe pre‑built templates for common flows like sign‑up, onboarding, search. I spend a lot of time reinventing the wheel because I don't have a component library like the designers do. Also, prototyping is surprisingly limited. I can't do conditional logic — like "if the user clicks this, show an error state." I have to fake it with multiple frames, which is messy. For anything beyond linear click‑throughs, I end up explaining things verbally, which defeats the purpose of a prototype.
+
+INTERVIEWER: Have you tried Figma Slides?
+
+PARTICIPANT: Actually, yes! I know it gets a lot of hate online, but I kind of like it. It's not a Google Slides replacement, but for quick visual presentations — like showing a design flow in a stakeholder meeting — it's really handy. I can embed live Figma frames, which is something no other presentation tool does. It crashes sometimes with larger decks, but for my use case, it's been a pleasant surprise. I think I'm in the minority there, but there you go.
+
+INTERVIEWER: What would make your Figma experience better overall?
+
+PARTICIPANT: Better onboarding for casual users. The documentation is written for designers who already understand design concepts. If Figma wants PMs, engineers, and stakeholders in the tool, they need to meet us where we are. Also, let me prototype on mobile. The mirroring app disconnects constantly, and I can't edit anything on my phone. A lot of my feedback moments happen when I'm away from my desk.
+
+INTERVIEWER: Thanks. This is a perspective we don't often hear.
+
+PARTICIPANT: Happy to help. Figma has so much potential as a cross‑functional tool, but it still feels like it's built by designers, for designers, and everyone else is just visiting.

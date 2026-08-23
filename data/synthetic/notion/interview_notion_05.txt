@@ -1,0 +1,73 @@
+SOURCE TYPE: interview
+PRODUCT: Notion
+INTERVIEW: 05 of 06
+PARTICIPANT: Tomás R., Junior Product Designer
+COMPANY SIZE: ~45 employees, design agency
+TENURE WITH NOTION: 4 months (new joiner)
+INTERVIEWER: Discovery Lens Research Team
+DATE: April 2025
+FORMAT: 35-minute remote session, Google Meet
+NOTE: Participant is new to Notion, joining a team that has used it for three years. Interesting perspective on onboarding friction from someone mid-experience. Transcript lightly edited.
+
+---
+
+INTERVIEWER: Tomás, you're relatively new to Notion. Can you describe where you are in your journey with it?
+
+TOMÁS: I've been using it four months. I'd say I'm... functional? I can do the basics. Find pages, edit things, leave comments. But I still don't feel fully confident. There are things I see colleagues doing where I think "how did they do that" and I don't always know how to ask without feeling like I should already know.
+
+INTERVIEWER: Had you used Notion before joining?
+
+TOMÁS: A little bit. In university I made like one or two pages for personal notes. But using it personally for simple things versus using it at work in a structured team workspace — completely different. At my previous job we used Google Docs and Confluence. Notion felt alien when I started.
+
+INTERVIEWER: What was the onboarding like?
+
+TOMÁS: They gave me a page called "Getting Started in Notion." It had links to other pages. Some of those pages had links to other pages. I spent probably an hour on my first day clicking around trying to understand how the workspace was structured before I could actually do any work. Not great when you're also trying to understand your job and meet people.
+
+The structure of the workspace — I still don't have it fully in my head. Like, I know where my team's stuff lives. But if I need to find something from another team — legal, or finance — I'm not sure where to look. I usually ask someone on Slack rather than searching in Notion, which I know is not the intended behaviour.
+
+INTERVIEWER: Tell me about a moment where you hit a wall.
+
+TOMÁS: Yeah, a few. The first was about three weeks in. I needed to create a project brief for a new client. My manager said "just use the brief template." I opened Notion, I typed "/" to get the menu, I looked for templates. The templates thing — I couldn't figure out where the team's templates were versus Notion's own generic templates. I clicked things, I got confused. I ended up copying an existing brief and deleting the content and using that as a template, which I later found out is not the right way to do it and means the pages get messy. My manager had to show me where the actual template picker was. It was in a completely different part of the interface than I expected.
+
+Another one — linked databases. My team has a project database and a clients database and they're linked. I needed to add a new client to the clients database from within a project record. Someone had told me "you can do it inline, you don't have to navigate to the clients database." I spent fifteen minutes trying to figure out how. I couldn't. I asked a colleague who walked me through it. It's not hard once you know, but the discoverability is terrible. Nothing in the interface tells you how relational fields work.
+
+INTERVIEWER: How have you learned Notion mostly — from colleagues, documentation, trial and error?
+
+TOMÁS: Colleagues mostly. I've watched a few YouTube videos when I got stuck and those were actually more helpful than Notion's own documentation, which is comprehensive but sometimes hard to navigate when you're looking for a specific thing. I follow some productivity accounts on Instagram who post Notion tips and those short-form videos have been surprisingly useful for learning specific features.
+
+But the main thing is: learning happens reactively. I hit a problem, I ask someone or I watch a video. There's no proactive guided learning in Notion itself. It doesn't notice that I've never used a specific feature and offer to show me. It doesn't have a beginner mode. It just treats everyone the same regardless of experience level.
+
+INTERVIEWER: What's been the impact on your work?
+
+TOMÁS: I'm slower than I should be. I know that. When I need to do something in Notion, I'm thinking about the Notion mechanics of it, not just the work itself. Someone more experienced opens the tool and the tool disappears — they just do their work. I open the tool and I'm still very conscious of the tool. That's not a comfortable feeling four months in.
+
+And I've missed things. There was a project status update page that I should have been contributing to weekly. I didn't know it existed. It lived under a section of the workspace I hadn't explored. My manager mentioned it in a meeting and I had to pretend I knew what they were talking about and then go find it afterward. That was embarrassing.
+
+INTERVIEWER: What would have made the onboarding better?
+
+TOMÁS: An actual guided tour. Not a page that links to other pages — an interactive thing that shows you the key parts of the workspace, explains how it's structured, and maybe has a few exercises to do. Like, "here's how to find a page, try it." "Here's how to use a template, try it." That kind of scaffolded learning would have saved me weeks.
+
+Also some kind of clear map of the workspace. Even just a visual diagram of how everything is organised would help. I asked if that existed and it doesn't. The structure only exists in people's heads, which means you have to already know people to navigate the tool. That's a bad design dependency.
+
+INTERVIEWER: Is there anything you've found genuinely easy or positive?
+
+TOMÁS: Comments and mentions are good. Typing @someone to notify them works like Slack and felt immediately familiar. That part I got on day one.
+
+Also the pages themselves — just writing a document in Notion, formatting it, adding images and embeds — that's actually quite nice once you're in the flow. The editor feels clean. When I'm just writing and not worrying about databases and templates and permissions, it's a pleasant experience.
+
+INTERVIEWER: How are you feeling about Notion now vs month one?
+
+TOMÁS: Better. I can see where it will eventually feel natural. But four months in and I'm still learning things I feel like I should have learned in week one. I recently found out you can create different views of the same database — table, kanban, calendar, gallery. I had no idea. That's a genuinely useful feature and I've been living without it for four months because nothing pointed me toward it.
+
+INTERVIEWER: Final question — if a friend was about to join a company that used Notion, what would you tell them?
+
+TOMÁS: Ask someone to give you a proper walkthrough on day one, not a document. Documents don't show you things in context. Get someone to sit with you for half an hour and show you the five most important things in the workspace. That would have saved me a lot of confusion.
+
+And don't be embarrassed to ask questions. I was embarrassed and I lost weeks of productivity being confused when I could have just asked.
+
+INTERVIEWER: That's great. Thank you Tomás.
+
+TOMÁS: Thank you.
+
+---
+END OF INTERVIEW 05

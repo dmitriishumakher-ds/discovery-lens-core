@@ -1,0 +1,55 @@
+# Usability Test Session Notes — Figma
+
+## Session 1: Find and apply a specific component from the library
+Observer: AO
+Participant: P1 (experienced Figma user, 3 years)
+Date: 2025-04-11
+
+Tasks:
+1. Open the team library and locate the "Primary Button" component.
+2. Insert it into the current design file.
+3. Switch the button variant from "Default" to "Hover" state.
+
+Notes:
+- P1 immediately opened the Assets panel. "I know where it lives."
+- Scrolled through the list, paused. "Wait, is it under Buttons or Core Components? They reorganized this recently."
+- Found it under "Core > Buttons > Primary." Slight hesitation but successful. Time: 23s.
+- Inserted via drag-and-drop. "Easy."
+- Variant switching: P1 looked at the right panel, then the top toolbar. "Where did the variant dropdown go after UI3?"
+- Spent 15s scanning before finding it in the right panel under "Component" section. "Oh, they moved it. Annoying."
+- Selected "Hover" variant. Completed.
+- P1 commented: "Finding components is fine, but variant switching used to be more prominent. Now it's buried."
+
+## Session 2: Apply auto-layout to a complex card component
+Observer: AO
+Participant: P2 (intermediate user, 1 year)
+Date: 2025-04-11
+
+Task: Take a pre-built card (image, title, description, button) and apply auto-layout so it resizes responsively.
+
+Notes:
+- P2 selected all elements, clicked "Add auto-layout." The layout immediately broke — elements stacked vertically instead of staying in their positions.
+- "Ugh, it always does this. Why doesn't it preserve my existing layout?"
+- Tried to manually rearrange, but elements wouldn't align correctly. Spent 2 minutes dragging.
+- Switched to the auto-layout panel. "Ok, direction is horizontal... no, vertical... wait, I need nested frames."
+- Created a vertical auto-layout frame for the card, then nested horizontal frames for the row with image and text. "This is so tedious."
+- After 6 minutes, partially succeeded but the button wasn't aligned correctly. "I give up. I'll just use absolute positioning."
+- P2 frustration visible: "Auto-layout is supposed to save time but I just wasted 10 minutes. When it works it's magic, when it doesn't it's a black box."
+
+## Session 3: Publish a library update
+Observer: AO
+Participant: P3 (design system manager, 5 years)
+Date: 2025-04-11
+
+Task: Make a small color change to a component in the library, then publish the update and verify it propagates to a consumer file.
+
+Notes:
+- P3 opened library file, changed the background color of the "Alert" component. "Simple enough."
+- Clicked the publish button (now in a dropdown after UI3). "Took me a while to find this after the redesign. It used to be right there."
+- Modal appeared, showing the changes. P3 reviewed and clicked "Publish."
+- Loading spinner appeared. And stayed. 45 seconds. P3 sighed. "Here we go."
+- After 2 min 10s, publish completed. "That's actually faster than usual. Last week it took four minutes."
+- Opened consumer file. Notification: "Library updates available." Clicked "Review."
+- Only some changes appeared — the color change was missing. "Classic Figma. It didn't sync properly."
+- Had to accept the partial update, then manually check if the color propagated. It had, but the notification was incorrect. "So it worked, but it told me it didn't. That's confusing."
+- P3 final comment: "Publishing is unpredictable. Sometimes fast, sometimes frozen. Inconsistent behavior erodes trust in the system."

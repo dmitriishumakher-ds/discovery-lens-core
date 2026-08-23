@@ -1,0 +1,77 @@
+SOURCE TYPE: interview
+PRODUCT: Notion
+INTERVIEW: 01 of 06
+PARTICIPANT: Marcus T., Notion Workspace Admin / IT Operations Manager
+COMPANY SIZE: ~200 employees, B2B SaaS
+TENURE WITH NOTION: 2.5 years
+INTERVIEWER: Discovery Lens Research Team
+DATE: February 2025
+FORMAT: 60-minute remote session, Zoom, with consent to record
+NOTE: Transcript lightly edited for readability. Filler words and false starts reduced. Participant reviewed summary for accuracy.
+
+---
+
+INTERVIEWER: Thanks for making time today Marcus. Can you start by describing your role and how Notion fits into it?
+
+MARCUS: Sure. I'm IT ops which sounds like I'm mostly managing laptops and VPNs, and I am, but about two years ago I basically became the de facto Notion admin by accident. Nobody planned for it. We adopted Notion as a team of maybe forty people, it was a sort of bottoms-up thing — a few teams started using it and then it spread. By the time leadership decided it was our official knowledge management tool, it had already grown into this sprawling thing and someone had to manage it. That person ended up being me.
+
+INTERVIEWER: What does day-to-day Notion administration look like for you?
+
+MARCUS: Honestly a lot of it is fielding questions. People can't find things. People accidentally share something with the wrong person. Someone locked themselves out of a page because they changed permissions and didn't understand what would happen. That's maybe 30% of my week, just reactive stuff.
+
+The other chunk is ongoing governance work — we do quarterly access audits where I go through all the active guest users and verify that external people still need access. That sounds like it should be easy. It is not easy. Notion doesn't give you a single clean view of "here are all your guest users and what pages they have access to." You have to kind of piece it together. I've actually built a small script using the API to dump that information into a spreadsheet because the native admin tools are insufficient.
+
+INTERVIEWER: You mentioned people accidentally sharing with the wrong person. Can you tell me more about that?
+
+MARCUS: Yeah so this is my biggest concern honestly. The permission model in Notion is what I'd call "parent inheritance by default with override capability." What that means in practice is that when you share a page with someone, they can by default navigate up the page tree to parent pages. Most users don't know this. And most users don't know that when they click "share" and type someone's email, they're potentially giving that person access to the broader context of that page.
+
+We've had three incidents. I'll describe the least sensitive one. A sales rep shared a proposal page with a prospect. That proposal page lived inside our Sales > Active Deals > Q3 folder structure. The prospect, who was fairly technically curious, navigated up and ended up seeing other active deals. Not catastrophic, we caught it, but it wasn't great. The rep had no idea this was possible. Nothing in the share dialog warned them.
+
+INTERVIEWER: How did you handle that?
+
+MARCUS: We implemented a policy. No sharing directly from nested pages. If you need to share something externally, you create a new top-level page, copy the content there, share that. It's clunky. It adds steps. People sometimes don't follow it. But we haven't had an incident since. 
+
+The thing that bothers me is that this is a product design problem we solved with a process workaround. That's not the right way to build reliable collaboration tools.
+
+INTERVIEWER: What other parts of Notion give you the most operational headaches?
+
+MARCUS: Navigation and findability. We have two hundred people who've been adding content for two years. The sidebar is — I mean, I've seen it grow. I try to maintain some structure. We have top-level sections by department. But within each department, individual teams have created their own structures, their own conventions. Engineering does things one way, marketing does things completely differently, and someone from marketing trying to find something in engineering territory is basically lost.
+
+Search should solve this but it doesn't. Notion's search is keyword-based and doesn't search inside databases well. If you create a record in a database — like a meeting notes record — and the content is inside that record, search often doesn't find it unless you remember the record title. For a company that does hundreds of meetings a month and logs them all in a Notion database, that's a problem.
+
+INTERVIEWER: Have you raised this with Notion?
+
+MARCUS: We have an account rep. We've mentioned these things. The response is usually "here's how to use it better" rather than "here's what we're doing about it." I understand that from a vendor standpoint, but from a customer standpoint it's frustrating when the feedback you're giving is clearly structural and the response is tips and tricks.
+
+INTERVIEWER: Let me shift a bit — what about onboarding new employees to Notion?
+
+MARCUS: It's a genuine challenge. We have an onboarding guide. It's... long. The fundamental problem is that Notion's model — blocks, databases, linked views, page hierarchies — is not intuitive for someone coming from Google Docs or even Confluence. The concepts aren't hard once you understand them. But the learning curve is real, and it's steeper than the marketing suggests.
+
+We've tracked this informally. New employees are generally comfortable with Notion for basic page reading within a week. For creating and editing pages, maybe two weeks. For understanding databases and how we use them — creating records, using filters, understanding relations — it's closer to a month before someone is genuinely productive. For a company that's onboarding multiple people per month, that's ongoing training overhead.
+
+INTERVIEWER: Is there a moment that captures what good looks like for you — when Notion is working the way you want it to?
+
+MARCUS: When we ran our last company all-hands, someone asked a question about our data retention policy. Within thirty seconds, someone in the meeting had found the relevant page in Notion, confirmed it was current, and shared the link in the chat. That's the good version. Information at your fingertips, authoritative, current, no friction.
+
+That happens maybe 60% of the time. The other 40%, finding things is a hunt, and sometimes you're not sure if what you found is current or if there's a newer version somewhere else. That uncertainty is eroding trust in the tool, which is the worst outcome.
+
+INTERVIEWER: Any thoughts on where you'd want to see Notion go?
+
+MARCUS: Better permission UI. Not better functionality necessarily, just make what the functionality does more transparent at the moment of sharing. A warning that says "this page lives inside X folder, people you share it with may also be able to see Y" would have prevented three of my incidents.
+
+Better admin tools. A real guest access dashboard. Workspace-level audit logs without having to pay for Enterprise. We're a two hundred person company, not a thousand. Enterprise pricing is not justified for us just for audit logs.
+
+And honestly, some kind of information architecture support. Suggestions when a page hasn't been updated in a year. Warnings when you're nesting things five levels deep. The tool enables infinite flexibility and then leaves you alone to manage the consequences.
+
+INTERVIEWER: Last question — are you at risk of churning?
+
+MARCUS: [laughs] That's direct. Honestly, maybe. Not because Notion is bad. But because the problems I've described don't feel like they're being prioritised. The major updates I see are AI features. And I'm sure AI is interesting and important. But my users aren't asking for AI. They're asking to find the page they created last month. They're asking for the tool to not accidentally expose sensitive content. Those feel more fundamental to me.
+
+If a competitor solved those two things and migrated content well, I'd consider a switch. We're not there yet but the door isn't completely closed.
+
+INTERVIEWER: Thanks Marcus, that's really helpful.
+
+MARCUS: Sure. I hope it's useful.
+
+---
+END OF INTERVIEW 01

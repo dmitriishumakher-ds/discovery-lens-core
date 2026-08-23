@@ -1,0 +1,21 @@
+# Internal Feedback Summary — Figma Customer Calls
+
+## Sales Call Note: Mid-stage startup evaluating Figma vs Penpot
+Rep: J. Keller
+Date: 2025-08-03
+
+Lead is a 25-person design team currently on Sketch, looking to modernize. They trialed Figma for a month and loved the collaboration, but got spooked by stories of runaway billing. Specifically, the lead's CTO read a Reddit thread about seat upgrades happening silently and demanded answers. I walked them through viewer-restricted settings and annual contract locking, but they're still uneasy. The CTO said, "If a tool makes it easy to accidentally spend thousands, I can't trust my team with it." Lost the deal to Penpot self-hosted. Quote from the lead: "It's not about the cost, it's about the lack of control. Figma feels like it's optimized to trick non-admins into spending money." Ouch. I've flagged this to product. We need billing transparency features yesterday — this is the third deal we've lost to Penpot this quarter on pricing trust alone.
+
+## CS Check-in Call: Large enterprise account considering renewal
+CSM: L. Ortiz
+Date: 2025-07-18
+
+Account: 150 designer seats, 300+ dev seats (Dev Mode). ARR ~$200k. They're coming up on renewal in Q4 and there's grumbling. The design ops lead told me frankly: "We love the tool, but the last 12 months have been rough. Performance is degrading, especially with our design system. Publishing takes 5+ minutes. Variables keep breaking. UI3 set our productivity back noticeably — I had to report a velocity dip to my VP because of a software UI change. And the AI features you keep announcing feel like a distraction from basic stability. If Config 2026 is all AI hype and no core improvements, we're going to seriously evaluate alternatives."
+
+I asked what would make them stay. She said: "Just fix what's broken. No new features for six months. Let us trust that when we publish a change, it'll work. Let us trust that our bill won't surprise us. Let us trust that the tool won't freeze during a sprint review. Regain our trust." I've escalated this to the account team and product. There's a real risk of churn if the next major release isn't a stability-focused LTS release.
+
+## Internal Escalation: Repeated billing disputes from professional teams
+Dept: Billing Support
+Date: 2025-08-12
+
+We've seen a 40% increase in billing dispute tickets quarter-over-quarter, mostly from professional teams (5–20 seats). Common pattern: team admin shares files with external stakeholders for review, stakeholder clicks "Request edit access," admin approves, and a new paid seat is added silently. No cost confirmation, no "this action will add $15/month to your bill" warning. Customers discover the charge at month-end and are furious. Many cite "dark patterns" and "predatory design." Refund rate is climbing — we're issuing credits in ~60% of cases to retain goodwill, but this is unsustainable. Recommendation: Add a simple confirmation modal before seat upgrades. Estimated engineering effort: low. Business impact of NOT doing it: continued churn and reputational damage. Sent to product ops for prioritization.

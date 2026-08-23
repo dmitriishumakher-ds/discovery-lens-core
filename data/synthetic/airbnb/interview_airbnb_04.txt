@@ -1,0 +1,59 @@
+DISCOVERY LENS — USER INTERVIEW TRANSCRIPT
+Product: Airbnb
+Participant: "Pradeep" (anonymised) | 39, ex-investment banker turned full-time host, London (Hackney + Battersea)
+Interviewer: X.
+Date: May 2026
+Duration: 47 minutes
+Note: Pradeep manages two whole-apartment listings, Superhost since 2019. Income from hosting is his primary livelihood. Light editing.
+
+---
+
+INT: Tell me how you got into hosting.
+
+PRADEEP: I bought my first flat in Hackney in 2015 with the intention of living in it, which I did for two years. Then I got a job opportunity that meant being in Singapore for eight months. Rather than leaving the place empty I tried Airbnb. By month three I was making double what long-term renting would have netted me, even after fees, even after the management agency I was paying. When I came back to London I'd made enough that I bought a second property specifically to host. That was end of 2018. Since 2020 it's been my full-time income. I have two long-term properties on the platform plus I help two friends manage their listings.
+
+INT: So this is a business for you.
+
+PRADEEP: Absolutely a business. And I think this is the thing that the platform doesn't always handle well — it sort of pretends hosts are all amateur side-hustlers, when actually a significant portion of inventory is run by people like me who treat it professionally. We have systems, automation, response protocols, cleaning crews on retainer. The professionalisation of supply is real. Airbnb is aware of this — they've started rolling out "professional host" tools, the API for property management software, the calendar sync for multi-platform hosts. But the host-facing communication still talks to us like we're someone renting out their spare bedroom one weekend.
+
+INT: What are the things that work well for you?
+
+PRADEEP: A lot. Instant Book is good — I get bookings without back-and-forth. The Superhost programme actually does drive search visibility, I've tested this carefully, my listings rank higher when I'm hosting consistently than when I'm not. The Smart Pricing tool is okay — I don't fully trust it but it's a useful baseline I adjust from. And the platform reach is unbeatable. For all the complaining people do about Airbnb, no other platform has anywhere near the demand pipeline. I tried listing on Vrbo and Booking. Vrbo I get maybe one booking a month. Booking is fine but the guest profile is different — more transactional, less engaged. Airbnb is still where the volume is and that's why hosts stay.
+
+INT: What about the fees from the host side?
+
+PRADEEP: It depends how you calculate. The host service fee is 3% which is genuinely low. The version where hosts pay more — split fee where it's about 14% — was phased out for most hosts. The bigger complaint among hosts isn't the platform's fees, it's the squeeze on host margins from cleaning fees being visible to guests as a separate line item. Because guests look at total price and a high cleaning fee looks predatory, even when the underlying cost is real — a professional cleaning crew for a 2-bedroom apartment in London is £80 minimum. So hosts are pressured to under-charge for cleaning and absorb the cost into the nightly rate, which makes the nightly rate look uncompetitive. There's no good answer.
+
+INT: How do you handle problem guests?
+
+PRADEEP: This is the bit guests don't understand. I have systems. I read every guest profile before accepting a non-instant-book reservation. I look at how many reviews they have, when they joined, what previous hosts have said. I have a no-events, no-parties, max 4 guests policy written into every listing — and I enforce it. Twice in the last year I've had to call Airbnb because guests brought additional people. The platform has a "neighbour reporting" feature for parties, which is good. I've also installed a noise sensor — not a camera, audio decibel levels only, completely legal and disclosed in the listing — which alerts me if the volume goes above a threshold. That's saved me twice. Once it was just music being too loud, the host turned it down. Once it was clearly a gathering and I cancelled the stay mid-booking, with Airbnb's support, and the guests had to leave. Airbnb refunded the remaining nights but did not penalise me for the cancellation because I had documentation.
+
+INT: How was that support experience?
+
+PRADEEP: For me, generally good. I think this is the asymmetry — Superhosts get faster routing in the support queue. I know it because I've A/B tested it with guest tickets in the past. Average response time when I report a problem: 22 minutes. Average response time on a guest complaint I'm dealing with from the other side: hours. The system advantages experienced hosts and I won't pretend that's bad for me, but it's something I'm aware of when I hear guests complain about support quality.
+
+INT: What about host cancellations? Guests really complain about hosts cancelling close to the booking date.
+
+PRADEEP: Look. Hosts cancel. Sometimes for legitimate reasons — a pipe burst, a previous guest left damage that takes a week to repair, a family emergency. Sometimes for less legitimate reasons — a more lucrative booking came in. The platform has rules about this: cancellations within seven days of arrival hurt your Superhost status, multiple cancellations get listings paused. So most professional hosts don't do it casually because there's a cost. But amateur hosts do it more, and amateur hosts are the ones where the impact on guests is worst because amateur hosts also tend to have less professional alternatives lined up. I think the platform could be tougher on amateur cancellations specifically, but the policy is the same for everyone, which advantages hosts like me again.
+
+INT: Are there things that frustrate you as a host?
+
+PRADEEP: The review system. It's broken. Guests will give a 4-star review and write "lovely stay, no complaints" — because they think 4 stars is good. But 4 stars in Airbnb's algorithm tanks you below Superhost threshold. So I get hurt by guests being polite. I message guests reminding them what the rating scale means, which feels desperate, but a single 3-star review can mean I lose Superhost for a quarter, which costs me real money in search visibility. The rating distribution is so compressed that there's no signal anymore — anything below 4.8 is essentially failing, but the actual quality variation is wider than that. The platform won't recalibrate the bar because they've conditioned everyone to expect "above 4.8" and now they can't reset.
+
+INT: Anything else?
+
+PRADEEP: The fee transparency issue, which guests complain about, doesn't help hosts either. I've had guests cancel after seeing the cleaning fee in checkout because they thought I was gouging. I'm not. The cleaning fee covers the cleaning. But guests see it as a host extraction mechanism. I'd genuinely prefer Airbnb just folded it into the nightly rate or ran a "host pays cleaning" model. But that would just create a different distortion — hosts would price higher and the unit economics would be the same. There's no clean solution.
+
+INT: What about guest screening and rejecting bookings?
+
+PRADEEP: I reject maybe 5% of non-instant-book requests. Reasons: profile has no reviews and no verified ID, guest sent an aggressive opening message, the booking pattern looks fraudulent — like a one-night booking in central London made an hour before check-in, that's almost always a problem. The platform protects guests from being rejected for protected characteristics, which is correct, and I support that. But I think hosts should have more visibility into guest history than they currently do — at least seeing whether a guest has had previous host complaints, even anonymised. Right now I'm flying blind on guest reliability.
+
+INT: How do you think Airbnb sees you as a host?
+
+PRADEEP: I think they see Superhost professional operators as both their most valuable supply and their most awkward PR problem. We provide the consistency they need to scale. But the public narrative is about local people sharing their homes, and that hasn't been the dominant supply for ten years. They haven't reconciled that publicly. The host-facing communications tools, the analytics dashboards, the API access — they're all built for people like me. The marketing is for someone else. It's a strange duality.
+
+INT: One thing you'd change about the platform?
+
+PRADEEP: A separate verified-professional tier. Let people like me opt into a tier that has different service expectations, different support routing, different transparency requirements. And separately — let me know more about my guests. Anonymous prior-host feedback. Whether they've ever caused property damage. Just basic reliability signals.
+
+[END OF TRANSCRIPT]

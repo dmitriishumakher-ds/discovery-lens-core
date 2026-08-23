@@ -1,0 +1,210 @@
+SOURCE TYPE: internal
+PRODUCT: Notion
+SOURCE: Account manager notes, customer success call summaries, sales call notes (generated)
+DATE RANGE: Q4 2024 – Q1 2025
+NOTE: Fictional internal notes generated to represent realistic CS/AM/sales interaction patterns. All account names, contacts, and details are fabricated.
+
+---
+
+CS CALL SUMMARY
+Account: Meridian Partners LLP (87 seats, Business plan)
+AM: Sophie Chen
+Customer Contact: Adriana Wolff, Operations Lead
+Date: 21 Oct 2024
+Call type: Follow-up after support ticket #48821 (permission incident)
+
+Summary:
+Adriana was engaged but clearly frustrated. The permission incident has shaken her confidence. Main concern: Notion is used for client matter documentation and there is no audit trail on Business plan. She referenced the support ticket response ("we cannot confirm browsing activity") as a compliance gap they cannot accept without mitigation.
+
+She was direct: "If another firm found out we had a guest access incident with no logging capability, that would be a regulatory conversation." Not looking to escalate externally yet, but watching.
+
+Key topics raised by Adriana:
+- Audit logs locked to Enterprise feels like a tier barrier that punishes mid-market companies with compliance requirements
+- Permission inheritance is invisible in the UI — she knew about it because she'd done her research; most of her team did not
+- Onboarding new lawyers to Notion is slow and she doesn't have time to supervise
+- Loves Notion for documentation quality — doesn't want to switch, but needs reassurance
+
+Actions:
+- Shared Enterprise pricing and positioned audit logs + advanced permissions as the tier differentiator
+- Adriana pushed back on pricing: "We're 87 seats, not a thousand. We're not an enterprise."
+- Agreed to send over a proposal with annual Enterprise pricing for 87 seats
+- No commitment from Adriana. She said she'd "discuss with their Managing Partner and their compliance officer"
+
+My read: genuine churn risk. The product does not serve their compliance requirements at current tier. If the Enterprise price doesn't feel proportionate for their size, they may evaluate Confluence. Will follow up in 2 weeks.
+
+---
+
+CS CALL SUMMARY
+Account: Brightfield Digital (11 seats, Plus plan)
+AM: Marcus Johansson
+Customer Contact: Sam Okafor, Founder
+Date: 18 Nov 2024
+Call type: QBR (quarterly business review)
+
+Summary:
+Sam is generally happy with Notion but the performance issues (raised in ticket #51204) are still present. He's adapted his workspace structure to use fewer linked database views on dashboard pages and says it's "better but not fixed." He's pragmatic about it.
+
+The bigger theme of this call was growth. Brightfield is expanding — he expects to double headcount in 2025. He asked two things: (1) will performance get worse as the team grows? (2) what does a workspace look like at 20–30 people, is there a template or framework we recommend?
+
+I was honest with him on (1): more members means more concurrent edits, and database performance at scale is something we're actively working on, but I can't promise a specific timeline. He appreciated the honesty.
+
+On (2): I walked him through our recommended workspace structure for small teams, pointed him to the startup template and a few Notion-built examples. He seemed engaged. Said he'd try to set up proper departmental sections before the new hires join.
+
+One thing he mentioned unprompted: he tried Notion AI last month during a trial and found the document summarisation genuinely useful for their client proposals. He's considering adding the AI add-on but wants to see ROI proof first. Worth flagging for renewal conversation.
+
+Actions:
+- Sent workspace structure guide and relevant templates
+- Follow up in January ahead of growth period
+- Plant AI add-on conversation for renewal
+
+Risk level: Low-medium. Happy customer but performance anxiety and scaling uncertainty worth monitoring.
+
+---
+
+SALES CALL NOTES
+Prospect: Canopy Health (approx 140 employees, currently on Google Workspace + Confluence)
+AE: Jordan Park
+Prospect Contact: Teresa Ngozi, Head of Operations; Kwame Sarpong, IT Manager
+Date: 5 Nov 2024
+Type: Discovery call
+
+Context: Teresa reached out after seeing a Notion case study from a similar healthcare-adjacent company. They're evaluating alternatives to Confluence, which they describe as "expensive and ugly." Not actively unhappy, but opportunistically shopping.
+
+Teresa's pain points with Confluence:
+- Too slow for non-technical users to set up and maintain
+- UI feels dated
+- Hard to make it look good for external-facing documentation
+
+What they liked about Notion from the case study:
+- Visual quality of pages
+- Flexibility
+- Perceived ease of use
+
+My job in this call was qualifying and surfacing potential friction early.
+
+Questions I asked and what I learned:
+
+"How important is offline access to your team?"
+Teresa: "Some of our field staff work in hospitals with restricted WiFi. Offline would be important for them." — RISK. Their use case requires database access offline. Flagged that database offline is limited (50 rows currently). She didn't love that. Kwame asked if there's a roadmap item. I was honest that I didn't know the timeline.
+
+"How do you handle compliance and audit requirements?"
+Kwame: "We're not clinical, we're ops, but we do have HIPAA-adjacent considerations." — RISK. Any HIPAA-adjacent requirement will require audit logs. Audit logs require Enterprise. I quoted Enterprise pricing for 140 seats. Kwame's face: [not enthusiastic]. Teresa: "That's significantly more than Confluence."
+
+"How confident are you that your team would adopt a new tool?"
+Teresa: "Confluence adoption is honestly bad. We have a third of the company who never opens it." — SIGNAL. They have an adoption problem. I asked whether they thought Confluence was the cause. Teresa: "Probably partly. But also people just don't prioritise documentation."
+
+My read: Notion is a compelling visual/UX upgrade over Confluence for them. The friction is: offline for field staff, compliance requirements pushing them to Enterprise pricing, and adoption uncertainty (switching tools doesn't solve a culture problem). 
+
+Recommended sending a Business plan trial first, being upfront about the offline database limitation, and scheduling a follow-up to assess whether Enterprise is required. If it is, the price delta from Confluence + cost of migration may make the case harder.
+
+Next steps: Trial activation, follow-up call in 3 weeks.
+
+---
+
+CS CALL SUMMARY
+Account: Vanta Systems (34 seats, Business plan)
+AM: Sophie Chen
+Customer Contact: Rory Fitzpatrick, Engineering Manager; Leila Santos, VP Engineering
+Date: 23 Jan 2025
+Call type: Urgent retention call (following ticket #55103 and active Linear evaluation)
+
+Summary:
+High stakes call. Rory had flagged in the support ticket that they were actively evaluating Linear. Leila joined to assess the situation more seriously.
+
+Leila's framing at the start: "We love Notion for documentation. We don't need to move everything. But our engineering workflow — sprint tracking, project management, database queries at scale — is not working reliably enough."
+
+Performance data from their side:
+- Main engineering database: 3,200 records
+- Multi-filter queries: 8–14 second load times
+- Daily standup blocked on Notion loading
+- Engineering team morale impact mentioned specifically
+
+I did not promise a fix. I was transparent: large database filtering performance is an active engineering priority but I cannot give a timeline, and the current state is genuinely worse than some alternatives for their specific use case.
+
+What I offered:
+1. Connect them with our enterprise technical team to discuss architectural options (database splitting, view pre-building)
+2. Flag as a priority account for any beta performance improvements
+3. Honest assessment: if Linear is being evaluated for project tracking specifically, that may be a reasonable split — use Notion for documentation/wiki and Linear for project management
+
+Leila's response to the split approach: "That's what we're already moving toward. I just wanted to hear Notion acknowledge it rather than try to keep us on the platform for everything."
+
+Rory: "If the performance is fixed in the next quarter, we'd consider coming back to an all-Notion approach. But we can't wait for it."
+
+My read: Controlled churn of their project management use case to Linear. Retaining the wiki/documentation use case. This is actually a reasonable outcome — trying to prevent it by overpromising would be worse. Marked as "partial churn" rather than full churn risk.
+
+Actions:
+- Connected to technical team
+- Flagged account as performance beta candidate
+- Updated CRF: Vanta migrating PM workflow to Linear, keeping Notion for docs. Seats likely reducing at renewal.
+
+---
+
+CS CALL SUMMARY
+Account: Ridgemont Consulting (55 seats, Business plan)
+AM: Marcus Johansson
+Customer Contact: Diane Pemberton, Knowledge Management Lead
+Date: 12 Feb 2025
+Call type: Renewal conversation (renewal in 45 days)
+
+Summary:
+Diane manages their Notion workspace and has good things to say about document quality and the wiki structure. Her concern going into renewal is whether Notion is still the right tool for their growing external collaboration needs.
+
+They work with a lot of contractors and client-facing teams. In the past year, they've had two incidents where external guests were accidentally granted more access than intended. She's implemented a "no external sharing without IT review" policy as a workaround, but she described this as "adding bureaucracy to compensate for a product design problem."
+
+She raised the question: "Is Notion ever going to simplify the sharing model for external collaborators? Because if not, we'll have to seriously look at tools where that's a first-class feature."
+
+I didn't have a good answer on roadmap specifics. I acknowledged the sharing model complexity and described it as "an area of active product attention" — true but vague.
+
+Diane also mentioned something interesting: her team has become very good at Notion but the turnover rate in consulting means they're always onboarding new people. "Every time we hire someone, we spend two weeks teaching them Notion. That's two weeks of them not being fully productive. At our turnover rate, that's a structural cost."
+
+Two-week onboarding time for new users is a theme I've now heard from three accounts in Q4. Worth raising internally.
+
+Renewal outlook: Likely renewing but seat count may drop slightly — they've had some attrition and aren't backfilling all roles immediately. No competitor evaluation in progress, but Diane made it clear that if the sharing model doesn't improve, it will be on the table at next year's renewal.
+
+Actions:
+- Sent renewal proposal with current seat pricing
+- Flagged sharing model improvement request to product feedback channel
+- Made note: "two-week onboarding cost" theme — recurring across accounts — suggest PM team review
+
+---
+
+SALES CALL NOTES
+Prospect: Ember Creative Studio (22 employees, currently unstructured — using Slack, Google Docs, Trello)
+AE: Jordan Park
+Contact: Izzy Reinholt, Studio Director
+Date: 4 Mar 2025
+Type: Inbound demo request
+
+Context: Izzy found Notion through Instagram content about aesthetic workspaces. She's the decision maker and she's sold on the visual experience before we've even talked features. Classic bottom-up creative sector lead.
+
+What she wants: One place for everything. Project management for client work, shared docs with clients, internal SOPs, inspiration boards.
+
+Her current tools: Slack (communication), Google Docs (documents), Trello (project tracking). She said: "Three tools, three logins, nothing talks to each other. A junior on our team spent an hour last week looking for a project brief because it wasn't clear if it was in Google Docs or Trello or had been posted in Slack."
+
+Demo went well. She was visibly excited about the database views and the gallery view for mood boards. Said "this is exactly what I've been imagining."
+
+Concerns that came up:
+- Mobile: "Our team works everywhere — shoots, client visits, events. Does the mobile app work well?" I was honest: mobile is functional for reading and light edits; for more intensive work you really want a laptop. She didn't love that. Said: "That might be a problem for us."
+- Client sharing: "Can we give clients access to just their project page, nothing else?" I walked through the guest sharing model. She was following but a bit confused by the member/guest distinction. Worth flagging as a potential setup problem.
+
+My read: Very warm lead with a genuine use case that fits Notion well. The mobile limitation is real for them — creative teams are frequently away from desks. If mobile improved meaningfully, this would be a much easier sell. Closing this deal probably requires a hands-on setup session to make sure the guest/sharing setup is done correctly on day one.
+
+Next steps: Trial activation, setup session offered.
+
+---
+
+INTERNAL FEEDBACK NOTE — AM Team Meeting
+Submitted by: Sophie Chen, AM
+Date: 18 Mar 2025
+
+Summarising themes from Q4 2024 and Q1 2025 account interactions for product team review:
+
+1. PERMISSION/SHARING — most common reason for escalations and renewal anxiety. The guest/member sharing flow creates confusion across all experience levels. Two-click access-scope preview at point of sharing would resolve most reported incidents. Request: surface this to design team as P1 item.
+
+2. LARGE DATABASE PERFORMANCE — affecting mid-market accounts with mature workspaces. Typically surfaces around 1,500–3,000+ records. Accounts in this range are highest churn risk. Vanta is the clearest example but not the only one. Workarounds offered (pre-built views, database splitting) are developer-tier recommendations that operations and non-technical users can't execute alone.
+
+3. ONBOARDING TIME — consistently 2–4 weeks for a new user to reach basic proficiency. This is structural overhead for teams with turnover. Worse for companies in high-churn sectors (consulting, agencies). Two accounts mentioned the irony of "having a Notion guide for how to use Notion." Interactive in-product onboarding for new users (not just a welcome page) would reduce this materially.
+
+4. MOBILE — creative and field-work sectors are being lost or slowed on this point. AE team consistently has to caveat mobile in demos. Mobile is not a nice-to-have for a significant portion of our addressable market. Android specifically worse than iOS and causing support volume.
+
+5. AI UPSELL FRICTION — minor but consistent. Users on plans without AI features encounter AI prompts in-product and either raise a ticket or contact their AM confused. Admin toggle to hide AI features for non-AI plans would reduce noise.

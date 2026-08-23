@@ -1,0 +1,92 @@
+Usability test session — Revolut
+Task: Set up a new savings vault for "holiday fund" with monthly contributions
+Participant: P11 — Female, 28, junior developer, Revolut user for ~2 years, never used vaults before
+Observer: Sarah (UX research)
+Date: Oct 18, 2025
+Duration: ~18 min
+Setup: Phone on stand, screen recording, think-aloud protocol
+
+---
+
+00:00 - Brief: "Set up a savings vault called 'Holiday Fund' with a goal of £1500. Set up an automatic monthly contribution of £100 from your main account."
+
+00:25 - P opens Revolut. Stares at home screen briefly.
+       Quote: "Vault. Okay. Where's vaults..."
+       (P has used app for 2 years but never opened this feature.)
+
+00:50 - P scrolls through tabs. Doesn't immediately see Vaults or Savings.
+       Taps "Hub" tab. Sees options for Stocks, Crypto, Lifestyle, Savings.
+       Quote: "Savings, that's it I think."
+
+01:25 - Savings screen. Two options: "Savings account" and "Pockets."
+       Long pause. P reads both descriptions.
+       Quote: "Pockets... is that the same as a vault? Or is that different?"
+       (Observer note: terminology confusion — "vault" is what the brief said, but the app calls them "Pockets" now.)
+
+02:10 - P taps Pockets. Empty state with "Create your first Pocket" button.
+       Quote: "Okay, so vault and pocket are the same thing then."
+       (P checks Help by tapping "?" - confirms Pockets replaced Vaults in 2024 rename.)
+
+02:40 - P taps "Create Pocket." Naming screen.
+       Types "Holiday Fund." Picks an emoji (palm tree).
+       Continue. Goal screen.
+
+03:15 - Goal screen. P enters £1500. Selects target date — picks date 12 months from now.
+       Quote: "If I do 12 months and want £1500, that's £125 a month. But the brief said £100. So... I'll just do £100 and the goal will take longer."
+       (P does mental math, decides priorities.)
+
+04:00 - Continue. Auto-transfer setup. Two options: "Round-ups" or "Recurring transfer."
+       Quote: "I want recurring."
+       Taps it. Asked: amount, frequency, source account.
+
+04:40 - Fills in £100, monthly, on the 1st, from main GBP account.
+       Quote: "Easy, that's clear."
+
+05:15 - Confirmation screen. P reads through.
+       Quote: "So... when does the first transfer happen? Today is the 18th. Does it transfer £100 right now, or wait until the 1st of next month?"
+       (Confirmation screen says "Next contribution: Nov 1." But P had to look carefully.)
+
+05:48 - P taps "Confirm." Pocket created.
+       Lands on Pocket detail screen. Shows £0 balance, goal £1500, "Next: Nov 1, £100."
+
+06:25 - P taps around the Pocket. Finds: "Add money," "Transfer out," "Edit goal," "Pause auto-transfer."
+       Quote: "Wait can I transfer out? Like, what if I need the money? Is it locked?"
+       Taps "Transfer out." Sees: "Transfer back to main account. Funds available immediately."
+       Quote: "Oh good, it's not locked. I thought it might be."
+
+07:30 - P notices interest rate at top of Pocket: "AER: 2.05%."
+       Quote: "Two percent. Mm. Is that good? Probably not great compared to a real savings account. But it's better than zero."
+       (P doesn't pursue this further but mentioned it as a passive observation.)
+
+08:10 - P attempts to add a one-off £20 to test it.
+       Taps "Add money." Enters £20. Confirms.
+       Pocket now shows £20 balance.
+       Quote: "Cool, that worked."
+
+09:00 - Task complete. P expresses satisfaction overall.
+
+---
+
+OBSERVER NOTES:
+
+Friction points (ranked by severity):
+1. MEDIUM: "Vault" vs "Pocket" terminology mismatch. The product was renamed but external references (including this brief) still use "Vault." Caused 90 seconds of confusion at task start.
+2. MEDIUM: Auto-transfer first contribution timing is shown but not prominent. P had to actively look for it.
+3. MEDIUM: Interest rate (2.05% AER) shown but not contextualised. P questioned whether it's competitive without an answer.
+4. LOW: "Hub" tab as the entry point for Savings — not the most discoverable label. Took ~50 seconds to find.
+
+Positive moments:
+- Goal-setting flow is clean and intuitive.
+- Round-ups vs recurring transfer choice is clearly differentiated.
+- Lock/unlock model (funds available immediately) was a quiet delighter — user expected funds might be locked.
+- Emoji + name personalisation made the experience feel friendly.
+
+Quote of the session:
+"Pockets, vaults, whatever. The thing itself works. Just confused me for a minute."
+
+Recommendations to discuss with team:
+- Investigate cost of full migration of "Vault" → "Pocket" in marketing/onboarding/help articles
+- Make first-contribution date/timing more prominent on confirmation screen
+- Consider showing AER comparison or context ("X% above market average")
+- Evaluate whether "Hub" is the right label for Savings entry point
+- Lock/unlock model is a strength — consider making it more prominent in marketing

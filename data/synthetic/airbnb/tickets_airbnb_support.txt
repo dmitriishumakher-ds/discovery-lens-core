@@ -1,0 +1,207 @@
+AIRBNB SUPPORT TICKETS — Synthetic compilation for Discovery Lens
+Source type: ticket
+Note: Synthesised from realistic support patterns. Names anonymised.
+
+===================================================================
+TICKET #AB-20260112-0089
+Status: Resolved (partial refund)
+Category: Cleaning fees / Refund dispute
+User: laura_m_2023
+Date submitted: 12 January 2026
+===================================================================
+
+USER (initial):
+Hi, I want to dispute the cleaning fee on my recent booking (confirmation HMTRXYZ123). I stayed 3 nights at a listing in Barcelona. The cleaning fee was €95, which I accepted at booking. However when I arrived the apartment was visibly not clean — there were crumbs on the kitchen counter, hair in the bathroom drain, and the bedsheets had what looked like a coffee stain on a pillowcase. I took photos. I cleaned the bathroom myself before using it. I'm asking for a partial refund of the cleaning fee since I clearly paid for a service that wasn't delivered.
+
+SUPPORT (Agent: Diego A.):
+Hi Laura, thank you for getting in touch and we're sorry to hear the apartment didn't meet expectations on arrival. Cleaning fees are set by hosts and are part of the booking total. To process a partial refund we'll need: (1) the photos you took, (2) the date and time of arrival, (3) confirmation that you contacted the host about the issue at the time of arrival. Could you also let us know if you were given the opportunity to relocate?
+
+USER (follow-up):
+Photos attached. Arrival was Friday Jan 9 at approximately 16:30. I did message the host via the app at 16:48 asking about the cleanliness. The host replied at 19:15 apologising and saying her cleaner was unwell and the place had been "tidied up by a friend." She offered me €30 back. I didn't accept her offer because €30 doesn't reflect the gap from what was paid. I was not offered relocation; the host suggested I "make myself at home" and contact her if I needed anything.
+
+SUPPORT (Agent: Diego A.):
+Hi Laura, thank you for the details. The host's response confirming the cleaning was substandard supports your claim. I've reviewed the photos and the message thread. Given the circumstances we'll refund €45 of the cleaning fee — slightly more than the host's offer to acknowledge the service shortfall. This will appear on your original payment method within 5-7 business days. We've also added a private note on the host's account regarding this incident. We apologise for the inconvenience.
+
+USER (final):
+Thanks, that's appreciated. I'd note though that the cleaning fee process feels reactive rather than preventive. The host advertises a €95 cleaning standard. If she couldn't deliver, she should have either cancelled or warned me. The fact that I had to take photos, message support, and follow up multiple times to get half the fee back means most guests in similar situations probably just absorb the loss. That's a design issue.
+
+[TICKET CLOSED]
+
+---
+
+===================================================================
+TICKET #AB-20260204-0331
+Status: Resolved → Escalated → Partial resolution
+Category: Host cancellation / Last-minute
+User: tobias_w
+Date submitted: 4 February 2026
+===================================================================
+
+USER (initial):
+URGENT. The host of my booking (confirmation: BNVWXYZ456) has just cancelled my reservation. Check-in is in 36 hours. I'm flying from Munich to New York tomorrow morning with my partner for our anniversary. We've had this booked for 4 months. The host's reason is "property unavailable due to maintenance." I don't believe that. The listing is still active on the website. Please help — I need a place to stay or my entire trip is ruined.
+
+SUPPORT (Agent: Priya M.):
+Hi Tobias, we're very sorry. This is a stressful situation and we want to help. Host cancellations within 7 days of arrival are taken seriously by our platform. I'm escalating this immediately. While I look into the host's listing status, please: (1) check the email we just sent with rebooking credit (10% added to your refund as a rebooking incentive), (2) consider similar listings in the same area — I'm sending you a curated list of available properties in Manhattan and Brooklyn now. We'll keep this ticket open until you're rebooked.
+
+USER (follow-up):
+The 10% rebooking credit is barely covering the price difference. Every comparable listing in Manhattan for those dates is now 40-50% more expensive than what I originally paid because I'm booking 36 hours out. I'm looking at $2,800 vs the $1,640 I paid. Is there any way to cover the difference given the host's last-minute cancellation? Also — can you confirm that the host's listing is still active? Because if "property unavailable for maintenance" is the reason, why is the listing accepting new bookings for the week after mine?
+
+SUPPORT (Agent: Priya M., escalated to Trust & Safety):
+Hi Tobias, your observation is valid. I'm escalating this to our Trust & Safety team to investigate the host's reason for cancellation. In parallel: our Rebooking Specialist will reach out to you within 2 hours with options including potential additional credit. We can offer up to 100% rebooking credit (i.e., up to the original price of your booking) toward an equivalent alternative. We cannot exceed the original booking amount unless the host is found to have violated our cancellation policy in bad faith.
+
+[Internal note: Listing remains active for dates after the cancelled booking, contradicting "maintenance" claim. Host has 3 cancellations in past 90 days. Account flagged for review. Will determine penalty status pending T&S investigation.]
+
+USER (final, 2 days later):
+Update for closure: I was rebooked at a Brooklyn listing at a total cost of $2,650. Airbnb covered $1,010 of the difference. I paid the extra $1,640 myself which is exactly what my original booking cost — so effectively I paid double. The Brooklyn place was fine. The anniversary was partly ruined. I'm not blaming Airbnb support — Priya was great. But the platform allows hosts to cancel close to arrival with limited consequences and that's a structural problem. Are you actually going to penalise this host? I want to know my situation contributed to that.
+
+SUPPORT (Final response — Trust & Safety):
+Hi Tobias, thank you for your patience. Our Trust & Safety investigation determined the host's stated reason for cancellation was inconsistent with the listing's continued availability. The host's account has received an enforcement action including a 30-day listing pause and a strike on their cancellation record. Further cancellations within 12 months will result in permanent account removal. We've also flagged your ticket for product feedback regarding cancellation policies. Thank you for raising this — your experience helps us improve.
+
+[TICKET CLOSED]
+
+---
+
+===================================================================
+TICKET #AB-20260219-0512
+Status: Resolved
+Category: AirCover claim / Property damage
+User: host_paola_milan
+Date submitted: 19 February 2026
+===================================================================
+
+USER (initial):
+Submitting an AirCover claim. Guest stay 14-17 Feb. Guest: A. Karpov. Damage discovered on arrival of cleaner Feb 17 at 11am: leather sofa cushion has cigarette burn (smoking is prohibited in my listing per house rules), glass coffee table has a chip on the corner consistent with impact, kitchen splashback tiles cracked. Photos attached. Estimated repair cost: €620 (sofa reupholster €380, table €140, tiles €100). Receipts for previous purchase of sofa and table attached. Guest has not responded to my message asking about damage.
+
+SUPPORT (Agent: Ferdinand T.):
+Hi Paola, thank you for submitting your AirCover claim. We've received the documentation. Our claims process typically takes 7-14 days from submission. To process: (1) we'll attempt to contact the guest within 72 hours for their account of events, (2) we'll review photos and receipts, (3) we'll apply our depreciation schedule for furniture items. Please ensure your listing's house rules clearly state "no smoking" — I see this is included, which strengthens the claim. We'll update you within 7 days.
+
+USER (follow-up, 8 days later):
+It's been 8 days. I've not had an update. The cleaner cannot return to reset the property until repairs are made. I've had to cancel 2 bookings for the period 22-26 Feb because the property isn't presentable. Could you please escalate? The lost income from those cancellations is approximately €640.
+
+SUPPORT (Agent: Ferdinand T.):
+Hi Paola, apologies for the delay. The guest has not responded to our outreach, which means we proceed without their input. I've reviewed the photos. Our initial assessment: sofa cushion damage acknowledged, depreciated value €240 (item is 4 years old, depreciation 35%). Coffee table damage acknowledged, replacement value €110 after depreciation. Tile damage requires further assessment — we're not certain from the photos whether the cracks pre-existed. Could you provide photos of the splashback from a prior booking or property inspection within the last 6 months?
+
+USER (follow-up):
+I don't have photos of the splashback specifically from a prior booking — why would I? I have photos of the kitchen from the listing, taken 8 months ago. The tiles were intact then. Please refer to those. Also: the lost income from cancellations is not addressed in your response.
+
+SUPPORT (Agent: Ferdinand T.):
+Thanks for the listing photos. The tile damage assessment is approved — replacement value €100. Total AirCover payment for damages: €450. Regarding lost income: AirCover damage protection does not cover lost income from cancelled future bookings. The Host Damage Protection policy is limited to physical damage to property and contents. Lost income is sometimes covered under a separate insurance product depending on jurisdiction; we recommend consulting your property insurance provider. We'll process the €450 payment within 5-7 business days.
+
+USER (final):
+€450 against €620 in actual repair cost, plus €640 in lost income, plus 2 weeks of stress and ongoing follow-up. AirCover is marketed as host protection. It's actually partial reimbursement of replacement cost with depreciation applied. I would have preferred you'd been transparent about that upfront. I'm not sure I'd recommend Airbnb to new hosts based on this experience.
+
+[TICKET CLOSED]
+
+---
+
+===================================================================
+TICKET #AB-20260308-0044
+Status: Resolved (refund)
+Category: Listing inaccuracy / Misrepresentation
+User: nina_h_traveller
+Date submitted: 8 March 2026
+===================================================================
+
+USER (initial):
+Hi. I booked a listing in Rome described as "quiet apartment in central neighbourhood" (confirmation: RMHJKL789). I arrived yesterday. The apartment is directly above a bar that operates until 2am. Last night I could not sleep. Music and shouting from the bar was audible until 2:30am. The "soundproofing" mentioned in the listing description is clearly inadequate. I have been here one night and want to cancel and get a refund for the remaining 4 nights. The listing description is materially misleading.
+
+SUPPORT (Agent: Mehmet K.):
+Hi Nina, that sounds very frustrating, especially after a day of travel. I understand. Our Refund Policy for listing misrepresentation requires us to: (1) verify the issue with the host, (2) assess whether the issue is documented in the listing or hidden from it, (3) determine whether relocation or refund is appropriate. Could you: provide an audio recording or video from your phone documenting the noise level at night, and confirm whether you contacted the host upon arrival or after the noise issue began?
+
+USER (follow-up):
+I have a 90-second video taken at 1:15am with the windows closed showing the noise level. The audio is clearly loud bar music. I am attaching it. I contacted the host this morning (March 8) at 8:45am explaining the issue. The host replied saying she has "many guests who don't have problems with the noise" and that the bar "closes at midnight on weeknights" (which is not what the listing says — the listing claims "minimal nighttime sound"). The host did not offer any resolution.
+
+SUPPORT (Agent: Mehmet K.):
+Thank you Nina. The video clearly demonstrates significant noise during overnight hours. The host's response does not address the listing's claim of "minimal nighttime sound." This qualifies as a listing inaccuracy under our policy. We will refund the remaining 4 nights of your stay (€480 of the €600 total booking) and cover a 5% relocation credit for finding alternative accommodation. I'll process this immediately. Once you confirm departure, the refund will be initiated within 5-7 business days. Would you like me to suggest similar listings in quieter neighbourhoods?
+
+USER (final):
+Yes please send suggestions. And — feedback on the process — you handled this quickly, which I appreciate, but I'm troubled that the listing remains live with that "minimal nighttime sound" claim. Has anything been done to correct the listing or warn future guests? Because I suspect I'm not the first.
+
+SUPPORT (Agent: Mehmet K.):
+Thank you for the feedback. Our Trust & Safety team has been notified about the listing's description claims. They will follow up with the host. We can't share specific actions taken with you, but rest assured your report is being acted upon. Suggested listings sent via separate message.
+
+[TICKET CLOSED]
+
+---
+
+===================================================================
+TICKET #AB-20260322-0167
+Status: Open → No resolution after 11 days
+Category: Account / Payment verification
+User: gianni_rio
+Date submitted: 22 March 2026
+===================================================================
+
+USER (initial):
+My account has been suspended without explanation. I cannot access any of my bookings, I can't contact my upcoming host (booking is in 4 days in Lisbon), and I have not received any email explaining why. The login screen says "Your account has been suspended pending review." I have done nothing wrong. I have used Airbnb for 7 years with no issues. Please help urgently.
+
+SUPPORT (Agent: auto-response):
+Hi Gianni, thanks for reaching out. We've received your message and our team will get back to you within 1-3 business days. For account-related issues we may require additional verification — please be patient while we review your case.
+
+USER (follow-up, 2 days later):
+It has now been 3 days. My check-in is in 2 days. I cannot access my booking confirmation, I cannot contact my host. I have not had a response from a human. Please respond.
+
+SUPPORT (Agent: auto-response):
+Thank you for your patience. Your case is in our review queue.
+
+USER (follow-up, 5 days later):
+I have now MISSED my check-in date. I had no way to reach my host. I had no way to access my booking details. My account is still suspended. I have lost €420 in non-refundable booking cost. This is unacceptable. Please escalate.
+
+SUPPORT (Agent: auto-response):
+Hi Gianni, we apologise for the delay. Your case has been escalated to our Account Trust team. They will be in touch within 48 hours.
+
+USER (follow-up, 11 days later):
+There has been no further contact. My account remains suspended. I have not received any explanation. I'm filing a complaint with my consumer protection authority. I have screenshots of all interactions and will provide them. I am also disputing the €420 booking charge with my bank. Please consider this my final message to Airbnb support — I'll proceed via formal channels.
+
+[TICKET OPEN — no further agent response logged]
+
+---
+
+===================================================================
+TICKET #AB-20260401-0703
+Status: Resolved
+Category: Search/Filter feature request via support
+User: maxine_p_dev
+Date submitted: 1 April 2026
+===================================================================
+
+USER (initial):
+Hi — I'm not reporting a bug, I want to provide product feedback through support since the "Feedback" link in the app doesn't seem to do anything. I'm a frequent monthly-stay traveller. The current search filters do not adequately serve long-stay users. There is no way to filter for: verified Wi-Fi speed, dedicated workspace, natural light, or noise level. These are basic decision factors for anyone working remotely. I message every host individually asking for this information, which is wasteful for both me and them. Please pass this to your product team. I'd happily participate in any research you do with monthly-stay users.
+
+SUPPORT (Agent: Aoife B.):
+Hi Maxine, thank you for taking the time to send this. The Feedback link does work but I understand it can feel like a void. I've logged your request via our product feedback channel with category "Search filters — long-stay / remote work." This is a known area we're investigating and your input is helpful. I cannot guarantee timeline but I can confirm your message is on file. If you're open to participating in research, I'll add your account to the opt-in list for our Long-Stay user research panel — would that be okay?
+
+USER (follow-up):
+Yes please add me to the research panel. Also — quick adjacent feedback: the "monthly discount" auto-applies but the breakdown isn't clear. I'd like to see explicitly how the monthly discount compares to nightly rate × 30. Right now you just see a total and have to compute it. Transparency on discount math would help.
+
+SUPPORT (Agent: Aoife B.):
+Logged that too — "Pricing transparency for long-stay discounts." Added to your panel application. Thanks again Maxine.
+
+[TICKET CLOSED]
+
+---
+
+===================================================================
+TICKET #AB-20260418-0356
+Status: Resolved (refused)
+Category: Review removal request
+User: host_michael_b
+Date submitted: 18 April 2026
+===================================================================
+
+USER (initial):
+I'm requesting removal of a review left by guest C. Nakamura (booking confirmation NKTGRZ234) on April 14. The review reads: "Host was very nice. Apartment is fine. Location is okay. 3 stars." This review is going to drop my listing below Superhost threshold for the next quarter. The guest's comments don't justify a 3-star rating — they say "very nice" and "fine" and "okay." A 3-star rating on Airbnb is "significantly below average." If the guest had concerns warranting that rating, they should have communicated them. I've reached out to the guest privately and she said she "didn't know the rating mattered that much." Please review this and consider removal under your Review Policy for cases where the rating is inconsistent with the comments.
+
+SUPPORT (Agent: Tanvi R.):
+Hi Michael, thank you for reaching out. I understand how important review ratings are for hosts, particularly for Superhost qualification. However, our Review Policy does not allow review removal based on perceived inconsistency between rating and written content. Guests are entitled to assess their stay holistically. Removal is only permitted if a review (1) contains specific policy violations (hate speech, doxxing, etc.) or (2) is provably false (e.g., refers to events that did not occur). Your case does not meet these criteria. The review will remain.
+
+USER (follow-up):
+With respect, I think the policy is wrong here. The current rating distribution on Airbnb is so compressed that 3 stars effectively means "I had complaints" — but this guest had no complaints. She just didn't understand the scoring system. There must be many similar cases. Has the platform considered allowing guests to revise reviews when contacted by hosts who explain the system?
+
+SUPPORT (Agent: Tanvi R.):
+That's a fair point about the rating distribution and we've heard similar feedback. Currently guests cannot revise reviews once submitted, but the platform has been considering changes to review education and rating scale presentation. I'll log your feedback. I cannot make an exception in your individual case but I'm sorry for the impact.
+
+USER (final):
+I appreciate the explanation. I'll continue hosting but this kind of structural problem is part of why hosts complain about Airbnb. It's not the platform's failure to deliver the technology — it's the failure to fix systems that are obviously broken. The 4.8 stars threshold for Superhost is unrealistic and hosts know it. Fix the threshold or fix the rating scale guidance.
+
+[TICKET CLOSED]
